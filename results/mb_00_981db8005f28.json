@@ -1,0 +1,251 @@
+{
+  "example_id": "mb_00",
+  "domain": "meetingbank",
+  "split": "dev",
+  "input_hash": "a340b34664984b655bf0cdcc53e49209ece95debee35259d4d5b7ce09602b5bd",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_00_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "b46ba3a2da48f2b8bd0a9734e81f39bf374b39bcf3456a1b2585e52dafdc3223",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_00_q1",
+          "answer": "D",
+          "evidence": "Recommendation to authorize the city manager to execute all documents"
+        },
+        {
+          "id": "mb_00_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q3",
+          "answer": "B",
+          "evidence": "Recommendation to authorize the city manager to execute all documents"
+        }
+      ],
+      "errors": [],
+      "call_key": "94594bd8506a3ce7d43a4ce7b2393510e250345bd8a6292e62c4e502d8a91db8",
+      "source_characters": 898,
+      "source": "Motion carries. Thank you. Next item, please, Madam Clerk, which I believe is 32. No, I'm sorry. 31. Report from Economic Development Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide. Vice mayor? Nope. Cosmo Gonzalez. Nope. Nope. Customer. Margot. I just. I just want to give a shout out to our our team, because across. The county, we. Are being. Talked about as the at the forefront of. What we're doing. And we also. Congratulations, great. Work. I hear about it regularly. I met county meetings and they're like, What's Long Beach doing? So congratulations. It's a great time to be proud of being in Long Beach and we are excellent. 32. I'm sorry, a public comment on this. Go ahead and catch voting in 32 days. It's going to get out of. It's motion carries."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_00_q1",
+          "answer": "D",
+          "evidence": "Recommendation to authorize City Manager, or designee, to execute all documents"
+        },
+        {
+          "id": "mb_00_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q3",
+          "answer": "B",
+          "evidence": "Recommendation to authorize City Manager, or designee, to execute all documents"
+        }
+      ],
+      "errors": [],
+      "call_key": "d8f46b656dcea04f2244a9dccd3eb58a3ce2786febdeb82e233215e33d951ce8",
+      "source_characters": 509,
+      "source": "Recommendation to authorize City Manager, or designee, to execute all documents and subsequent amendments with the State of California to accept Workforce Innovation and Opportunity Act (WIOA) funds totaling $4,853,908; authorize City Manager, or designee, to execute agreements and amendments with necessary WIOA training provider vendors; and Increase appropriations in the Community Development Grant Fund (SR 150) by $1,273,047 in the Economic Development Department (ED), offset grant revenue. (Citywide)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_00_q1",
+          "answer": "D",
+          "evidence": "recommending the city manager be authorized to execute documents"
+        },
+        {
+          "id": "mb_00_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q3",
+          "answer": "B",
+          "evidence": "the motion to authorize the city manager to accept the funds was carried"
+        }
+      ],
+      "errors": [],
+      "call_key": "15a549678c948e34b3ab8be9933b4aff523f95fd10cce618b241700c92e7cab6",
+      "source_characters": 948,
+      "source": "The meeting addressed Item 31, a report from Economic Development recommending the city manager be authorized to execute documents with the State of California to accept Workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide. During the discussion, Vice Mayor Cosmo Gonzalez offered a public comment praising the local team, noting that Long Beach is frequently cited by county officials as a leader in its initiatives. He expressed pride in the city’s performance and the recognition received at county meetings. Following the comment, the motion to authorize the city manager to accept the funds was carried. The transcript contains fragmented references to Item 32 and a mention of \"catch voting in 32 days,\" but no clear decision or next steps regarding Item 32 are established in the provided text. The primary outcome of the recorded segment is the approval of the $4.85 million in state funding for workforce innovation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_00_q1",
+          "answer": "D",
+          "evidence": "Recommendation to authorize the city manager to execute all documents"
+        },
+        {
+          "id": "mb_00_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_00_q3",
+          "answer": "B",
+          "evidence": "status: active"
+        }
+      ],
+      "errors": [],
+      "call_key": "6af50dcfa6bfcc783397f05ec5e2e66fae45f18e72d0d92d16fcb65e0181d3c5",
+      "source_characters": 851,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"city manager\", \"action\": \"execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide\", \"Motion carries\"], \"evidence_spans\": [{\"quote\": \"Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide\", \"start\": 134, \"end\": 318}, {\"quote\": \"Motion carries\", \"start\": 0, \"end\": 14}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "70e951a51a53286b65156ce608b2e6ad3c675231a05322569c4dd7b120a54a85",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "city manager",
+          "action": "execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+          "conditions": null,
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+            "Motion carries"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+              "start": 134,
+              "end": 318
+            },
+            {
+              "quote": "Motion carries",
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 898,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+                "Motion carries"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+                  "start": 134,
+                  "end": 318
+                },
+                {
+                  "quote": "Motion carries",
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+              "Motion carries"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide",
+                "start": 134,
+                "end": 318
+              },
+              {
+                "quote": "Motion carries",
+                "start": 0,
+                "end": 14
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "7e1b54882b021a9ebc6d7c25e0d0e0246455775cc8b63107bb1ed10a862989ba"
+    ]
+  }
+}

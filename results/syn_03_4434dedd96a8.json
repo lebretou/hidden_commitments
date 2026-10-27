@@ -1,0 +1,521 @@
+{
+  "example_id": "syn_03",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "63224a5c145af91781c326ba40dc1b1f42362112f1912dd523d5b54de2be0b7e",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_03_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "syn_03_q2",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "syn_03_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "10b7b777614a03a162c6b4edaa7cb1755d643d9cbebe439ea01654d146714b79",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_03_q1",
+          "answer": "C",
+          "evidence": "Ben: Yes, I'll prepare them."
+        },
+        {
+          "id": "syn_03_q2",
+          "answer": "D",
+          "evidence": "Aisha: Thanks, I'm handing this to you."
+        },
+        {
+          "id": "syn_03_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "c72c17d2795b67fd1b5b09625c6febbafc19b6a3a945fff7739da12c5616d7c6",
+      "source_characters": 133,
+      "source": "Aisha: I'll prepare the slides.\nAisha: Ben, could you take over?\nBen: Yes, I'll prepare them.\nAisha: Thanks, I'm handing this to you."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_03_q1",
+          "answer": "C",
+          "evidence": "Ben agreed to prepare the slides, and Aisha confirmed that she was handing the responsibility over to him."
+        },
+        {
+          "id": "syn_03_q2",
+          "answer": "D",
+          "evidence": "Aisha confirmed that she was handing the responsibility over to him."
+        },
+        {
+          "id": "syn_03_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "28cade5aa2916ae8dbac124c077df1388e7215c12e4589933e9e1b46bcf28549",
+      "source_characters": 264,
+      "source": "Aisha and Ben discussed the preparation of presentation slides. Aisha initially stated she would prepare the slides but then asked Ben to take over the task. Ben agreed to prepare the slides, and Aisha confirmed that she was handing the responsibility over to him."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_03_q1",
+          "answer": "C",
+          "evidence": "\"owner\": \"Ben\""
+        },
+        {
+          "id": "syn_03_q2",
+          "answer": "D",
+          "evidence": "\"Ben, could you take over?\""
+        },
+        {
+          "id": "syn_03_q3",
+          "answer": "C",
+          "evidence": "\"status\": \"active\""
+        }
+      ],
+      "errors": [],
+      "call_key": "0602af41bfc99cb3cb38f7d30dd40a98ecc287c0769082bb97a7b0916c6d6d45",
+      "source_characters": 2021,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Ben\", \"action\": \"prepare the slides\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"Ben, could you take over?\", \"Yes, I'll prepare them.\"], \"evidence_spans\": [{\"quote\": \"Ben, could you take over?\", \"start\": 39, \"end\": 64}, {\"quote\": \"Yes, I'll prepare them.\", \"start\": 70, \"end\": 93}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Aisha\", \"action\": \"prepare the slides\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll prepare the slides.\"], \"evidence_spans\": [{\"quote\": \"I'll prepare the slides.\", \"start\": 7, \"end\": 31}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Aisha\", \"action\": \"prepare the slides\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.\", \"evidence\": [\"I'll prepare the slides.\", \"Ben, could you take over?\"], \"evidence_spans\": [{\"quote\": \"I'll prepare the slides.\", \"start\": 7, \"end\": 31}, {\"quote\": \"Ben, could you take over?\", \"start\": 39, \"end\": 64}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Aisha\", \"action\": \"prepare the slides\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.\", \"evidence\": [\"I'll prepare the slides.\", \"Ben, could you take over?\"], \"evidence_spans\": [{\"quote\": \"I'll prepare the slides.\", \"start\": 7, \"end\": 31}, {\"quote\": \"Ben, could you take over?\", \"start\": 39, \"end\": 64}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Ben\", \"action\": \"prepare the slides\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"Ben, could you take over?\", \"Yes, I'll prepare them.\"], \"evidence_spans\": [{\"quote\": \"Ben, could you take over?\", \"start\": 39, \"end\": 64}, {\"quote\": \"Yes, I'll prepare them.\", \"start\": 70, \"end\": 93}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "1ae627fed43a7e5a0e520f73a301cb871cf9e0ca4ee219d02f73060eb25e2431",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Ben",
+          "action": "prepare the slides",
+          "conditions": null,
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "Ben, could you take over?",
+            "Yes, I'll prepare them."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Ben, could you take over?",
+              "start": 39,
+              "end": 64
+            },
+            {
+              "quote": "Yes, I'll prepare them.",
+              "start": 70,
+              "end": 93
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Aisha",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll prepare the slides."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll prepare the slides.",
+                "start": 7,
+                "end": 31
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Aisha",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.",
+            "evidence": [
+              "I'll prepare the slides.",
+              "Ben, could you take over?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll prepare the slides.",
+                "start": 7,
+                "end": 31
+              },
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Aisha",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.",
+            "evidence": [
+              "I'll prepare the slides.",
+              "Ben, could you take over?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll prepare the slides.",
+                "start": 7,
+                "end": 31
+              },
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Ben",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Ben, could you take over?",
+              "Yes, I'll prepare them."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              },
+              {
+                "quote": "Yes, I'll prepare them.",
+                "start": 70,
+                "end": 93
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 32,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Aisha",
+              "action": "prepare the slides",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll prepare the slides."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll prepare the slides.",
+                  "start": 7,
+                  "end": 31
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Aisha",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll prepare the slides."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll prepare the slides.",
+                "start": 7,
+                "end": 31
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 32,
+        "end": 65,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Aisha",
+              "action": "prepare the slides",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll prepare the slides."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll prepare the slides.",
+                  "start": 7,
+                  "end": 31
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Aisha",
+              "action": "prepare the slides",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.",
+              "evidence": [
+                "I'll prepare the slides.",
+                "Ben, could you take over?"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll prepare the slides.",
+                  "start": 7,
+                  "end": 31
+                },
+                {
+                  "quote": "Ben, could you take over?",
+                  "start": 39,
+                  "end": 64
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Aisha",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.",
+            "evidence": [
+              "I'll prepare the slides.",
+              "Ben, could you take over?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll prepare the slides.",
+                "start": 7,
+                "end": 31
+              },
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 65,
+        "end": 94,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Aisha",
+              "action": "prepare the slides",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "Aisha requested Ben to take over; reassignment requires acceptance which is not yet confirmed.",
+              "evidence": [
+                "I'll prepare the slides.",
+                "Ben, could you take over?"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll prepare the slides.",
+                  "start": 7,
+                  "end": 31
+                },
+                {
+                  "quote": "Ben, could you take over?",
+                  "start": 39,
+                  "end": 64
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Ben",
+              "action": "prepare the slides",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "Ben, could you take over?",
+                "Yes, I'll prepare them."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Ben, could you take over?",
+                  "start": 39,
+                  "end": 64
+                },
+                {
+                  "quote": "Yes, I'll prepare them.",
+                  "start": 70,
+                  "end": 93
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Ben",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Ben, could you take over?",
+              "Yes, I'll prepare them."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              },
+              {
+                "quote": "Yes, I'll prepare them.",
+                "start": 70,
+                "end": 93
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 3,
+        "start": 94,
+        "end": 133,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Ben",
+            "action": "prepare the slides",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Ben, could you take over?",
+              "Yes, I'll prepare them."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Ben, could you take over?",
+                "start": 39,
+                "end": 64
+              },
+              {
+                "quote": "Yes, I'll prepare them.",
+                "start": 70,
+                "end": 93
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "a2ed96cb797351004e3ea15ee8775e2de14985646188dbd6345e67afafe7fe30",
+      "aded7311fe0a21066e278a335c0cd6713eca0a1280e4e922bce7f8f3b3593462",
+      "7ed76c37e7057c80b951c0a8a8f9a2076dece38f39b2f0c8b866e3150024b074",
+      "d135912aeeb961e56303a13c946f6552f6017751381068e7cbe12d4a4c537bbc"
+    ]
+  }
+}

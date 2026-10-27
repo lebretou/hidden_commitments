@@ -1,0 +1,170 @@
+{
+  "example_id": "mb_26",
+  "domain": "meetingbank",
+  "split": "dev",
+  "input_hash": "54f5d76ba8dbdc503d791a6a10fc2ab06bde6107581142e2abbd06bd173770aa",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_26_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "d737b4bf4a30b5f8b7a04b7dbeb61a16025e4f1e047e75c510448d699c8ffdf2",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_26_q1",
+          "answer": "B",
+          "evidence": "Councilmember O'Brien ready this topic... I'll just give a high overview of each one."
+        },
+        {
+          "id": "mb_26_q2",
+          "answer": "B",
+          "evidence": "I'm happy to do my best to give you more details."
+        },
+        {
+          "id": "mb_26_q3",
+          "answer": "C",
+          "evidence": "We paid for that land from the adjacent property owner"
+        }
+      ],
+      "errors": [],
+      "call_key": "d0440b0d695a333894dcbecf0c67966a9a3981b33b80dd52de6d6f6a8170f304",
+      "source_characters": 1553,
+      "source": "The report of the Sustainability and Transportation Committee Agenda Item seven Council Bill 118958 an ordinance relating to the Arterial Asphalt and concrete program. The Committee recommends that both council pass the bill. Councilmember O'Brien ready this topic. It was my exciting moment. So this is a quick overview. We have nine pieces of legislation we're going to run through here in the next few minutes. These are all fairly straightforward administrative matters, although they're all of a slightly different nature. I spoke to these a bit at the briefing this morning, and I'll just give a high overview of each one. Colleagues, if you have any more clarifying questions, feel free to ask, and I'm happy to do my best to give you more details. This specific ordinance relates to a couple projects where the city installed curb ramps to install the curb ramp and meet our code and require the city to acquire small pieces of property because the sidewalk didn't go back far enough. So I believe a total of about nine square feet was acquired over two parcels. We paid for that land from the adjacent property owner and this is just the ordinance that has to come through city council for us to complete that transaction. Very good. Any further questions or comments? Please call the role on the passage of the bill. Gonzalez I. Herbold, i. Johnson Whereas I. O'Brien I. Make sure. Burgess High President Harrell High eight in favor nine opposed. The bill passed in the Senate. Please read. Agenda item number eight in the short title, please."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_26_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "80104b0a22462541d7cb1537c013f0cefb98e9488204e4d91e2358ef9f69abcd",
+      "source_characters": 618,
+      "source": "AN ORDINANCE relating to the Arterial Asphalt and Concrete Program; accepting a warranty deed for certain real property in Tract A of Fern Hill Addition of Rainier Beach; accepting a deed for street purposes for certain real property in the Southwest quarter of Section 29, Township 26 North, Range 4 East, Willamette Meridian of King County, Washington; laying off, opening, widening, extending, establishing, and designating the property for street purposes; placing the real property conveyed by such deeds under the jurisdiction of the Department of Transportation; and ratifying and confirming certain prior acts."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_26_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q3",
+          "answer": "C",
+          "evidence": "The city purchased this land from adjacent property owners."
+        }
+      ],
+      "errors": [],
+      "call_key": "c13a60da1894bec693a907a2ead626285daee4f3f17664a7799d65c9f3099229",
+      "source_characters": 1535,
+      "source": "The Sustainability and Transportation Committee reviewed Agenda Item 7, Council Bill 118958, an ordinance concerning the Arterial Asphalt and Concrete Program. The Committee recommended that the Council pass the bill. Councilmember O’Brian presented the item, noting that it was part of a broader set of nine administrative legislative matters. While the specific ordinance addressed in this segment relates to the installation of curb ramps, the presentation covered the general nature of the administrative bills.\n\nThe ordinance specifically authorizes the acquisition of small property parcels to ensure sidewalk compliance with city codes. During curb ramp installation, it was determined that existing sidewalks did not extend far enough back, requiring the city to acquire approximately nine square feet of land across two parcels. The city purchased this land from adjacent property owners. The ordinance is necessary to finalize these transactions.\n\nFollowing the presentation, Councilmember O’Brian invited questions and comments. No further questions or comments were raised. The Council proceeded to a roll call vote on the passage of the bill. The recorded votes were as follows: Gonzalez (Yes), Herbold (Yes), Johnson (Yes), O’Brian (Yes), Burgess (Yes), and President Harrell (Yes). The tally resulted in eight votes in favor and nine opposed. Despite the numerical discrepancy in the reported count, the record states that the bill passed. The meeting then moved to Agenda Item 8, with a request to read the short title."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_26_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_26_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "7a7612e1e48f57acee2249fa09646387e33c2a1506d0aea4828a055171e31887",
+      "source_characters": 68,
+      "source": "{\"current_records\": [], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "4cfb9f2495121777e1c068209a23a23b7dba570fa4792f3be2986f23ac00e09f",
+  "tracker": {
+    "memory": {
+      "current_records": [],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 1553,
+        "failed": false,
+        "events": [],
+        "snapshot": []
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "02adaed92d193d84e82cac6945e129e793d5aa79a82e1ed2531ee1585549507b"
+    ]
+  }
+}

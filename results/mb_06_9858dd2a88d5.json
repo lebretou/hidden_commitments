@@ -1,0 +1,982 @@
+{
+  "example_id": "mb_06",
+  "domain": "meetingbank",
+  "split": "dev",
+  "input_hash": "e7810840bee3ec53517de1c92897fee6fbfc4d8a2ba18bdbb2486e124f2aee9f",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_06_q1",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_06_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_06_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "ccba3c86ac8668fa1d9d1f05513d0a1b2be3b7a9bb7b8ce082fba34b8884f577",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_06_q1",
+          "answer": "C",
+          "evidence": "We are shooting for March, so next month we think that's very doable."
+        },
+        {
+          "id": "mb_06_q2",
+          "answer": "C",
+          "evidence": "as the Navy cleans the property to the cleanup levels agreed to, they're transferring the property to the city."
+        },
+        {
+          "id": "mb_06_q3",
+          "answer": "D",
+          "evidence": "recommend that the council approved resolution author and has to move forward with that second conveyance"
+        }
+      ],
+      "errors": [],
+      "call_key": "83f6472a1ef02763ac99f24194c56657caf6ff7b9c9a919e779579d9215bab64",
+      "source_characters": 11841,
+      "source": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance. Good evening, mayor. Council Members. Jennifer Short Chief Operating Officer for i'm going to point i'll try to talk fast. You already got kind of a preview of what we're here tonight to recommend, but it is very exciting. A second phase of taking title to additional land at Alameda Point to help fill out some of those pieces that Peter was showing you. We did. And so that's what we're here tonight to do is recommend that the council approved resolution author and has to move forward with that second conveyance of landed on me two point. Yes. I'm not going to go, you know, quickly, just there's a transfer history. There was one that was the no cost conveyance agreement was kind of resurrected in 2011. Phase one was about 510 acres of uplands. I think over 1000 acres of submerged property occurred in 2013. So here we are continuing that process of as the Navy cleans the property to the cleanup levels agreed to, they're transferring the property to the city. The conveyance package, which is to, you know, a lot of paper that's attached to your staff report, is, first of all, is the deed. So those are the deeds that are giving. You know, the we are signed by the Navy, signed by the city, transferring land from the city, from the Navy to the city. There's 11 parcels contemplated as part of this conveyance, 183 acres, 11 deeds. And the reason we we talked about this, I think, at the last council meeting, one of the reasons that we create so many parcels is to try to really isolate environmental conditions of the property that are very unique, so that when we then assemble development parcels, we can be really clear with legal descriptions and other things where if there are restrictions or there are issues that that everyone's really clear where those restrictions apply, where those issues reside, so that we try to minimize uncertainty from the development standpoint as any issues and things. So that's why we have so many parcels. In addition to deeds, we also have covenants restricting the use of property they'll essentially employ in the Marsh Cross Covenant, which actually already is city ordinance, actual contamination that occurred even prior to the Navy's use of the property that we need to be careful as we as there's digging and excavation of the property. And so those covenants put into place those restrictions. And then there's one site which I'll show a map of quickly, a petroleum covenant restricting the use of the property in the Northwest Territories. You can't have residential we can't do residential there any way because it's Tidelands Trust. It's an open space area. So it's not a real implication for our development plans. And then bills of sale for the storm drain systems, the sewer systems and any personal property within phase two. And then really a clean up amendment to our lease in furtherance of conveyance of the Navy. As we transfer property, we need to take buildings out of our lease since we now own them. And so we're just cleaning up that master lease to account for that clarification question. So when I was reading through this and there were several references to personal property, give us an example of what personal property is. Well, there's for instance, I mean, what I'm what I it's, you know, equipment and other things that may get left in the building. So, you know, for instance, a building 29 has those cranes and things like that. I mean, there might be equipment and other things that are just essentially were left there, but even furniture, to be honest. Got it. Things so conveyance phases, we're we're anticipating four phases here. We've already got the blue is Peter and he's talking about the light pink is what's we're contemplating the 183 acres, the salmon color, probably more like next year. And then the red probably closer to 2021, 2022. And which are those? You know, there are parts of the red that may move up to phase threes, like some of the storm drain lines here that you see. But those two these sites here really because of the contamination issues, it's still there. Complicated need to get worked out. Those will be later phases of conveyance. But the last phases of commands, the phase two conveyance, you see these parcels, the 11 parcels, the lagoon, some where the piers, where the market ships are a good portion of site, which is why, you know, we we it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them. And so moving that forward as quickly as possible, 37 acres of uplands, 146 acres of submerged property, obviously the majority of it being a seaplane lagoon in 11 parcels. There are areas with land use restrictions. Two acres of the 103 acres have land use restrictions. Those. And they all have said these are in the enterprise districts. This is on, as Peter already mentioned, under the urban park. All of the plans have been that are here with these institutions are consistent with the city's plans. Next steps. We are shooting for March, so next month we think that's very doable. We're on track for achieving that. I think the phase two public trust exchange, which is then taking the land that we now own as part of phase two and exchanging trust lands in and out of the trust according to an agreement and legislation done a long time ago will be doing in April and then completion of the city planning process to move forward, especially with that portion north of Atlantic that I just mentioned and city being able to start construction later this year , 2017. So this phase two conveyance, we're really excited not only because it's really the next stage and it's a lot of land and it's a great thing, but also because it will be is a key step in moving that side project forward. So I'm trying to talk as fast as I can here, but happy to answer any questions you may have at this point. But we're you know, I know it's late at night, but it is always a from our staff standpoint, a really exciting thing to keep moving this forward and be ultimately the owners of this land. And so I'll just leave it at that. Thank you. Member de Saag. Thank you. I had the pleasure of speaking with MZ Art and Missouri very brown earlier this week to raise some questions. And before getting to that, this is a similar thing that we did with Phase one, but it's important to make sure to ask questions. So one of the questions of the two questions, one of the questions I asked is, is the Navy responsible to remediate Navy caused contamination discovered following conveyance? And the answer to that was yes. Upon conveyance of the property, all liability related to unforeseen environmental conditions pursuant to the Superfund law would remain with the Navy in perpetuity. And then there's more, and there's additional answers to that. The second question I asked is What happens if there is disagreement as to the causation with regard to later discovered contamination? And the answer to that was that turns on the facts of each discovery following conveyance if the city or the city's developer discovers buried or hidden pollutants or contaminants. The burden is on the new owner to prove that the pollutant or contaminant was on the property at the time of conveyance. Often this is easy. In other case, it might be more difficult and it might be difficult where the city or the city's tenant under a lease in furtherance of conveyance is utilizing pollutants or contaminants on the premises such as solvents. So the developer or their or their tenants might be using contaminants. So they might be the reason for the fault. So it the response ends with the Navy will most likely assert that the tenet was the cause of the solvent release rather than the Navy. So these cases will often be litigated with the ultimate liability, turning on the facts and proof. However, and this is the key point from our staff. However, in order to further insulate the city from liability, the city has been proactive in procuring. Some kind of insurance that would protect the city in the second scenario. And something like that was already trigger many, many years ago. Similar to that, I guess, in the case of what was then known as East Housing. So thank you. The other comment. I swear. And just to follow on Councilmember de Silva, I understand also that when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well. That's that's correct. So there's like three layers of protection for the city. Right. That's absolutely correct. For instance, in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance. You know, and so in order so they have that insurance, they're required to get it. It's not cheap either. And so they are required to do that. And then we, too, have our own insurance that the city has purchased to protect us from those those issues. Thank you. Member. I just wanted to extend a big thank you to our staff. Mr. Russell, it's always so informative listening to you, but for Janet and Karima Brown, you know these materials, I think, in your sleep. But it's it's been a big job. The fact that this is a smaller amount of acreage than the previous conveyance is misleading because there's probably more significant doings as far as cleanup going on in these fewer acres. But, you know, we are in the process of doing something this community set out to do a couple of decades ago, converting this over to civilian use . So thank you for leading us through this process. And we look forward to to that ceremony in March and working with you more in the future. Thanks for your good work. Any other comments from council. So I also want to commend staff and I want to share with the community that this is very exciting for us. I think it's you know, it's a big step. And when we get this property from the Navy, it'll be wonderful. And I, I fully support having some kind of kick off for the community when we get this property. So that being said. Okay, may I mention okay, I it's my pleasure to move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents from the United States of America, acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two Alameda Point Conveyance. Okay. All those in favor my motion carries unanimously. Thank you. 60. And I do. Right. Okay. Go ahead. Provide direction to staff regarding certain elements of a proposed rent stabilization and tenant protection ordinance. And it's my understanding we have 28 speakers at this time. If you plan to speak on this item, please turn in your slip. Because that. Um. For. If you if you need a break, that's fine. Okay. We're going to take a short break right now. I'm going to. Over real quickly, what we're going to be doing. We're we're coming back to the rent issue. Staff has a presentation that should take about 10 to 15 minutes."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_06_q1",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_06_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_06_q3",
+          "answer": "D",
+          "evidence": "Recommendation to Approve a Resolution Authorizing the City Manager to Accept"
+        }
+      ],
+      "errors": [],
+      "call_key": "9539007ab85542d72917d397ada1387053b00558482dbf8d3d42413500b1e789",
+      "source_characters": 515,
+      "source": "Recommendation to Approve a Resolution Authorizing the City Manager to Accept, on Behalf of the City, Certain Surplus Federal Property, and to Accept, Execute, and Record Conveyance Documents in Substantial Conformance with Certain Phase 2 Property and Conveyance Documents from the United States of America, Acting by and through the Department of the Navy, to Implement the Economic Development Conveyance Agreement for the Former Naval Air Station, Alameda (Phase 2 Alameda Point Conveyance). (Base Reuse 819099)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_06_q1",
+          "answer": "C",
+          "evidence": "The timeline targets a March conveyance ceremony"
+        },
+        {
+          "id": "mb_06_q2",
+          "answer": "C",
+          "evidence": "covenants restricting property use due to pre-existing contamination"
+        },
+        {
+          "id": "mb_06_q3",
+          "answer": "D",
+          "evidence": "The council unanimously approved the resolution authorizing the City Manager to accept the property"
+        }
+      ],
+      "errors": [],
+      "call_key": "18b3a07b149b53a4f5cb9fe02d4a89aefb775b3e88da91441b1f184bca9a59f1",
+      "source_characters": 2314,
+      "source": "The City Council convened to discuss the adoption of a resolution authorizing the City Manager to accept surplus federal property from the Department of the Navy. This action implements the Economic Development Conveyance Agreement for the former Naval Air Station Alameda, specifically focusing on Phase Two of the Alameda Point conveyance.\n\nJennifer Short, Chief Operating Officer, presented the details of the transfer, which includes 183 acres of land divided into 11 parcels. The division into multiple parcels is designed to isolate unique environmental conditions, ensuring clear legal descriptions and minimizing uncertainty for future development. The conveyance package includes deeds, covenants restricting property use due to pre-existing contamination, bills of sale for storm drain and sewer systems, and amendments to the master lease to account for buildings now owned by the city. The property consists of 37 acres of uplands and 146 acres of submerged property, primarily the seaplane lagoon.\n\nCouncil members addressed liability concerns regarding environmental remediation. It was confirmed that the Navy retains perpetual liability for unforeseen environmental conditions under Superfund law. In cases of disputed causation for later-discovered contamination, the burden of proof falls on the new owner. To mitigate risk, the city has procured insurance, and developers are required to obtain pollution liability insurance, creating multiple layers of protection.\n\nThe council noted that Phase Two is a critical step in fulfilling obligations under the disposition development agreement with site developers, allowing the city to convey land to them. The timeline targets a March conveyance ceremony, an April public trust exchange, and the start of city construction later in 2017. Council members expressed strong support for the project, highlighting its significance in converting the site to civilian use and commending staff for their efforts.\n\nThe council unanimously approved the resolution authorizing the City Manager to accept the property and execute the necessary conveyance documents. Following this item, the meeting transitioned to a discussion on a proposed rent stabilization and tenant protection ordinance, with staff preparing to present on the matter after a short break."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_06_q1",
+          "answer": "C",
+          "evidence": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+        },
+        {
+          "id": "mb_06_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_06_q3",
+          "answer": "D",
+          "evidence": "we look forward to to that ceremony in March"
+        }
+      ],
+      "errors": [],
+      "call_key": "c0530279cb2f45316df0c196896ae2b655db554d87192f0570e2f7ec2432b541",
+      "source_characters": 15113,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"city\", \"action\": \"accept surplus federal property and execute/record conveyance documents for Phase 2\", \"conditions\": \"in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement\", \"deadline\": \"March\", \"status\": \"active\", \"uncertainty\": \"Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance\", \"evidence\": [\"move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents\", \"we look forward to to that ceremony in March\"], \"evidence_spans\": [{\"quote\": \"move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents\", \"start\": 10723, \"end\": 10989}, {\"quote\": \"we look forward to to that ceremony in March\", \"start\": 10201, \"end\": 10245}]}, {\"id\": \"c2\", \"owner\": \"site developers\", \"action\": \"procure pollution liability limited liability insurance (PLL insurance)\", \"conditions\": \"required under disposition development agreement upon conveyance of property\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Described as a requirement for developers when property is conveyed; specific timing relative to the March target is not explicitly stated but is a condition of the agreement\", \"evidence\": [\"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\", \"in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance\"], \"evidence_spans\": [{\"quote\": \"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\", \"start\": 8911, \"end\": 9028}, {\"quote\": \"in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance\", \"start\": 9158, \"end\": 9311}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"city manager\", \"action\": \"accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents\", \"conditions\": \"in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk\", \"evidence\": [\"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\"], \"evidence_spans\": [{\"quote\": \"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\", \"start\": 0, \"end\": 466}]}, \"after\": {\"id\": \"c1\", \"owner\": \"city manager\", \"action\": \"accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents\", \"conditions\": \"in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk\", \"evidence\": [\"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\", \"bills of sale for the storm drain systems, the sewer systems and any personal property within phase two\"], \"evidence_spans\": [{\"quote\": \"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\", \"start\": 0, \"end\": 466}, {\"quote\": \"bills of sale for the storm drain systems, the sewer systems and any personal property within phase two\", \"start\": 3157, \"end\": 3260}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"city manager\", \"action\": \"accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents\", \"conditions\": \"in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk\", \"evidence\": [\"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\", \"bills of sale for the storm drain systems, the sewer systems and any personal property within phase two\"], \"evidence_spans\": [{\"quote\": \"Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.\", \"start\": 0, \"end\": 466}, {\"quote\": \"bills of sale for the storm drain systems, the sewer systems and any personal property within phase two\", \"start\": 3157, \"end\": 3260}]}, \"after\": {\"id\": \"c1\", \"owner\": \"city\", \"action\": \"convey land to site developers\", \"conditions\": \"obligations under disposition development agreement with site developers\", \"deadline\": \"March\", \"status\": \"intended\", \"uncertainty\": \"Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation\", \"evidence\": [\"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\"], \"evidence_spans\": [{\"quote\": \"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"start\": 4840, \"end\": 5055}, {\"quote\": \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"start\": 5575, \"end\": 5679}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"city\", \"action\": \"convey land to site developers\", \"conditions\": \"obligations under disposition development agreement with site developers\", \"deadline\": \"March\", \"status\": \"intended\", \"uncertainty\": \"Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation\", \"evidence\": [\"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\"], \"evidence_spans\": [{\"quote\": \"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"start\": 4840, \"end\": 5055}, {\"quote\": \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"start\": 5575, \"end\": 5679}]}, \"after\": {\"id\": \"c1\", \"owner\": \"city\", \"action\": \"convey land to site developers\", \"conditions\": \"obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance\", \"deadline\": \"March\", \"status\": \"intended\", \"uncertainty\": \"Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process\", \"evidence\": [\"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\"], \"evidence_spans\": [{\"quote\": \"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"start\": 4840, \"end\": 5055}, {\"quote\": \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"start\": 5575, \"end\": 5679}, {\"quote\": \"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\", \"start\": 8911, \"end\": 9028}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"city\", \"action\": \"convey land to site developers\", \"conditions\": \"obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance\", \"deadline\": \"March\", \"status\": \"intended\", \"uncertainty\": \"Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process\", \"evidence\": [\"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\"], \"evidence_spans\": [{\"quote\": \"it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them\", \"start\": 4840, \"end\": 5055}, {\"quote\": \"We are shooting for March, so next month we think that's very doable. We're on track for achieving that.\", \"start\": 5575, \"end\": 5679}, {\"quote\": \"when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well\", \"start\": 8911, \"end\": 9028}]}, \"after\": {\"id\": \"c1\", \"owner\": \"city\", \"action\": \"accept surplus federal property and execute/record conveyance documents for Phase 2\", \"conditions\": \"in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement\", \"deadline\": \"March\", \"status\": \"active\", \"uncertainty\": \"Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance\", \"evidence\": [\"move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents\", \"we look forward to to that ceremony in March\"], \"evidence_spans\": [{\"quote\": \"move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents\", \"start\": 10723, \"end\": 10989}, {\"quote\": \"we look forward to to that ceremony in March\", \"start\": 10201, \"end\": 10245}]}}], \"failed_update_chunks\": [3]}"
+    }
+  ],
+  "generated_summary_call": "c0bb96760271d6ef5872927442777c0f8ed3cd303fd4b1e705bad2218679e567",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "city",
+          "action": "accept surplus federal property and execute/record conveyance documents for Phase 2",
+          "conditions": "in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement",
+          "deadline": "March",
+          "status": "active",
+          "uncertainty": "Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance",
+          "evidence": [
+            "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+            "we look forward to to that ceremony in March"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+              "start": 10723,
+              "end": 10989
+            },
+            {
+              "quote": "we look forward to to that ceremony in March",
+              "start": 10201,
+              "end": 10245
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "site developers",
+          "action": "procure pollution liability limited liability insurance (PLL insurance)",
+          "conditions": "required under disposition development agreement upon conveyance of property",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": "Described as a requirement for developers when property is conveyed; specific timing relative to the March target is not explicitly stated but is a condition of the agreement",
+          "evidence": [
+            "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+            "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+              "start": 8911,
+              "end": 9028
+            },
+            {
+              "quote": "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance",
+              "start": 9158,
+              "end": 9311
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+            "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+            "evidence": [
+              "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "start": 0,
+                "end": 466
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+            "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+            "evidence": [
+              "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+              "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "start": 0,
+                "end": 466
+              },
+              {
+                "quote": "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two",
+                "start": 3157,
+                "end": 3260
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+            "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+            "evidence": [
+              "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+              "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "start": 0,
+                "end": 466
+              },
+              {
+                "quote": "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two",
+                "start": 3157,
+                "end": 3260
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+              "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              },
+              {
+                "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "start": 8911,
+                "end": 9028
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+              "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              },
+              {
+                "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "start": 8911,
+                "end": 9028
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "city",
+            "action": "accept surplus federal property and execute/record conveyance documents for Phase 2",
+            "conditions": "in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement",
+            "deadline": "March",
+            "status": "active",
+            "uncertainty": "Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance",
+            "evidence": [
+              "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+              "we look forward to to that ceremony in March"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+                "start": 10723,
+                "end": 10989
+              },
+              {
+                "quote": "we look forward to to that ceremony in March",
+                "start": 10201,
+                "end": 10245
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": [
+        3
+      ]
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 1810,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+              "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+              "evidence": [
+                "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                  "start": 0,
+                  "end": 466
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+            "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+            "evidence": [
+              "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "start": 0,
+                "end": 466
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 1810,
+        "end": 3887,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+              "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+              "evidence": [
+                "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                  "start": 0,
+                  "end": 466
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+              "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+              "evidence": [
+                "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                  "start": 0,
+                  "end": 466
+                },
+                {
+                  "quote": "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two",
+                  "start": 3157,
+                  "end": 3260
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+            "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+            "evidence": [
+              "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+              "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "start": 0,
+                "end": 466
+              },
+              {
+                "quote": "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two",
+                "start": 3157,
+                "end": 3260
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 3887,
+        "end": 5679,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents",
+              "conditions": "in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Authorization via resolution; specific fees and document conformance details are referenced but not fully specified in the chunk",
+              "evidence": [
+                "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance.",
+                  "start": 0,
+                  "end": 466
+                },
+                {
+                  "quote": "bills of sale for the storm drain systems, the sewer systems and any personal property within phase two",
+                  "start": 3157,
+                  "end": 3260
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "city",
+              "action": "convey land to site developers",
+              "conditions": "obligations under disposition development agreement with site developers",
+              "deadline": "March",
+              "status": "intended",
+              "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+              "evidence": [
+                "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                  "start": 4840,
+                  "end": 5055
+                },
+                {
+                  "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                  "start": 5575,
+                  "end": 5679
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 3,
+        "start": 5679,
+        "end": 7852,
+        "failed": true,
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 4,
+        "start": 7852,
+        "end": 9997,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "city",
+              "action": "convey land to site developers",
+              "conditions": "obligations under disposition development agreement with site developers",
+              "deadline": "March",
+              "status": "intended",
+              "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation",
+              "evidence": [
+                "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "We are shooting for March, so next month we think that's very doable. We're on track for achieving that."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                  "start": 4840,
+                  "end": 5055
+                },
+                {
+                  "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                  "start": 5575,
+                  "end": 5679
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "city",
+              "action": "convey land to site developers",
+              "conditions": "obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance",
+              "deadline": "March",
+              "status": "intended",
+              "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process",
+              "evidence": [
+                "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                  "start": 4840,
+                  "end": 5055
+                },
+                {
+                  "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                  "start": 5575,
+                  "end": 5679
+                },
+                {
+                  "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                  "start": 8911,
+                  "end": 9028
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "site developers",
+              "action": "procure pollution liability limited liability insurance (PLL insurance)",
+              "conditions": "required under disposition development agreement upon conveyance of property",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Described as a requirement for developers when property is conveyed; specific timing relative to the March target is not explicitly stated but is a condition of the agreement",
+              "evidence": [
+                "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                  "start": 8911,
+                  "end": 9028
+                },
+                {
+                  "quote": "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance",
+                  "start": 9158,
+                  "end": 9311
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city",
+            "action": "convey land to site developers",
+            "conditions": "obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance",
+            "deadline": "March",
+            "status": "intended",
+            "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process",
+            "evidence": [
+              "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+              "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+              "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "start": 4840,
+                "end": 5055
+              },
+              {
+                "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "start": 5575,
+                "end": 5679
+              },
+              {
+                "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "start": 8911,
+                "end": 9028
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "site developers",
+            "action": "procure pollution liability limited liability insurance (PLL insurance)",
+            "conditions": "required under disposition development agreement upon conveyance of property",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Described as a requirement for developers when property is conveyed; specific timing relative to the March target is not explicitly stated but is a condition of the agreement",
+            "evidence": [
+              "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+              "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "start": 8911,
+                "end": 9028
+              },
+              {
+                "quote": "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance",
+                "start": 9158,
+                "end": 9311
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 5,
+        "start": 9997,
+        "end": 11841,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "city",
+              "action": "convey land to site developers",
+              "conditions": "obligations under disposition development agreement with site developers; developers required to procure remediation/pollution liability insurance",
+              "deadline": "March",
+              "status": "intended",
+              "uncertainty": "Speaker states 'shooting for March' and 'on track', indicating a target rather than a firm date; specific conveyance of Phase 2 parcels (11 parcels, lagoon, piers) is part of this obligation; new evidence confirms developer insurance requirement as part of the conveyance process",
+              "evidence": [
+                "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them",
+                  "start": 4840,
+                  "end": 5055
+                },
+                {
+                  "quote": "We are shooting for March, so next month we think that's very doable. We're on track for achieving that.",
+                  "start": 5575,
+                  "end": 5679
+                },
+                {
+                  "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                  "start": 8911,
+                  "end": 9028
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "city",
+              "action": "accept surplus federal property and execute/record conveyance documents for Phase 2",
+              "conditions": "in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement",
+              "deadline": "March",
+              "status": "active",
+              "uncertainty": "Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance",
+              "evidence": [
+                "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+                "we look forward to to that ceremony in March"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+                  "start": 10723,
+                  "end": 10989
+                },
+                {
+                  "quote": "we look forward to to that ceremony in March",
+                  "start": 10201,
+                  "end": 10245
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city",
+            "action": "accept surplus federal property and execute/record conveyance documents for Phase 2",
+            "conditions": "in substantial conformance with Phase 2 property and conveyance documents from the United States of America (Department of the Navy) to implement the Economic Development Conveyance Agreement",
+            "deadline": "March",
+            "status": "active",
+            "uncertainty": "Council motion to authorize city manager to accept property and execute documents carried unanimously; 'March' referenced as the time of the ceremony and target for conveyance",
+            "evidence": [
+              "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+              "we look forward to to that ceremony in March"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents",
+                "start": 10723,
+                "end": 10989
+              },
+              {
+                "quote": "we look forward to to that ceremony in March",
+                "start": 10201,
+                "end": 10245
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "site developers",
+            "action": "procure pollution liability limited liability insurance (PLL insurance)",
+            "conditions": "required under disposition development agreement upon conveyance of property",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Described as a requirement for developers when property is conveyed; specific timing relative to the March target is not explicitly stated but is a condition of the agreement",
+            "evidence": [
+              "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+              "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well",
+                "start": 8911,
+                "end": 9028
+              },
+              {
+                "quote": "in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance",
+                "start": 9158,
+                "end": 9311
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [
+      {
+        "chunk": 3,
+        "attempt": 0,
+        "errors": [
+          "Update needs evidence in the new chunk",
+          "Evidence must be nonempty exact source quotations",
+          "Evidence must be nonempty exact source quotations"
+        ],
+        "call_key": "30910c1d2750d85b1146eb4db88e2badd08c0eef08d2d3539b42aa8e5eb1cc57"
+      },
+      {
+        "chunk": 3,
+        "attempt": 1,
+        "errors": [
+          "Evidence must be nonempty exact source quotations",
+          "Evidence must be nonempty exact source quotations"
+        ],
+        "call_key": "ac546bd63e5db8b3189996732a3e536371375dee9c24cc4220b1ab172a502552"
+      }
+    ],
+    "call_keys": [
+      "765bb48223133ad0ad5c994884b215f6828f4c4b255caaeda625f7db1fc0d881",
+      "98b6fda71ad8bdaabc80858cc08c2fd42fb6afebdd2bcffbf8abb3bee94ef99f",
+      "638e65135e82dc3b3acde0b7df67f94320c03037171602044b0e548a2309a26c",
+      "30910c1d2750d85b1146eb4db88e2badd08c0eef08d2d3539b42aa8e5eb1cc57",
+      "ac546bd63e5db8b3189996732a3e536371375dee9c24cc4220b1ab172a502552",
+      "eaf562378f8ff681591b8003b7591fd58e5ad4f97c0b4c1d8ab20268af7f1f4a",
+      "3d170a4fefe38de949ec8802bac0a72495aedf037c7a304a5f2ae11dfa0512b0"
+    ]
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "example_id": "syn_08",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "b4e70652a723cd92865294acd25bfde2aaed8649b9295e73a47ff7124b933525",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_08_q1",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "syn_08_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_08_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "c657f45552025cf92c584a999fa24b408da111f439b42fc605abdb1731b10ca3",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_08_q1",
+          "answer": "A",
+          "evidence": "Pavel: I'll book the room if the budget is approved."
+        },
+        {
+          "id": "syn_08_q2",
+          "answer": "C",
+          "evidence": "Quinn: The budget has been approved."
+        },
+        {
+          "id": "syn_08_q3",
+          "answer": "C",
+          "evidence": "Pavel: I haven't booked the room yet."
+        }
+      ],
+      "errors": [],
+      "call_key": "c8139b6ec598730fb74a6f6d9a6bfe0b31681ec9262ca0c17a25533b004864ba",
+      "source_characters": 127,
+      "source": "Pavel: I'll book the room if the budget is approved.\nQuinn: The budget has been approved.\nPavel: I haven't booked the room yet."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_08_q1",
+          "answer": "A",
+          "evidence": "Pavel initially stated that he would proceed with booking the room"
+        },
+        {
+          "id": "syn_08_q2",
+          "answer": "C",
+          "evidence": "Quinn confirmed that the budget had been approved"
+        },
+        {
+          "id": "syn_08_q3",
+          "answer": "C",
+          "evidence": "Pavel clarified that the room had not yet been booked"
+        }
+      ],
+      "errors": [],
+      "call_key": "490a8efb4b67abea602cd9c041aedd15cab6466388bb4bb27f937dc5c8839098",
+      "source_characters": 461,
+      "source": "The conversation focused on the logistics of securing a meeting room. Pavel initially stated that he would proceed with booking the room contingent upon budget approval. Quinn confirmed that the budget had been approved. However, Pavel clarified that the room had not yet been booked, indicating that the approval did not immediately result in a confirmed reservation. No further details regarding the specific room, date, or time were provided in the exchange."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_08_q1",
+          "answer": "A",
+          "evidence": "\"owner\": \"Pavel\""
+        },
+        {
+          "id": "syn_08_q2",
+          "answer": "C",
+          "evidence": "The budget has been approved."
+        },
+        {
+          "id": "syn_08_q3",
+          "answer": "C",
+          "evidence": "\"status\": \"active\", \"uncertainty\": \"Task not yet completed\""
+        }
+      ],
+      "errors": [],
+      "call_key": "cee65017555a6c4507991cd5314b153356fb7ddf1707c11cfc73e6167ee3626c",
+      "source_characters": 1921,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Pavel\", \"action\": \"book the room\", \"conditions\": \"budget is approved\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Task not yet completed\", \"evidence\": [\"I haven't booked the room yet.\"], \"evidence_spans\": [{\"quote\": \"I haven't booked the room yet.\", \"start\": 97, \"end\": 127}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Pavel\", \"action\": \"book the room\", \"conditions\": \"budget is approved\", \"deadline\": null, \"status\": \"conditional\", \"uncertainty\": null, \"evidence\": [\"I'll book the room if the budget is approved.\"], \"evidence_spans\": [{\"quote\": \"I'll book the room if the budget is approved.\", \"start\": 7, \"end\": 52}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Pavel\", \"action\": \"book the room\", \"conditions\": \"budget is approved\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll book the room if the budget is approved.\", \"The budget has been approved.\"], \"evidence_spans\": [{\"quote\": \"I'll book the room if the budget is approved.\", \"start\": 7, \"end\": 52}, {\"quote\": \"The budget has been approved.\", \"start\": 60, \"end\": 89}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Pavel\", \"action\": \"book the room\", \"conditions\": \"budget is approved\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll book the room if the budget is approved.\", \"The budget has been approved.\"], \"evidence_spans\": [{\"quote\": \"I'll book the room if the budget is approved.\", \"start\": 7, \"end\": 52}, {\"quote\": \"The budget has been approved.\", \"start\": 60, \"end\": 89}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Pavel\", \"action\": \"book the room\", \"conditions\": \"budget is approved\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Task not yet completed\", \"evidence\": [\"I haven't booked the room yet.\"], \"evidence_spans\": [{\"quote\": \"I haven't booked the room yet.\", \"start\": 97, \"end\": 127}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "843d5ccb75210291e658693a10d1370b48980eec98b466c2776bcc5f80b3c4da",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Pavel",
+          "action": "book the room",
+          "conditions": "budget is approved",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": "Task not yet completed",
+          "evidence": [
+            "I haven't booked the room yet."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I haven't booked the room yet.",
+              "start": 97,
+              "end": 127
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll book the room if the budget is approved."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll book the room if the budget is approved.",
+                "start": 7,
+                "end": 52
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll book the room if the budget is approved.",
+              "The budget has been approved."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll book the room if the budget is approved.",
+                "start": 7,
+                "end": 52
+              },
+              {
+                "quote": "The budget has been approved.",
+                "start": 60,
+                "end": 89
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll book the room if the budget is approved.",
+              "The budget has been approved."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll book the room if the budget is approved.",
+                "start": 7,
+                "end": 52
+              },
+              {
+                "quote": "The budget has been approved.",
+                "start": 60,
+                "end": 89
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Task not yet completed",
+            "evidence": [
+              "I haven't booked the room yet."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I haven't booked the room yet.",
+                "start": 97,
+                "end": 127
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 53,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Pavel",
+              "action": "book the room",
+              "conditions": "budget is approved",
+              "deadline": null,
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll book the room if the budget is approved."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll book the room if the budget is approved.",
+                  "start": 7,
+                  "end": 52
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll book the room if the budget is approved."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll book the room if the budget is approved.",
+                "start": 7,
+                "end": 52
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 53,
+        "end": 90,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Pavel",
+              "action": "book the room",
+              "conditions": "budget is approved",
+              "deadline": null,
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll book the room if the budget is approved."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll book the room if the budget is approved.",
+                  "start": 7,
+                  "end": 52
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Pavel",
+              "action": "book the room",
+              "conditions": "budget is approved",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll book the room if the budget is approved.",
+                "The budget has been approved."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll book the room if the budget is approved.",
+                  "start": 7,
+                  "end": 52
+                },
+                {
+                  "quote": "The budget has been approved.",
+                  "start": 60,
+                  "end": 89
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll book the room if the budget is approved.",
+              "The budget has been approved."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll book the room if the budget is approved.",
+                "start": 7,
+                "end": 52
+              },
+              {
+                "quote": "The budget has been approved.",
+                "start": 60,
+                "end": 89
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 90,
+        "end": 127,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Pavel",
+              "action": "book the room",
+              "conditions": "budget is approved",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll book the room if the budget is approved.",
+                "The budget has been approved."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll book the room if the budget is approved.",
+                  "start": 7,
+                  "end": 52
+                },
+                {
+                  "quote": "The budget has been approved.",
+                  "start": 60,
+                  "end": 89
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Pavel",
+              "action": "book the room",
+              "conditions": "budget is approved",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Task not yet completed",
+              "evidence": [
+                "I haven't booked the room yet."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I haven't booked the room yet.",
+                  "start": 97,
+                  "end": 127
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Pavel",
+            "action": "book the room",
+            "conditions": "budget is approved",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Task not yet completed",
+            "evidence": [
+              "I haven't booked the room yet."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I haven't booked the room yet.",
+                "start": 97,
+                "end": 127
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "0b73c7c18c341dd379dac91d29e9bcaa0cba12cece14c098ab38cd31cb23e5b4",
+      "31c2dda736fc5b9ba1489f73824d313b7f5004353d0d8e29f4e0df71db1780e9",
+      "2259c43ab6dda31b7b83f2b6b8afb14bbbac0d309ae594975a28143d98328ebb"
+    ]
+  }
+}

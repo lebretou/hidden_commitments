@@ -1,0 +1,269 @@
+{
+  "example_id": "mb_23",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "60110e3964da02ce9237ccefa28b44324c9ecf14fde2446c92c8c665135d5d2b",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_23_q1",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "292cc6d54e662168dc920100b3a42a65ec7e676e71903f48c2a3f21d4ef5eec4",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_23_q1",
+          "answer": "C",
+          "evidence": "authorizing superintendent to amend the existing ten year lease"
+        },
+        {
+          "id": "mb_23_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q3",
+          "answer": "C",
+          "evidence": "add a third additional extended term of five years"
+        }
+      ],
+      "errors": [],
+      "call_key": "e0f654c0f3f45254315a0e43e92686d4a2ba7b9b1f17ca0cc3454100c1c95979",
+      "source_characters": 1340,
+      "source": "All right. Any other comments on any of these appoint appointments? Those in favor of confirming the appointments. Please vote i. I. Those opposed vote no. The motion carries and the appointments are confirmed. Please read the reports of the Civic Development, Public Assets and Native Communities Committee. The Report of the Civic Development, Public Assets and Native Communities Committee Agenda Item 17 Casper 119 648 Relating to Seattle Parks and Recreation authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years. Committee recommends the bill pass. Councilmember Suarez. Great. Thank you, madam clerk. As you stated, this is a parks bill that authorizes superintendent to amend the existing. Ten year lease. This program opens more recreational opportunities for children with physical challenges essentially located at Coleman PLAYFIELD, which is an ideal place for specialized recreational facility development. Public assets in their communities can be recommends for council passed this ordinance. Thank you, councilman. Words. Any questions or comments? Please call the rule on the passage of the bill. Whereas I must get out. Hi, O'Brien, Chaco. I so want Major Gonzalez Herbal President Harold Hi. Six in favor and opposed."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_23_q1",
+          "answer": "C",
+          "evidence": "authorizing the Superintendent to amend"
+        },
+        {
+          "id": "mb_23_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q3",
+          "answer": "C",
+          "evidence": "add a third additional extended term of five years"
+        }
+      ],
+      "errors": [],
+      "call_key": "f176ca5bcf7f57a780995035c64ff158554e32d48b25504942dcdc78a82f8759",
+      "source_characters": 212,
+      "source": "AN ORDINANCE relating to Seattle Parks and Recreation; authorizing the Superintendent to amend the existing ten-year lease with Seattle Children’s PlayGarden to add a third additional extended term of five years."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_23_q1",
+          "answer": "C",
+          "evidence": "authorizes the superintendent to amend an existing ten-year lease"
+        },
+        {
+          "id": "mb_23_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q3",
+          "answer": "C",
+          "evidence": "adds a third extended term of five years to the lease"
+        }
+      ],
+      "errors": [],
+      "call_key": "e68110e3223d94292815b45e2ef3fda2f4e291f44ceca91650a02288b661ee7e",
+      "source_characters": 1588,
+      "source": "The council convened to finalize pending appointments and review reports from the Civic Development, Public Assets, and Native Communities Committee. The assembly first addressed a series of appointments, with members voting to confirm them. The motion to confirm the appointments carried, and the appointments were officially ratified.\n\nFollowing the appointments, the committee presented its report on Agenda Item 17, specifically Bill 119648. This bill relates to Seattle Parks and Recreation and authorizes the superintendent to amend an existing ten-year lease with the Seattle Children’s Play Garden. The proposed amendment adds a third extended term of five years to the lease. The committee recommended that the council pass the ordinance.\n\nCouncilmember Suarez spoke in support of the bill, noting that the program expands recreational opportunities for children with physical challenges. She highlighted that the facility is located at Coleman Playfield, which she described as an ideal site for specialized recreational development. She emphasized the value of public assets in the community and reiterated the committee’s recommendation for passage.\n\nAfter the presentation, the clerk called for questions or comments, but none were recorded. The council then proceeded to a vote on the passage of the bill. The roll call vote resulted in six members voting in favor and no members voting opposed. Consequently, the bill was passed. The session concluded with the confirmation of the appointments and the approval of the lease amendment for the Seattle Children’s Play Garden."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_23_q1",
+          "answer": "C",
+          "evidence": "authorizing superintendent to amend the existing ten year lease"
+        },
+        {
+          "id": "mb_23_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_23_q3",
+          "answer": "C",
+          "evidence": "add a third additional extended term of five years"
+        }
+      ],
+      "errors": [],
+      "call_key": "283920996ced93c0b133d963f5d5e945be5f54f8b37bb7f6a2e66dee7f9003de",
+      "source_characters": 1024,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"superintendent\", \"action\": \"amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years\", \"conditions\": \"Council confirmation of appointments and passage of the bill\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years\", \"The motion carries and the appointments are confirmed\", \"Six in favor and opposed\"], \"evidence_spans\": [{\"quote\": \"authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years\", \"start\": 464, \"end\": 621}, {\"quote\": \"The motion carries and the appointments are confirmed\", \"start\": 156, \"end\": 209}, {\"quote\": \"Six in favor and opposed\", \"start\": 1315, \"end\": 1339}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "54b6281845803e667d9246f4c23a7706ecc6facbc337b7de79df48f357210201",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "superintendent",
+          "action": "amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+          "conditions": "Council confirmation of appointments and passage of the bill",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+            "The motion carries and the appointments are confirmed",
+            "Six in favor and opposed"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+              "start": 464,
+              "end": 621
+            },
+            {
+              "quote": "The motion carries and the appointments are confirmed",
+              "start": 156,
+              "end": 209
+            },
+            {
+              "quote": "Six in favor and opposed",
+              "start": 1315,
+              "end": 1339
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 1340,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "superintendent",
+              "action": "amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+              "conditions": "Council confirmation of appointments and passage of the bill",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+                "The motion carries and the appointments are confirmed",
+                "Six in favor and opposed"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+                  "start": 464,
+                  "end": 621
+                },
+                {
+                  "quote": "The motion carries and the appointments are confirmed",
+                  "start": 156,
+                  "end": 209
+                },
+                {
+                  "quote": "Six in favor and opposed",
+                  "start": 1315,
+                  "end": 1339
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "superintendent",
+            "action": "amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+            "conditions": "Council confirmation of appointments and passage of the bill",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+              "The motion carries and the appointments are confirmed",
+              "Six in favor and opposed"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years",
+                "start": 464,
+                "end": 621
+              },
+              {
+                "quote": "The motion carries and the appointments are confirmed",
+                "start": 156,
+                "end": 209
+              },
+              {
+                "quote": "Six in favor and opposed",
+                "start": 1315,
+                "end": 1339
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "d5073c77c858641a5dfae0317c5a1e3af62287f2ac66169a5db0ac9c755e18e9"
+    ]
+  }
+}

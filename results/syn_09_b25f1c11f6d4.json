@@ -1,0 +1,510 @@
+{
+  "example_id": "syn_09",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "e5a52858b595ae76382b5ffeacc18b21e5f273af0d26aa03ce8a61065e6714c8",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_09_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_09_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_09_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "712dff9c610e72a57cabc410c7bbb99a0c89ea5771fa0e7577a4a0b8e91d4efa",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_09_q1",
+          "answer": "A",
+          "evidence": "Rosa: Then I'll run it Tuesday even with the later delivery."
+        },
+        {
+          "id": "syn_09_q2",
+          "answer": "A",
+          "evidence": "Rosa: Then I'll run it Tuesday even with the later delivery."
+        },
+        {
+          "id": "syn_09_q3",
+          "answer": "B",
+          "evidence": "Rosa: Then I'll run it Tuesday even with the later delivery."
+        }
+      ],
+      "errors": [],
+      "call_key": "782714b34227410c0166cbf350d54e5dc6786adf7683a2076de0446c6d7efdcb",
+      "source_characters": 146,
+      "source": "Rosa: I'll run the evaluation if the data arrives Friday.\nSam: It will arrive Monday.\nRosa: Then I'll run it Tuesday even with the later delivery."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_09_q1",
+          "answer": "A",
+          "evidence": "Rosa confirmed that she would proceed with running the evaluation"
+        },
+        {
+          "id": "syn_09_q2",
+          "answer": "A",
+          "evidence": "Rosa confirmed that she would proceed with running the evaluation on Tuesday"
+        },
+        {
+          "id": "syn_09_q3",
+          "answer": "B",
+          "evidence": "Rosa confirmed that she would proceed with running the evaluation on Tuesday, accommodating the later delivery schedule"
+        }
+      ],
+      "errors": [],
+      "call_key": "30f766ad34bcddc2f283c0d040fc80eba847e46dc17a49b0c1f259e40ddf5380",
+      "source_characters": 447,
+      "source": "Rosa and Sam discussed the timing of an upcoming data evaluation. Rosa initially stated that she would run the evaluation if the necessary data arrived on Friday. Sam clarified that the data would not arrive until Monday. In response to this delay, Rosa confirmed that she would proceed with running the evaluation on Tuesday, accommodating the later delivery schedule. No other topics, decisions, or next steps were mentioned in the conversation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_09_q1",
+          "answer": "A",
+          "evidence": "\"owner\": \"Rosa\""
+        },
+        {
+          "id": "syn_09_q2",
+          "answer": "A",
+          "evidence": "\"deadline\": \"Tuesday\""
+        },
+        {
+          "id": "syn_09_q3",
+          "answer": "B",
+          "evidence": "Then I'll run it Tuesday even with the later delivery."
+        }
+      ],
+      "errors": [],
+      "call_key": "8dfb5a061b14a7b04ba19827f8700de6ff378396f502bf06cca850cbbdbb2a1f",
+      "source_characters": 2606,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Rosa\", \"action\": \"run the evaluation\", \"conditions\": null, \"deadline\": \"Tuesday\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll run the evaluation if the data arrives Friday.\", \"It will arrive Monday.\", \"Then I'll run it Tuesday even with the later delivery.\"], \"evidence_spans\": [{\"quote\": \"I'll run the evaluation if the data arrives Friday.\", \"start\": 6, \"end\": 57}, {\"quote\": \"It will arrive Monday.\", \"start\": 63, \"end\": 85}, {\"quote\": \"Then I'll run it Tuesday even with the later delivery.\", \"start\": 92, \"end\": 146}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Rosa\", \"action\": \"run the evaluation\", \"conditions\": \"data arrives Friday\", \"deadline\": \"Friday\", \"status\": \"conditional\", \"uncertainty\": null, \"evidence\": [\"I'll run the evaluation if the data arrives Friday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the evaluation if the data arrives Friday.\", \"start\": 6, \"end\": 57}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Rosa\", \"action\": \"run the evaluation\", \"conditions\": \"data arrives Friday\", \"deadline\": \"Friday\", \"status\": \"condition_failed\", \"uncertainty\": \"Data reported to arrive Monday, conflicting with Friday condition\", \"evidence\": [\"I'll run the evaluation if the data arrives Friday.\", \"It will arrive Monday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the evaluation if the data arrives Friday.\", \"start\": 6, \"end\": 57}, {\"quote\": \"It will arrive Monday.\", \"start\": 63, \"end\": 85}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Rosa\", \"action\": \"run the evaluation\", \"conditions\": \"data arrives Friday\", \"deadline\": \"Friday\", \"status\": \"condition_failed\", \"uncertainty\": \"Data reported to arrive Monday, conflicting with Friday condition\", \"evidence\": [\"I'll run the evaluation if the data arrives Friday.\", \"It will arrive Monday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the evaluation if the data arrives Friday.\", \"start\": 6, \"end\": 57}, {\"quote\": \"It will arrive Monday.\", \"start\": 63, \"end\": 85}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Rosa\", \"action\": \"run the evaluation\", \"conditions\": null, \"deadline\": \"Tuesday\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll run the evaluation if the data arrives Friday.\", \"It will arrive Monday.\", \"Then I'll run it Tuesday even with the later delivery.\"], \"evidence_spans\": [{\"quote\": \"I'll run the evaluation if the data arrives Friday.\", \"start\": 6, \"end\": 57}, {\"quote\": \"It will arrive Monday.\", \"start\": 63, \"end\": 85}, {\"quote\": \"Then I'll run it Tuesday even with the later delivery.\", \"start\": 92, \"end\": 146}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "8cd9881f1c84774d9e1d5ae8dd3b86b191665a6b82bc16f444ad84f529ada6a0",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Rosa",
+          "action": "run the evaluation",
+          "conditions": null,
+          "deadline": "Tuesday",
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "I'll run the evaluation if the data arrives Friday.",
+            "It will arrive Monday.",
+            "Then I'll run it Tuesday even with the later delivery."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'll run the evaluation if the data arrives Friday.",
+              "start": 6,
+              "end": 57
+            },
+            {
+              "quote": "It will arrive Monday.",
+              "start": 63,
+              "end": 85
+            },
+            {
+              "quote": "Then I'll run it Tuesday even with the later delivery.",
+              "start": 92,
+              "end": 146
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": "data arrives Friday",
+            "deadline": "Friday",
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": "data arrives Friday",
+            "deadline": "Friday",
+            "status": "condition_failed",
+            "uncertainty": "Data reported to arrive Monday, conflicting with Friday condition",
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday.",
+              "It will arrive Monday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              },
+              {
+                "quote": "It will arrive Monday.",
+                "start": 63,
+                "end": 85
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": "data arrives Friday",
+            "deadline": "Friday",
+            "status": "condition_failed",
+            "uncertainty": "Data reported to arrive Monday, conflicting with Friday condition",
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday.",
+              "It will arrive Monday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              },
+              {
+                "quote": "It will arrive Monday.",
+                "start": 63,
+                "end": 85
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": null,
+            "deadline": "Tuesday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday.",
+              "It will arrive Monday.",
+              "Then I'll run it Tuesday even with the later delivery."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              },
+              {
+                "quote": "It will arrive Monday.",
+                "start": 63,
+                "end": 85
+              },
+              {
+                "quote": "Then I'll run it Tuesday even with the later delivery.",
+                "start": 92,
+                "end": 146
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 58,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Rosa",
+              "action": "run the evaluation",
+              "conditions": "data arrives Friday",
+              "deadline": "Friday",
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll run the evaluation if the data arrives Friday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the evaluation if the data arrives Friday.",
+                  "start": 6,
+                  "end": 57
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": "data arrives Friday",
+            "deadline": "Friday",
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 58,
+        "end": 86,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Rosa",
+              "action": "run the evaluation",
+              "conditions": "data arrives Friday",
+              "deadline": "Friday",
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll run the evaluation if the data arrives Friday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the evaluation if the data arrives Friday.",
+                  "start": 6,
+                  "end": 57
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Rosa",
+              "action": "run the evaluation",
+              "conditions": "data arrives Friday",
+              "deadline": "Friday",
+              "status": "condition_failed",
+              "uncertainty": "Data reported to arrive Monday, conflicting with Friday condition",
+              "evidence": [
+                "I'll run the evaluation if the data arrives Friday.",
+                "It will arrive Monday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the evaluation if the data arrives Friday.",
+                  "start": 6,
+                  "end": 57
+                },
+                {
+                  "quote": "It will arrive Monday.",
+                  "start": 63,
+                  "end": 85
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": "data arrives Friday",
+            "deadline": "Friday",
+            "status": "condition_failed",
+            "uncertainty": "Data reported to arrive Monday, conflicting with Friday condition",
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday.",
+              "It will arrive Monday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              },
+              {
+                "quote": "It will arrive Monday.",
+                "start": 63,
+                "end": 85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 86,
+        "end": 146,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Rosa",
+              "action": "run the evaluation",
+              "conditions": "data arrives Friday",
+              "deadline": "Friday",
+              "status": "condition_failed",
+              "uncertainty": "Data reported to arrive Monday, conflicting with Friday condition",
+              "evidence": [
+                "I'll run the evaluation if the data arrives Friday.",
+                "It will arrive Monday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the evaluation if the data arrives Friday.",
+                  "start": 6,
+                  "end": 57
+                },
+                {
+                  "quote": "It will arrive Monday.",
+                  "start": 63,
+                  "end": 85
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Rosa",
+              "action": "run the evaluation",
+              "conditions": null,
+              "deadline": "Tuesday",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll run the evaluation if the data arrives Friday.",
+                "It will arrive Monday.",
+                "Then I'll run it Tuesday even with the later delivery."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the evaluation if the data arrives Friday.",
+                  "start": 6,
+                  "end": 57
+                },
+                {
+                  "quote": "It will arrive Monday.",
+                  "start": 63,
+                  "end": 85
+                },
+                {
+                  "quote": "Then I'll run it Tuesday even with the later delivery.",
+                  "start": 92,
+                  "end": 146
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Rosa",
+            "action": "run the evaluation",
+            "conditions": null,
+            "deadline": "Tuesday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the evaluation if the data arrives Friday.",
+              "It will arrive Monday.",
+              "Then I'll run it Tuesday even with the later delivery."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the evaluation if the data arrives Friday.",
+                "start": 6,
+                "end": 57
+              },
+              {
+                "quote": "It will arrive Monday.",
+                "start": 63,
+                "end": 85
+              },
+              {
+                "quote": "Then I'll run it Tuesday even with the later delivery.",
+                "start": 92,
+                "end": 146
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "91663a65a92dfbeb93ab25218f8901bbb53eb1d5fa5ffff978ec05e201af38d2",
+      "7f884f2b22f5453ebcded672a5067df87a83e6925b0bf3e05637d32af7aaf9eb",
+      "897d47f3bce56811953baf30167eaa8e2de28651cda72951ec13bf9141c772e2"
+    ]
+  }
+}

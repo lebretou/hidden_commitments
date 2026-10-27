@@ -1,0 +1,999 @@
+{
+  "example_id": "mb_08",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "3d4f3be93889b016b96fef4176b46341c73b33943c88a36444c27521a1bd67f2",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_08_q1",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "mb_08_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_08_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "17c73606aedd5b682605b7184a0eaec51aa6fb0623db01b9224a129aacbe0651",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_08_q1",
+          "answer": "B",
+          "evidence": "That was a joke. I'm just going to go through some of the highlights."
+        },
+        {
+          "id": "mb_08_q2",
+          "answer": "B",
+          "evidence": "which is a check in in about six months"
+        },
+        {
+          "id": "mb_08_q3",
+          "answer": "B",
+          "evidence": "The bill passes and the chair will sign it."
+        }
+      ],
+      "errors": [],
+      "call_key": "4f79b5fb3f68b565ef1326a5c9d211072f7c9524c3ce6f74e3c6646fb331138f",
+      "source_characters": 9158,
+      "source": "The Report of the Public Safety, Civil Rights and Technology Committee Agenda Item 14 Kalispell 118 585 Relating to employment in Seattle amending chapters 14.16 14 point 17.18, 14.19 and 14.20. The Speaker to prescribe additional remedies and enforcement procedures, harmonized ordinance language and add provisions to facilitate compliance. Amending Section 3.14 point 931 of Mr. Code to update duties of the Human Rights Commission and in many section 5.50 5.2 34 code to require labor standards, compliance for business license, text or certificates. The committee recommends the bill passed as amended. Thank you, Councilmember Harrell. Thank you very much. Well, this is an exciting piece of legislation basically designed to strengthen our labor laws, to protect our workers here, to penalize bad actors and to provide clarity to business, and to assist us in our efforts to clarify for businesses their rights and responsibilities by way of context. You may recall that this council, under the leadership of Councilmember Sawant, O'Brien and Rasmussen, sponsored a green sheet that requested the mayor's office to prepare legislation to increase the penalties levied on employers who violated our labor laws and to increase or clarify the remedies of workers. And so in the executive's response through their office in the Office of Labor Standards, they engaged with stakeholders on all sides of this issue in approximately 26 meetings, community meetings, business meetings, etc.. Three of these meetings, it's my understanding, involved large groups of more than 30 businesses and community stakeholders, and five meetings involve smaller groups of stakeholders with a more focused interest or focused approach. So this bill that I'm asking you to support is basically 175 page bill. So it's going to take me about an hour to get through. So bear with me. That was a joke. I'm just going to go through some of the highlights. Any me recall we've had several committee discussions on this and I just want to touch on some highlights. Probably one of the first and most important and significant parts of this legislation is that it provides a private right of action for paid, sick and safe time. The minimum wage ordinance and wage theft remedies. These are legal and provides an employee legal and equitable relief without limitation up to three times of unpaid wages or compensation. It provides penalties to an aggrieved party for retaliate retaliation up to $5,000 and provides for attorney's fees and costs. The effective date of that private right of action is April 1st, 2016, for businesses with 50 or more employees, and April 1st, 2017 for businesses with fewer than 50 employees. And the thought there is to give some of the smaller businesses the time to not only become educated, but to acclimate. And we want it. We've invested resources to make sure that there's a strong education component of what we're trying to do. We've increased remedies for all workers. An example would be on paid and sick and safe time and the minimum wage and wage theft ordinance. Minimum Wage Ordinance first violation is discretionary up to three times of unpaid wages or compensation plus interest and the job assistance or the ordinance or the ban. The box now known as Fair Chance Employment Ordinance, the first violations manager, up to 500 to each agree each party. And this is where an employer unlawfully inquires and makes judgments about a person's criminal background or history. Second violations manager up to 1000 to each aggrieved party and a third violations mandatory up to 5000 each aggrieved party. In addition to what I just described, we strengthen civil penalties for employer violations paid, paid, sick, and save time in the minimum wage ordinance. Wage theft or first violation is discretionary. Up to 500 per aggrieved party. All the way to a third violation is up to manager up to 5000 per aggrieved party. Again, I'm looking at sort of pages of descriptions of this, but I think many of you have been briefed on this. You're well versed in this area. So I want to. Sure. There's one part I do want to describe, and that is the purpose in or the methodology and the process that is described in this harmonization of of of of processes is encouraged to is designed to encourage investigation, education and resolution settlements, if possible. But in that vein, we're also prepared to enforce aggressively giving the Office of Labor Standards discretion on making sure that we are meaningfully protecting the rights of the workers. So in that vein, I do want to thank Dylan for the Division Director of the Office of Labor Standards, David Mendoza from the Mayor's Office, Carina Ball, the senior policy analyst from the Office of Labor Standards, and Patricia Lee doing an incredible job on this ordinance from central staff. Again, a lot of issues in this. As I said, we also have one amendment I made at the committee table, which is a check in in about six months to whatever councilmember are overseeing the Office of Labor Standards to check in to hear from workers, community activists, businesses, small and large to see how this scheme of remedies are working. So we look forward to that check in in six months. The committee asked for support of this ordinance. Thank you. Questions or comments? Councilmember Licata. I believe this is probably one of the most important pieces of legislation will pass today. It's the kind of legislation that, you know, we don't have a large crowd here for it, but many more people will be affected, I believe, by this legislation. Then probably everything else will pass today. It really allows us to put some teeth into the legislation of passing that we have passed regarding labor standards. And without any enforcement and without any effective enforcement and without a well thought out or organized structure for this city to move forward on. We could pass as many bills as we want to regarding labor standards. If they're not if there's no mechanism to enforce them, then they're not going to be worth very much, not even what they were basically been written on. So I want to thank the council members that were mentioned by customer hell as well as customer health for seniors through. Councilmember Swan. Thank you, President Burgess. Thank you, Councilmember Harrell, for bringing this forward in your committee. As has been stated, this legislation, if but when passed, it will be very important anecdotally. Unfortunately, we don't have huge statistics, but anecdotally the message is very, very clear. Wage theft is rampant in Seattle. My office gets contacted by constituents regularly. That report wage theft or other violations of their law, of the labor law, of their rights. The companies that commit this crime continue to get away with it because if they're caught, they face little more consequence right now than having to pay the wages they should have paid in the first place. And as Gordon Brown mentioned in last year's budget council passed a statement of legislative intended. My office drafted asking the mayor's office to provide an ordinance increasing the penalties and remedies for wage theft. And I think that this legislation will successfully do that. Workers become eligible for three times what is stolen from them. Which will help them, those workers who may have built up debts after being underpaid their wages. And it will help also as a deterrent for unscrupulous business who may have maybe repeat offenders. There will eventually be a private rate of action so workers are empowered to pursue remedies for wage theft if the Office of Labor Standards is not able to. And as Councilmember Legarda correctly said, many workers, a whole host of workers in Seattle will be impacted by this law. But do make effective use of this improved law. Workers will still need to keep getting organized and educate each other of their rights. And moreover, we need more workers organized into unions. So in as a matter of fact, the effectiveness of a law like this of a legislation like this is enhanced by increased unionization, like the bill that we just passed for our bass drivers. I wanted to thank the labor movement for participating in the task force that reviewed the various proposals and fighting to make sure that it had meaningful, meaningful remedies and penalties. I'm positive that without those efforts, we would not have had the quality ordinance that we have in front of us today. And also, thank you to potentially and the Office of Labor Standards. And I will be voting yes on this. Thank you. Other comments? Please call the role on the passage of the bill. Godden High Gonzalez I Harrell Lakota O'Brian High Rasmussen so on president purchased eight in favor nine oppose. The bill passes and the chair will sign it. Please read items 15 and 16. Agenda Item 1516. Appointment 20 and 247. Re-appointment of Tara Henriksen as member of Seattle Fire Advisory Board for Term of Confirmation August 31st, 2018 and reappointment of James B Moran as members of Fire Code Advisory Board four Term Confirmation to October 31st, 2018."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_08_q1",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "mb_08_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_08_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "28c591e5764ad41dc7194afb2e0582f426c78d86f6e7a1c15cb84374d8e90305",
+      "source_characters": 512,
+      "source": "AN ORDINANCE relating to employment in Seattle; amending Chapters 14.16, 14.17, 14.19, and 14.20 of the Seattle Municipal Code to prescribe additional remedies and enforcement procedures, harmonize ordinance language, and add provisions to facilitate compliance; amending Section 3.14.931 of the Seattle Municipal Code to update duties of the Seattle Human Rights Commission; and amending Section 5.55.230 of the Seattle Municipal Code to require labor standards compliance for business license tax certificates."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_08_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_08_q2",
+          "answer": "B",
+          "evidence": "A six-month check-in is scheduled"
+        },
+        {
+          "id": "mb_08_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "db8cc388dab1eb07aadb06255257e8dcbc4b5add9e128d578e1fc60f324f7874",
+      "source_characters": 2304,
+      "source": "The Seattle City Council convened to discuss Agenda Item 14, a bill recommended by the Public Safety, Civil Rights and Technology Committee to amend employment ordinances in Seattle. The legislation aims to strengthen labor laws, protect workers, penalize bad actors, and provide clarity to businesses regarding their rights and responsibilities. Councilmember Harrell introduced the bill, noting it originated from a \"green sheet\" request to the Mayor’s office to increase penalties for labor law violations and clarify worker remedies. The Office of Labor Standards engaged stakeholders in approximately 26 meetings to develop the 175-page bill.\n\nKey provisions include a private right of action for paid, sick, and safe time, minimum wage, and wage theft remedies, allowing employees to seek legal and equitable relief up to three times unpaid wages. Penalties for retaliation are set at up to $5,000, with attorney’s fees and costs covered. The effective date is April 1, 2016, for businesses with 50 or more employees, and April 1, 2017, for smaller businesses, allowing time for education and acclimation. The bill also increases remedies for violations of the Fair Chance Employment Ordinance, with penalties escalating from $500 for first violations to $5,000 for third violations. Civil penalties for wage theft and other violations range from $500 to $5,000 per aggrieved party, depending on the severity and recurrence of the violation.\n\nThe legislation emphasizes a methodology designed to encourage investigation, education, and settlement, while granting the Office of Labor Standards discretion to enforce aggressively. A six-month check-in is scheduled to assess the effectiveness of the new remedies. Councilmember Licata highlighted the importance of effective enforcement mechanisms, while Councilmember Swan noted the prevalence of wage theft and the need for stronger deterrents. Both expressed support for the bill, emphasizing its impact on workers and the necessity of unionization and worker education.\n\nThe Council voted to pass the bill, with eight in favor and one opposed. Following the passage, the meeting moved to Agenda Items 15 and 16, concerning the re-appointment of Tara Henriksen to the Seattle Fire Advisory Board and James B. Moran to the Fire Code Advisory Board."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_08_q1",
+          "answer": "B",
+          "evidence": "I'm just going to go through some of the highlights."
+        },
+        {
+          "id": "mb_08_q2",
+          "answer": "B",
+          "evidence": "check in in about six months"
+        },
+        {
+          "id": "mb_08_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "9433f72ada89ddaf4949725bc3b33261a4254e89e4be9bbbf41d53fc03d8a94a",
+      "source_characters": 4799,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Councilmember Harrell\", \"action\": \"Present highlights of the 175-page bill\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": null, \"evidence\": [\"I'm just going to go through some of the highlights.\", \"The bill passes\"], \"evidence_spans\": [{\"quote\": \"I'm just going to go through some of the highlights.\", \"start\": 1884, \"end\": 1936}, {\"quote\": \"The bill passes\", \"start\": 8807, \"end\": 8822}]}, {\"id\": \"c2\", \"owner\": \"Council\", \"action\": \"Support the bill\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Vote recorded as 8 in favor, 9 oppose; bill passed\", \"evidence\": [\"this bill that I'm asking you to support\", \"eight in favor nine oppose. The bill passes\"], \"evidence_spans\": [{\"quote\": \"this bill that I'm asking you to support\", \"start\": 1726, \"end\": 1766}, {\"quote\": \"eight in favor nine oppose. The bill passes\", \"start\": 8779, \"end\": 8822}]}, {\"id\": \"c3\", \"owner\": \"Councilmember Harrell\", \"action\": \"Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses\", \"conditions\": null, \"deadline\": \"in about six months\", \"status\": \"active\", \"uncertainty\": \"Amendment made at the committee table; specific oversight councilmember not named\", \"evidence\": [\"check in in about six months to whatever councilmember are overseeing the Office of Labor Standards\"], \"evidence_spans\": [{\"quote\": \"check in in about six months to whatever councilmember are overseeing the Office of Labor Standards\", \"start\": 4973, \"end\": 5072}]}, {\"id\": \"c4\", \"owner\": \"Council\", \"action\": \"Support the ordinance\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Vote recorded as 8 in favor, 9 oppose; bill passed\", \"evidence\": [\"The committee asked for support of this ordinance.\", \"eight in favor nine oppose. The bill passes\"], \"evidence_spans\": [{\"quote\": \"The committee asked for support of this ordinance.\", \"start\": 5255, \"end\": 5305}, {\"quote\": \"eight in favor nine oppose. The bill passes\", \"start\": 8779, \"end\": 8822}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Councilmember Harrell\", \"action\": \"Present highlights of the 175-page bill\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'm just going to go through some of the highlights.\"], \"evidence_spans\": [{\"quote\": \"I'm just going to go through some of the highlights.\", \"start\": 1884, \"end\": 1936}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Councilmember Harrell\", \"action\": \"Present highlights of the 175-page bill\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": null, \"evidence\": [\"I'm just going to go through some of the highlights.\", \"The bill passes\"], \"evidence_spans\": [{\"quote\": \"I'm just going to go through some of the highlights.\", \"start\": 1884, \"end\": 1936}, {\"quote\": \"The bill passes\", \"start\": 8807, \"end\": 8822}]}}, {\"id\": \"c2\", \"before\": {\"id\": \"c2\", \"owner\": \"Council\", \"action\": \"Support the bill\", \"conditions\": null, \"deadline\": null, \"status\": \"suggested\", \"uncertainty\": \"Request for support, not personal acceptance\", \"evidence\": [\"this bill that I'm asking you to support\"], \"evidence_spans\": [{\"quote\": \"this bill that I'm asking you to support\", \"start\": 1726, \"end\": 1766}]}, \"after\": {\"id\": \"c2\", \"owner\": \"Council\", \"action\": \"Support the bill\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Vote recorded as 8 in favor, 9 oppose; bill passed\", \"evidence\": [\"this bill that I'm asking you to support\", \"eight in favor nine oppose. The bill passes\"], \"evidence_spans\": [{\"quote\": \"this bill that I'm asking you to support\", \"start\": 1726, \"end\": 1766}, {\"quote\": \"eight in favor nine oppose. The bill passes\", \"start\": 8779, \"end\": 8822}]}}, {\"id\": \"c4\", \"before\": {\"id\": \"c4\", \"owner\": \"Council\", \"action\": \"Support the ordinance\", \"conditions\": null, \"deadline\": null, \"status\": \"suggested\", \"uncertainty\": \"Committee request for support, not personal acceptance\", \"evidence\": [\"The committee asked for support of this ordinance.\"], \"evidence_spans\": [{\"quote\": \"The committee asked for support of this ordinance.\", \"start\": 5255, \"end\": 5305}]}, \"after\": {\"id\": \"c4\", \"owner\": \"Council\", \"action\": \"Support the ordinance\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Vote recorded as 8 in favor, 9 oppose; bill passed\", \"evidence\": [\"The committee asked for support of this ordinance.\", \"eight in favor nine oppose. The bill passes\"], \"evidence_spans\": [{\"quote\": \"The committee asked for support of this ordinance.\", \"start\": 5255, \"end\": 5305}, {\"quote\": \"eight in favor nine oppose. The bill passes\", \"start\": 8779, \"end\": 8822}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "29e7906d5aebc6dd16447d55d03d148c9fcc4280ccecbdd06e22aeb09b090032",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Councilmember Harrell",
+          "action": "Present highlights of the 175-page bill",
+          "conditions": null,
+          "deadline": null,
+          "status": "completed",
+          "uncertainty": null,
+          "evidence": [
+            "I'm just going to go through some of the highlights.",
+            "The bill passes"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'm just going to go through some of the highlights.",
+              "start": 1884,
+              "end": 1936
+            },
+            {
+              "quote": "The bill passes",
+              "start": 8807,
+              "end": 8822
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "Council",
+          "action": "Support the bill",
+          "conditions": null,
+          "deadline": null,
+          "status": "completed",
+          "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+          "evidence": [
+            "this bill that I'm asking you to support",
+            "eight in favor nine oppose. The bill passes"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "this bill that I'm asking you to support",
+              "start": 1726,
+              "end": 1766
+            },
+            {
+              "quote": "eight in favor nine oppose. The bill passes",
+              "start": 8779,
+              "end": 8822
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "owner": "Councilmember Harrell",
+          "action": "Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses",
+          "conditions": null,
+          "deadline": "in about six months",
+          "status": "active",
+          "uncertainty": "Amendment made at the committee table; specific oversight councilmember not named",
+          "evidence": [
+            "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards",
+              "start": 4973,
+              "end": 5072
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "owner": "Council",
+          "action": "Support the ordinance",
+          "conditions": null,
+          "deadline": null,
+          "status": "completed",
+          "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+          "evidence": [
+            "The committee asked for support of this ordinance.",
+            "eight in favor nine oppose. The bill passes"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "The committee asked for support of this ordinance.",
+              "start": 5255,
+              "end": 5305
+            },
+            {
+              "quote": "eight in favor nine oppose. The bill passes",
+              "start": 8779,
+              "end": 8822
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights.",
+              "The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              },
+              {
+                "quote": "The bill passes",
+                "start": 8807,
+                "end": 8822
+              }
+            ]
+          }
+        },
+        {
+          "id": "c2",
+          "before": {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Request for support, not personal acceptance",
+            "evidence": [
+              "this bill that I'm asking you to support"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              }
+            ]
+          },
+          "after": {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+            "evidence": [
+              "this bill that I'm asking you to support",
+              "eight in favor nine oppose. The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              },
+              {
+                "quote": "eight in favor nine oppose. The bill passes",
+                "start": 8779,
+                "end": 8822
+              }
+            ]
+          }
+        },
+        {
+          "id": "c4",
+          "before": {
+            "id": "c4",
+            "owner": "Council",
+            "action": "Support the ordinance",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Committee request for support, not personal acceptance",
+            "evidence": [
+              "The committee asked for support of this ordinance."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "The committee asked for support of this ordinance.",
+                "start": 5255,
+                "end": 5305
+              }
+            ]
+          },
+          "after": {
+            "id": "c4",
+            "owner": "Council",
+            "action": "Support the ordinance",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+            "evidence": [
+              "The committee asked for support of this ordinance.",
+              "eight in favor nine oppose. The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "The committee asked for support of this ordinance.",
+                "start": 5255,
+                "end": 5305
+              },
+              {
+                "quote": "eight in favor nine oppose. The bill passes",
+                "start": 8779,
+                "end": 8822
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 2043,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Councilmember Harrell",
+              "action": "Present highlights of the 175-page bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'm just going to go through some of the highlights."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'm just going to go through some of the highlights.",
+                  "start": 1884,
+                  "end": 1936
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "Council",
+              "action": "Support the bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Request for support, not personal acceptance",
+              "evidence": [
+                "this bill that I'm asking you to support"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "this bill that I'm asking you to support",
+                  "start": 1726,
+                  "end": 1766
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Request for support, not personal acceptance",
+            "evidence": [
+              "this bill that I'm asking you to support"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 2043,
+        "end": 4105,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Request for support, not personal acceptance",
+            "evidence": [
+              "this bill that I'm asking you to support"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 4105,
+        "end": 6294,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c3",
+              "owner": "Councilmember Harrell",
+              "action": "Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses",
+              "conditions": null,
+              "deadline": "in about six months",
+              "status": "active",
+              "uncertainty": "Amendment made at the committee table; specific oversight councilmember not named",
+              "evidence": [
+                "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards",
+                  "start": 4973,
+                  "end": 5072
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c4",
+              "owner": "Council",
+              "action": "Support the ordinance",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Committee request for support, not personal acceptance",
+              "evidence": [
+                "The committee asked for support of this ordinance."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "The committee asked for support of this ordinance.",
+                  "start": 5255,
+                  "end": 5305
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Request for support, not personal acceptance",
+            "evidence": [
+              "this bill that I'm asking you to support"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "owner": "Councilmember Harrell",
+            "action": "Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses",
+            "conditions": null,
+            "deadline": "in about six months",
+            "status": "active",
+            "uncertainty": "Amendment made at the committee table; specific oversight councilmember not named",
+            "evidence": [
+              "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards",
+                "start": 4973,
+                "end": 5072
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "owner": "Council",
+            "action": "Support the ordinance",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Committee request for support, not personal acceptance",
+            "evidence": [
+              "The committee asked for support of this ordinance."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "The committee asked for support of this ordinance.",
+                "start": 5255,
+                "end": 5305
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 3,
+        "start": 6294,
+        "end": 8391,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Request for support, not personal acceptance",
+            "evidence": [
+              "this bill that I'm asking you to support"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "owner": "Councilmember Harrell",
+            "action": "Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses",
+            "conditions": null,
+            "deadline": "in about six months",
+            "status": "active",
+            "uncertainty": "Amendment made at the committee table; specific oversight councilmember not named",
+            "evidence": [
+              "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards",
+                "start": 4973,
+                "end": 5072
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "owner": "Council",
+            "action": "Support the ordinance",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Committee request for support, not personal acceptance",
+            "evidence": [
+              "The committee asked for support of this ordinance."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "The committee asked for support of this ordinance.",
+                "start": 5255,
+                "end": 5305
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 4,
+        "start": 8391,
+        "end": 9158,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Councilmember Harrell",
+              "action": "Present highlights of the 175-page bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'm just going to go through some of the highlights."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'm just going to go through some of the highlights.",
+                  "start": 1884,
+                  "end": 1936
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Councilmember Harrell",
+              "action": "Present highlights of the 175-page bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "completed",
+              "uncertainty": null,
+              "evidence": [
+                "I'm just going to go through some of the highlights.",
+                "The bill passes"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'm just going to go through some of the highlights.",
+                  "start": 1884,
+                  "end": 1936
+                },
+                {
+                  "quote": "The bill passes",
+                  "start": 8807,
+                  "end": 8822
+                }
+              ]
+            }
+          },
+          {
+            "before": {
+              "id": "c2",
+              "owner": "Council",
+              "action": "Support the bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Request for support, not personal acceptance",
+              "evidence": [
+                "this bill that I'm asking you to support"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "this bill that I'm asking you to support",
+                  "start": 1726,
+                  "end": 1766
+                }
+              ]
+            },
+            "after": {
+              "id": "c2",
+              "owner": "Council",
+              "action": "Support the bill",
+              "conditions": null,
+              "deadline": null,
+              "status": "completed",
+              "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+              "evidence": [
+                "this bill that I'm asking you to support",
+                "eight in favor nine oppose. The bill passes"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "this bill that I'm asking you to support",
+                  "start": 1726,
+                  "end": 1766
+                },
+                {
+                  "quote": "eight in favor nine oppose. The bill passes",
+                  "start": 8779,
+                  "end": 8822
+                }
+              ]
+            }
+          },
+          {
+            "before": {
+              "id": "c4",
+              "owner": "Council",
+              "action": "Support the ordinance",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Committee request for support, not personal acceptance",
+              "evidence": [
+                "The committee asked for support of this ordinance."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "The committee asked for support of this ordinance.",
+                  "start": 5255,
+                  "end": 5305
+                }
+              ]
+            },
+            "after": {
+              "id": "c4",
+              "owner": "Council",
+              "action": "Support the ordinance",
+              "conditions": null,
+              "deadline": null,
+              "status": "completed",
+              "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+              "evidence": [
+                "The committee asked for support of this ordinance.",
+                "eight in favor nine oppose. The bill passes"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "The committee asked for support of this ordinance.",
+                  "start": 5255,
+                  "end": 5305
+                },
+                {
+                  "quote": "eight in favor nine oppose. The bill passes",
+                  "start": 8779,
+                  "end": 8822
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Councilmember Harrell",
+            "action": "Present highlights of the 175-page bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": null,
+            "evidence": [
+              "I'm just going to go through some of the highlights.",
+              "The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'm just going to go through some of the highlights.",
+                "start": 1884,
+                "end": 1936
+              },
+              {
+                "quote": "The bill passes",
+                "start": 8807,
+                "end": 8822
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council",
+            "action": "Support the bill",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+            "evidence": [
+              "this bill that I'm asking you to support",
+              "eight in favor nine oppose. The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "this bill that I'm asking you to support",
+                "start": 1726,
+                "end": 1766
+              },
+              {
+                "quote": "eight in favor nine oppose. The bill passes",
+                "start": 8779,
+                "end": 8822
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "owner": "Councilmember Harrell",
+            "action": "Check in with the councilmember overseeing the Office of Labor Standards to hear from workers, community activists, and businesses",
+            "conditions": null,
+            "deadline": "in about six months",
+            "status": "active",
+            "uncertainty": "Amendment made at the committee table; specific oversight councilmember not named",
+            "evidence": [
+              "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "check in in about six months to whatever councilmember are overseeing the Office of Labor Standards",
+                "start": 4973,
+                "end": 5072
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "owner": "Council",
+            "action": "Support the ordinance",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Vote recorded as 8 in favor, 9 oppose; bill passed",
+            "evidence": [
+              "The committee asked for support of this ordinance.",
+              "eight in favor nine oppose. The bill passes"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "The committee asked for support of this ordinance.",
+                "start": 5255,
+                "end": 5305
+              },
+              {
+                "quote": "eight in favor nine oppose. The bill passes",
+                "start": 8779,
+                "end": 8822
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "aa27f90c0f3af5ee798ee6431566fdae6f6752210aa4770b4676ef2ce0c12ab1",
+      "6fb8d2d7bfbd18b5db26022b506710d76183fe5c0b8b07852d8e738cd370a91c",
+      "5cc0b0fe0b246c73263a011feacba5c541bc65985675819829523b36a2d53831",
+      "7b87d2518c0de15e2d334a03250695a675ab5d4fe5a6334fb275aa5154572196",
+      "ef7494158d95c33974d84fff0824317f53b55c2dfaf0444699173778be06c6a2"
+    ]
+  }
+}

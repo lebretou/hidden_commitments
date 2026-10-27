@@ -1,0 +1,350 @@
+{
+  "example_id": "syn_02",
+  "domain": "synthetic",
+  "split": "dev",
+  "input_hash": "efe488460c57df841447bb727947bf5825548f99ecde0b3997e755fda064b573",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_02_q1",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "syn_02_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_02_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "3bfe5ec73b6630c0bc6cbcb43d41d49d9f6d1e4a25df55ccf716cafd047529b6",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_02_q1",
+          "answer": "A",
+          "evidence": "Noah: I'll send the draft on Thursday."
+        },
+        {
+          "id": "syn_02_q2",
+          "answer": "B",
+          "evidence": "Noah: Correction: I'll send it on Friday instead."
+        },
+        {
+          "id": "syn_02_q3",
+          "answer": "A",
+          "evidence": "Noah: Correction: I'll send it on Friday instead."
+        }
+      ],
+      "errors": [],
+      "call_key": "f53b466eaaae714fc02290264f89284e22e020a0be985674a94a62b9237e56c4",
+      "source_characters": 108,
+      "source": "Noah: I'll send the draft on Thursday.\nNoah: Correction: I'll send it on Friday instead.\nIris: Friday works."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_02_q1",
+          "answer": "A",
+          "evidence": "Noah indicated that he would send the draft"
+        },
+        {
+          "id": "syn_02_q2",
+          "answer": "B",
+          "evidence": "clarifying that the draft would be sent on Friday instead"
+        },
+        {
+          "id": "syn_02_q3",
+          "answer": "A",
+          "evidence": "Initially, Noah indicated that he would send the draft on Thursday. However, he subsequently corrected this statement"
+        }
+      ],
+      "errors": [],
+      "call_key": "a27a6e98f566ed9f6918cf17d3a8e0ca44408c28b8fb48d7a19a4f0a672a1cb8",
+      "source_characters": 393,
+      "source": "Noah and Iris discussed the timing for the delivery of a draft. Initially, Noah indicated that he would send the draft on Thursday. However, he subsequently corrected this statement, clarifying that the draft would be sent on Friday instead. Iris confirmed that Friday is an acceptable date for receiving the draft. No other topics, decisions, or next steps were mentioned in the conversation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_02_q1",
+          "answer": "A",
+          "evidence": "\"owner\": \"Noah\""
+        },
+        {
+          "id": "syn_02_q2",
+          "answer": "B",
+          "evidence": "\"deadline\": \"Friday\""
+        },
+        {
+          "id": "syn_02_q3",
+          "answer": "A",
+          "evidence": "\"before\": {\"id\": \"c1\", \"owner\": \"Noah\", \"action\": \"send the draft\", \"conditions\": null, \"deadline\": \"Thursday\""
+        }
+      ],
+      "errors": [],
+      "call_key": "e626282d69fca4e4ece0987a1b081feafc545678fe9a38c2459f52f1626b09be",
+      "source_characters": 943,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Noah\", \"action\": \"send the draft\", \"conditions\": null, \"deadline\": \"Friday\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll send it on Friday instead.\"], \"evidence_spans\": [{\"quote\": \"I'll send it on Friday instead.\", \"start\": 57, \"end\": 88}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Noah\", \"action\": \"send the draft\", \"conditions\": null, \"deadline\": \"Thursday\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll send the draft on Thursday.\"], \"evidence_spans\": [{\"quote\": \"I'll send the draft on Thursday.\", \"start\": 6, \"end\": 38}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Noah\", \"action\": \"send the draft\", \"conditions\": null, \"deadline\": \"Friday\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll send it on Friday instead.\"], \"evidence_spans\": [{\"quote\": \"I'll send it on Friday instead.\", \"start\": 57, \"end\": 88}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "a81f1062be61c27c42b6dcca33e30b052ff6075505cf7f0b83a81a375db291d3",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Noah",
+          "action": "send the draft",
+          "conditions": null,
+          "deadline": "Friday",
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "I'll send it on Friday instead."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'll send it on Friday instead.",
+              "start": 57,
+              "end": 88
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Noah",
+            "action": "send the draft",
+            "conditions": null,
+            "deadline": "Thursday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll send the draft on Thursday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll send the draft on Thursday.",
+                "start": 6,
+                "end": 38
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Noah",
+            "action": "send the draft",
+            "conditions": null,
+            "deadline": "Friday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll send it on Friday instead."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll send it on Friday instead.",
+                "start": 57,
+                "end": 88
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 39,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Noah",
+              "action": "send the draft",
+              "conditions": null,
+              "deadline": "Thursday",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll send the draft on Thursday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll send the draft on Thursday.",
+                  "start": 6,
+                  "end": 38
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Noah",
+            "action": "send the draft",
+            "conditions": null,
+            "deadline": "Thursday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll send the draft on Thursday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll send the draft on Thursday.",
+                "start": 6,
+                "end": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 39,
+        "end": 89,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Noah",
+              "action": "send the draft",
+              "conditions": null,
+              "deadline": "Thursday",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll send the draft on Thursday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll send the draft on Thursday.",
+                  "start": 6,
+                  "end": 38
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Noah",
+              "action": "send the draft",
+              "conditions": null,
+              "deadline": "Friday",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll send it on Friday instead."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll send it on Friday instead.",
+                  "start": 57,
+                  "end": 88
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Noah",
+            "action": "send the draft",
+            "conditions": null,
+            "deadline": "Friday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll send it on Friday instead."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll send it on Friday instead.",
+                "start": 57,
+                "end": 88
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 89,
+        "end": 108,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Noah",
+            "action": "send the draft",
+            "conditions": null,
+            "deadline": "Friday",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll send it on Friday instead."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll send it on Friday instead.",
+                "start": 57,
+                "end": 88
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "0435376056aa3d4816b9c18bae710855bf35b90bdc5f2448439ac33134820eed",
+      "a92804f962548b49c6810405bdeecfa2bcc8a7cadd36bddb01e22b3cec0e25b5",
+      "781411527f6655969741e61d2974dfd504e104fde47d3c64165906cebb53181d"
+    ]
+  }
+}

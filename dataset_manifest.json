@@ -1,0 +1,22 @@
+{
+  "version": "pilot-v0.1",
+  "seed": 848,
+  "annotation_status": "AI-authored draft; not independently human-validated",
+  "dataset_url": "https://huggingface.co/datasets/huuuyeah/meetingbank",
+  "license": "CC-BY-NC-SA-4.0 (MeetingBank-derived data)",
+  "source_file_sha256": "efd90b86345fe7d75d44502ae394d352e977956b2a3983df11ea8a25cd78bf99",
+  "source_split": "validation",
+  "screened_random_sample": 30,
+  "selected_real": 12,
+  "synthetic": 10,
+  "questions": 66,
+  "selection": "Random seed 848 selects 30 validation entries. Twelve are manually inspected by the assistant and purposively selected for length and phenomena. This is not a representative random evaluation sample.",
+  "split": "4 real + 2 synthetic development; 8 real + 8 synthetic pilot. Grouped by source meeting. Pilot is provisional, not a final held-out benchmark.",
+  "limitations": [
+    "No human agreement measured",
+    "Synthetic cases authored by the assistant",
+    "Reference summaries are not available for synthetic cases",
+    "MeetingBank text is noisy and not diarized",
+    "QA probes are not exhaustive commitment annotations"
+  ]
+}

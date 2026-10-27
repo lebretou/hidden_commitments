@@ -1,0 +1,56 @@
+{
+  "status": "Assistant audit, pending independent human review; examples are not a measured error rate",
+  "cases": [
+    {
+      "example_id": "mb_00",
+      "split": "dev",
+      "runner_version": "0.2.0",
+      "categories": [
+        "F1",
+        "F7"
+      ],
+      "finding": "The tracker assigns an active record to the city manager with uncertainty=null from an authorization recommendation. It nevertheless answers all three draft QA probes correctly.",
+      "record_id": "c1",
+      "evidence_issue": "The exact quote Motion carries resolves to characters 0-14, before Next item and the WIOA recommendation. That occurrence concerns the preceding item. A later noisy passage also reports a motion outcome, but the selected quote and saved offset do not point to it.",
+      "implication": "Exact quotation matching and downstream QA accuracy do not establish semantically correct commitment records. Review record status and evidence attachment separately."
+    },
+    {
+      "example_id": "mb_08",
+      "split": "pilot",
+      "runner_version": "0.2.0",
+      "categories": [
+        "F9"
+      ],
+      "finding": "The transcript states that the chair will sign the passed bill. The generated summary and tracker omit this role-based future action, and both miss the owner probe. The transcript condition answers it correctly. The reference summary describes the ordinance but omits all three probed details.",
+      "question_id": "mb_08_q3",
+      "implication": "A substantive summary and a structured ledger can both drop a brief procedural commitment. This is one illustrative case, not an estimated omission rate."
+    },
+    {
+      "example_id": "mb_17",
+      "split": "pilot",
+      "runner_version": "0.2.0",
+      "categories": [
+        "F3",
+        "F9"
+      ],
+      "finding": "The tracker retains furlough availability but omits the September-eight return of the elected-official item and the promise to return to public comment after the technical problem is fixed. It misses both probes; the generated summary and transcript answer both correctly.",
+      "question_ids": [
+        "mb_17_q2",
+        "mb_17_q3"
+      ],
+      "implication": "A structured schema does not ensure recall of distinct tasks, dates, or procedural dependencies."
+    },
+    {
+      "example_id": "mb_29",
+      "split": "pilot",
+      "runner_version": "0.2.0",
+      "categories": [
+        "F3",
+        "F9"
+      ],
+      "finding": "The generated summary describes the allocation and the successful vote but omits the explicit approval prerequisite as a condition of making funds available. It misses the condition probe, which the tracker answers correctly.",
+      "question_id": "mb_29_q1",
+      "implication": "This is a local benefit of the tracker, alongside the cases where it loses information. Net real-pilot QA is still 21/24 for the tracker versus 22/24 for the generated summary."
+    }
+  ]
+}

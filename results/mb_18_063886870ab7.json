@@ -1,0 +1,329 @@
+{
+  "example_id": "mb_18",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "d09cfc2a2741fe7bf01d41a00c715ed712262fe2f16b433381395ef28267c44b",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_18_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_18_q2",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "mb_18_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "2603a2060d03d7bfad57df72f944207f17343c08b090ab4f8aa3b3a0378c7250",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_18_q1",
+          "answer": "B",
+          "evidence": "ask my colleagues to support this"
+        },
+        {
+          "id": "mb_18_q2",
+          "answer": "A",
+          "evidence": "once this is graded and capped"
+        },
+        {
+          "id": "mb_18_q3",
+          "answer": "C",
+          "evidence": "started the development of a vibrant park"
+        }
+      ],
+      "errors": [],
+      "call_key": "557ac7ea318e458c392465e0517602b189407b0a3532ca1f6bd014cb65bcc6c3",
+      "source_characters": 1038,
+      "source": "Motion carries. Next item report from Public Works and Financial Management Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project. For a total contract amount not to exceed 1.1 million District eight. Can I get a motion, please? There's a motion and a second. So, Councilman Austin. Well, I just want to just briefly speak on this and obviously ask my colleagues to support this. This is a giant step forward in developing phase two of Davenport Park, which has been a priority of ours in District eight for the last several years. This will put us in great position once this is graded and capped, to actually started the development of a vibrant park in a well-needed area of the community. And so I ask for your full support. Thank you. Any public comment scene, please cast your vote. Councilmember Soprano. Motion carries. Report from Development Services Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_18_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_18_q2",
+          "answer": "A",
+          "evidence": "55th Way Landfill Cover Improvement Project"
+        },
+        {
+          "id": "mb_18_q3",
+          "answer": "C",
+          "evidence": "award the contract to Road Builders, Inc."
+        }
+      ],
+      "errors": [],
+      "call_key": "6e76bcd02659eecef731c4da146d77434b1ee04f49a930047c98dc06d26d1241",
+      "source_characters": 871,
+      "source": "Recommendation to adopt Plans and Specifications No. R-7018 for the 55th Way Landfill Cover Improvement Project; award the contract to Road Builders, Inc., of Murrieta, CA, in the amount of $1,075,830, and authorize a 10 percent contingency in the amount of $107,583, for a total contract amount not to exceed $1,183,413; authorize City Manager, or designee, to execute all documents necessary to enter into the contract, including any necessary amendments thereto; and consider Categorical Exemption No. CE 16-097 (15301, Class 1); and Increase appropriations in the Capital Projects Fund (CP) in the Public Works Department (PW) by $500,000, offset by the State of California, Department of Resources Recycling and Recovery grant award, for the construction of the 55th Way Landfill Cover Improvement Project, a part of the Davenport Park Phase II Project. (District 8)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_18_q1",
+          "answer": "B",
+          "evidence": "Councilman Austin spoke in support of the measure"
+        },
+        {
+          "id": "mb_18_q2",
+          "answer": "A",
+          "evidence": "grading and capping the landfill will position the community to begin developing a vibrant park"
+        },
+        {
+          "id": "mb_18_q3",
+          "answer": "C",
+          "evidence": "grading and capping the landfill will position the community to begin developing a vibrant park"
+        }
+      ],
+      "errors": [],
+      "call_key": "b582e88da1fb3b87f5cd48e8aee982b01d0bd11f4ccef9d4b7182ebf58b9df35",
+      "source_characters": 1249,
+      "source": "The meeting addressed two primary items: a contract award for the 55th Way Landfill Cover Improvement Project and the adoption of an ordinance regarding billboards.\n\nRegarding the 55th Way Landfill Cover Improvement Project, the Public Works and Financial Management departments recommended awarding a contract to road builders for a total amount not exceeding $1.1 million. This project is located in District Eight. Councilman Austin spoke in support of the measure, describing it as a significant step forward in developing Phase Two of Davenport Park. He noted that this initiative has been a priority for District Eight for several years and emphasized that grading and capping the landfill will position the community to begin developing a vibrant park in an area with high need. Following his remarks, a motion and second were recorded. No public comment was offered. The council cast their votes, with Councilmember Soprano voting in favor, and the motion carried.\n\nThe next item on the agenda was a report from Development Services. The recommendation was to declare an ordinance amending the Long Beach Municipal Code relating to billboards as read and adopted citywide. The conversation concludes with this recommendation being presented."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_18_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_18_q2",
+          "answer": "A",
+          "evidence": "55th Way Landfill Cover Improvement Project"
+        },
+        {
+          "id": "mb_18_q3",
+          "answer": "C",
+          "evidence": "award a contract to road builders for the 55th Way Landfill Cover Improvement Project"
+        }
+      ],
+      "errors": [],
+      "call_key": "44a64f63638e9ae129e785f653aa077688b992c9f07b01b9f71f3ec58d7ce5b6",
+      "source_characters": 1385,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Public Works and Financial Management\", \"action\": \"award a contract to road builders for the 55th Way Landfill Cover Improvement Project\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Motion carried; contract amount not to exceed 1.1 million\", \"evidence\": [\"Motion carries\", \"Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project\"], \"evidence_spans\": [{\"quote\": \"Motion carries\", \"start\": 0, \"end\": 14}, {\"quote\": \"Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project\", \"start\": 76, \"end\": 179}]}, {\"id\": \"c2\", \"owner\": \"Development Services\", \"action\": \"declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide\", \"conditions\": null, \"deadline\": null, \"status\": \"completed\", \"uncertainty\": \"Motion carried\", \"evidence\": [\"Motion carries\", \"Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide\"], \"evidence_spans\": [{\"quote\": \"Motion carries\", \"start\": 0, \"end\": 14}, {\"quote\": \"Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide\", \"start\": 911, \"end\": 1037}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "5faa7026c01e13194fb7a48ec9b985aef969bac06c67a7da4f74fe7a0cb2aa49",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Public Works and Financial Management",
+          "action": "award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+          "conditions": null,
+          "deadline": null,
+          "status": "completed",
+          "uncertainty": "Motion carried; contract amount not to exceed 1.1 million",
+          "evidence": [
+            "Motion carries",
+            "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Motion carries",
+              "start": 0,
+              "end": 14
+            },
+            {
+              "quote": "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+              "start": 76,
+              "end": 179
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "Development Services",
+          "action": "declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+          "conditions": null,
+          "deadline": null,
+          "status": "completed",
+          "uncertainty": "Motion carried",
+          "evidence": [
+            "Motion carries",
+            "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Motion carries",
+              "start": 0,
+              "end": 14
+            },
+            {
+              "quote": "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+              "start": 911,
+              "end": 1037
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 1038,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Public Works and Financial Management",
+              "action": "award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+              "conditions": null,
+              "deadline": null,
+              "status": "completed",
+              "uncertainty": "Motion carried; contract amount not to exceed 1.1 million",
+              "evidence": [
+                "Motion carries",
+                "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Motion carries",
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "quote": "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+                  "start": 76,
+                  "end": 179
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "Development Services",
+              "action": "declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+              "conditions": null,
+              "deadline": null,
+              "status": "completed",
+              "uncertainty": "Motion carried",
+              "evidence": [
+                "Motion carries",
+                "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Motion carries",
+                  "start": 0,
+                  "end": 14
+                },
+                {
+                  "quote": "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+                  "start": 911,
+                  "end": 1037
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Public Works and Financial Management",
+            "action": "award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Motion carried; contract amount not to exceed 1.1 million",
+            "evidence": [
+              "Motion carries",
+              "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Motion carries",
+                "start": 0,
+                "end": 14
+              },
+              {
+                "quote": "Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project",
+                "start": 76,
+                "end": 179
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Development Services",
+            "action": "declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+            "conditions": null,
+            "deadline": null,
+            "status": "completed",
+            "uncertainty": "Motion carried",
+            "evidence": [
+              "Motion carries",
+              "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Motion carries",
+                "start": 0,
+                "end": 14
+              },
+              {
+                "quote": "Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide",
+                "start": 911,
+                "end": 1037
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "4f1943e913a013cb65dedc9576c86a6995c27a28f2cff4315cd945375a3e8def"
+    ]
+  }
+}

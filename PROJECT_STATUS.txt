@@ -1,0 +1,34 @@
+PROJECT RECAP
+The goal is to remember who has agreed to do what as a conversation changes. A summary can preserve the general topic while losing a condition, owner, cancellation, or deadline revision. We test whether an explicit evidence-linked ledger helps, using the same model to answer identical questions from different representations.
+
+MIDTERM STOPPING POINT
+A documented small dataset, a runnable tracker and baselines, preliminary measurements, inspectable errors, and an updated plan. We do not need a finished benchmark, fine-tuning, forecasting, or a novel algorithm for the midterm.
+
+WHAT IS IMPLEMENTED
+- A draft annotation guide separating suggestions, intentions, acceptance, conditions, and completion.
+- Twelve public MeetingBank segments and ten synthetic conversations, with 66 draft QA probes.
+- Development/pilot splits grouped by source meeting.
+- Transcript, reference-summary, generated-summary, and incremental-tracker conditions.
+- A question-only control to expose shortcut answers.
+- Qwen3.8-27B inference in Colab on A100 40GB using 4-bit weights.
+- Exact evidence checks, saved state history, raw model responses, caching, and analysis scripts.
+
+HUMAN REVIEW NEEDED BEFORE SUBMISSION
+1. Two team members independently use review/review.html and export separate answer files, or use review_blind.txt with independent_review_template.json. Do not consult review_key_draft.txt first.
+2. Run review_agreement.py on the two completed files; adjudicate disagreements and preserve the originals. There are 66 questions total, including 48 pilot questions across 16 conversations.
+3. Inspect the error examples and ambiguous labels. Save adjudicated labels under a new filename and rescore against them; retain the original AI draft for transparency.
+4. Add the team members' actual contributions and verify the AI-assistance disclosure in the report. Do not claim independent review until it occurs.
+5. Confirm the instructor's required formatting and submission destination. This package does not submit anything.
+
+ONE-DAY ALLOCATION
+Setup, guide, sampling, and code: approximately 2-3 hours.
+GPU pilot plus parallel human annotation: approximately 2-3 hours, dependent on inference speed.
+Error review, scoring, and report revision: approximately 1-2 hours.
+Final packaging and team verification: approximately 1 hour.
+Use the remaining days before the communicated deadline as a buffer for annotation disagreements or requested revisions.
+
+NEXT PHASE
+Make the QA probes harder and more balanced, annotate full records at intermediate prefixes, evaluate unsupported commitments and revision accuracy, and test on a different public dialogue domain after locking the protocol.
+
+COMPLETED RUN
+All 22 conversations and 100 representation-specific QA calls completed. The current report is maintained separately in Overleaf; raw results are saved here. A100 40GB with 4-bit weights worked; peak allocated GPU memory was 18.37 GiB. The runtime has been released. The remaining submission work is independent human label review, rescoring if labels change, and the team's contribution/format check.

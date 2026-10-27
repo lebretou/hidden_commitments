@@ -1,0 +1,329 @@
+{
+  "example_id": "mb_29",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "8e612550d99cb0aac374f8d3bff4fd4cc9b44e0169d9de6b802febeeab362b28",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_29_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_29_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_29_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "98579c43c18fda4a0516858ae7fb5c5ddb4e7038d3836610756913cbe0330429",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_29_q1",
+          "answer": "B",
+          "evidence": "if if you all approve this tonight, we would make those funds available to developers"
+        },
+        {
+          "id": "mb_29_q2",
+          "answer": "A",
+          "evidence": "Motion carries eight zero"
+        },
+        {
+          "id": "mb_29_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "60c640bd40f35dd59b31ea4a2578655a6b2fd94f699d1f0ddb78dd424d33e450",
+      "source_characters": 2102,
+      "source": "Correct. Okay. Item 26 Report from Development Services Recommendation to approve the fiscal year 2022 Action Plan and substantial amendments and authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development Citywide. Thank you. I know there's a presentation here, but it is late. Maybe you could summarize what the amendments to the plan are. Certainly we don't need a full presentation on this. Thank you. Sir. Good evening, Vice Mayor. And we will keep it quick. I'm going to ask Patrick, you're just to go through what's changing this year. This is an annual report on our federal funds that are used for poverty alleviation and helping communities throughout our city. It is just an implementation of our five year comprehensive plan and amend. Turn it over to Patrick to give you the high points. Thank you, Christopher. So all of the ongoing programs that have been going on throughout the con plan for this cycle will continue. There are a couple of programs where not all of the money was spent. And so we're proposing that those funds be reallocated. It's about $1.5 million and set aside to be used for an acquisition of a housing site. And so with this, if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site. And that's the summary. Thank you. All right. Well, thank you. Any public comment on item 26? Here is one public comment. And I can say is, is he still in the audience? I think since I left. There is no public comment. Councilwoman Mongo, anything. We love the development services team. Great work. Kristen Patrick. Councilmember Urunga. Okay. My only comments are I look forward to the next five year update and some significant changes and we'll be talking about that in the future. And Christopher Coons, I think you have a great voice. Thank you. Members, please cast your vote. Motion carries eight zero. Thank you. Thank you. That comment also goes for Patricia in case that was the person. Next, we'll have item 27."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_29_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_29_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "mb_29_q3",
+          "answer": "A",
+          "evidence": "Authorize City Manager, or designee, to execute all necessary documents"
+        }
+      ],
+      "errors": [],
+      "call_key": "153484752508c224c4e1ac50dfbc6c6c0fd3e4c1c5f36e7dca5ef014381b184c",
+      "source_characters": 592,
+      "source": "Recommendation to approve the Fiscal Year 2022 (FY 22) Action Plan and Substantial Amendments to the FY 21, FY 20, FY 19, and FY 18 Action Plans for the expenditure of Community Development Block Grant (CDBG), Home Investment Partnerships Program Grant (HOME), and Emergency Solutions Grant (ESG) funds; and Authorize City Manager, or designee, to execute all necessary documents with the United States Department of Housing and Urban Development, and other entities, to receive these funds and execute agreements necessary to implement and comply with related federal regulations. (Citywide)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_29_q1",
+          "answer": "D",
+          "evidence": "These funds are to be set aside for the acquisition of a housing site, making them available to developers to create an affordable housing site."
+        },
+        {
+          "id": "mb_29_q2",
+          "answer": "A",
+          "evidence": "The council then voted on the motion, which carried with eight votes in favor and zero against."
+        },
+        {
+          "id": "mb_29_q3",
+          "answer": "A",
+          "evidence": "The council then voted on the motion, which carried with eight votes in favor and zero against."
+        }
+      ],
+      "errors": [],
+      "call_key": "49151724eb48d4d137d102819db5801342761ca70e996b6357ee6501b29bb741",
+      "source_characters": 1439,
+      "source": "The meeting addressed Item 26, a report from Development Services recommending the approval of the fiscal year 2022 Action Plan and substantial amendments for the Citywide program. The item also sought authorization for the city manager to execute necessary documents with the United States Department of Housing and Urban Development (HUD).\n\nDue to the late hour, the Vice Mayor requested a brief summary of the amendments rather than a full presentation. Christopher Coons explained that the report covers federal funds used for poverty alleviation and community support, representing an implementation and amendment of the five-year comprehensive plan. Patrick detailed that all ongoing programs from the current cycle would continue. However, because not all funds were spent in certain programs, the proposal reallocates approximately $1.5 million. These funds are to be set aside for the acquisition of a housing site, making them available to developers to create an affordable housing site.\n\nNo public comment was received for Item 26. Councilwoman Mongo praised the Development Services team, while Councilmember Urunga expressed anticipation for significant changes in the next five-year update. Both council members offered positive remarks to Christopher Coons and Patrick. The council then voted on the motion, which carried with eight votes in favor and zero against. Following the approval, the meeting proceeded to Item 27."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_29_q1",
+          "answer": "B",
+          "evidence": "if if you all approve this tonight, we would make those funds available"
+        },
+        {
+          "id": "mb_29_q2",
+          "answer": "A",
+          "evidence": "Motion carries eight zero"
+        },
+        {
+          "id": "mb_29_q3",
+          "answer": "A",
+          "evidence": "availability is contingent on approval"
+        }
+      ],
+      "errors": [],
+      "call_key": "5933f5f61d6602ec467286ee8bca5d20e12fa43029730df2ebe6b4b114be7ef1",
+      "source_characters": 1724,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"city manager\", \"action\": \"execute all necessary documents with the United States Department of Housing and Urban Development\", \"conditions\": \"approval of the fiscal year 2022 Action Plan and substantial amendments\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Authorization granted by council vote; execution is a procedural undertaking\", \"evidence\": [\"authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development\", \"Motion carries eight zero\"], \"evidence_spans\": [{\"quote\": \"authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development\", \"start\": 146, \"end\": 270}, {\"quote\": \"Motion carries eight zero\", \"start\": 1963, \"end\": 1988}]}, {\"id\": \"c2\", \"owner\": \"Development Services\", \"action\": \"make funds available to developers to acquire a site that would become an affordable housing site\", \"conditions\": \"approval of the fiscal year 2022 Action Plan and substantial amendments\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Funds are reallocated from unspent programs; availability is contingent on approval\", \"evidence\": [\"if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site\", \"Motion carries eight zero\"], \"evidence_spans\": [{\"quote\": \"if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site\", \"start\": 1229, \"end\": 1377}, {\"quote\": \"Motion carries eight zero\", \"start\": 1963, \"end\": 1988}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "9ee50654151d2ad89430757ced66a13eefb007a77ca9f1b6c69e332619bc258a",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "city manager",
+          "action": "execute all necessary documents with the United States Department of Housing and Urban Development",
+          "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": "Authorization granted by council vote; execution is a procedural undertaking",
+          "evidence": [
+            "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+            "Motion carries eight zero"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+              "start": 146,
+              "end": 270
+            },
+            {
+              "quote": "Motion carries eight zero",
+              "start": 1963,
+              "end": 1988
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "Development Services",
+          "action": "make funds available to developers to acquire a site that would become an affordable housing site",
+          "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": "Funds are reallocated from unspent programs; availability is contingent on approval",
+          "evidence": [
+            "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+            "Motion carries eight zero"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+              "start": 1229,
+              "end": 1377
+            },
+            {
+              "quote": "Motion carries eight zero",
+              "start": 1963,
+              "end": 1988
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 2102,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "city manager",
+              "action": "execute all necessary documents with the United States Department of Housing and Urban Development",
+              "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Authorization granted by council vote; execution is a procedural undertaking",
+              "evidence": [
+                "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+                "Motion carries eight zero"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+                  "start": 146,
+                  "end": 270
+                },
+                {
+                  "quote": "Motion carries eight zero",
+                  "start": 1963,
+                  "end": 1988
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "Development Services",
+              "action": "make funds available to developers to acquire a site that would become an affordable housing site",
+              "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Funds are reallocated from unspent programs; availability is contingent on approval",
+              "evidence": [
+                "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+                "Motion carries eight zero"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+                  "start": 1229,
+                  "end": 1377
+                },
+                {
+                  "quote": "Motion carries eight zero",
+                  "start": 1963,
+                  "end": 1988
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "city manager",
+            "action": "execute all necessary documents with the United States Department of Housing and Urban Development",
+            "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Authorization granted by council vote; execution is a procedural undertaking",
+            "evidence": [
+              "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+              "Motion carries eight zero"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development",
+                "start": 146,
+                "end": 270
+              },
+              {
+                "quote": "Motion carries eight zero",
+                "start": 1963,
+                "end": 1988
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Development Services",
+            "action": "make funds available to developers to acquire a site that would become an affordable housing site",
+            "conditions": "approval of the fiscal year 2022 Action Plan and substantial amendments",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Funds are reallocated from unspent programs; availability is contingent on approval",
+            "evidence": [
+              "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+              "Motion carries eight zero"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site",
+                "start": 1229,
+                "end": 1377
+              },
+              {
+                "quote": "Motion carries eight zero",
+                "start": 1963,
+                "end": 1988
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "8deac93ceda7c9a28f2f8ceb38b65b923ec615c5026a8da5f09e8751b6205a2d"
+    ]
+  }
+}

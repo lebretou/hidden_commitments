@@ -1,0 +1,170 @@
+{
+  "example_id": "mb_20",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "a8d2144d4785978e097d9fd764b007f50ebe08321d5a7a877c213110396ca7e7",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_20_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "d0c528f914917301c51edebdf673936d0cfbdcb3f2a951c4c2fe4f24cff95704",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_20_q1",
+          "answer": "B",
+          "evidence": "I just really wanted to thank staff and my colleagues for their support on this item."
+        },
+        {
+          "id": "mb_20_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "f18e721a03083abc426e1e00399adbad4177809a8b715cad03017d7071640fe5",
+      "source_characters": 1199,
+      "source": "Thank you. With that, let me go ahead and turn over to the next item we're going to do item 14. Communication from Councilwoman Zendejas Councilmember Urunga recommendation to increase appropriations in the City Manager Department by 1500 for the 2021 Hope Latina Empowerment Day. Councilman. Thank you, Mayor. I just really wanted to thank staff and my colleagues for their support on this item. The COVID 19 pandemic has forced a lot of events in our city to be canceled and scaled back, which is why I think it's so important that we use the resources we have to support our community organizations as they continue to do the work that of activating our neighborhoods. This is especially true for Latino and Latina residents, and I'm so proud to partner up with the work that Hope is doing on behalf of our families and our city. I want to say thank you to hope. Thank you very much. Thank you. And there's a motion in a second by Councilman de house. Second because we ranga. I don't believe there's any public comment. Roll call votes. District one. I. District two. I. District three. I. District four. MY District five. I. District six. I. District seven. District eight. I. District nine. I."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_20_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "282daf777bfccc3fe84aa9f87be22717de54694a70eef5d7de06a04497aa1943",
+      "source_characters": 424,
+      "source": "Recommendation to increase appropriations in the General Fund Group in the City Manager Department by $1,500, offset by First Council District One-time District Priority Funds transferred from the Citywide Activities Department for the 2021 HOPE Latina Empowerment Day; and Decrease appropriations in the General Fund Group in the Citywide Activities Department by $1,500 to offset a transfer to the City Manager Department."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_20_q1",
+          "answer": "B",
+          "evidence": "He emphasized that the COVID-19 pandemic had necessitated the cancellation or scaling back of numerous city events"
+        },
+        {
+          "id": "mb_20_q2",
+          "answer": "B",
+          "evidence": "No further next steps or additional actions were explicitly outlined in the provided transcript beyond the passage of the appropriation."
+        },
+        {
+          "id": "mb_20_q3",
+          "answer": "B",
+          "evidence": "No further next steps or additional actions were explicitly outlined in the provided transcript beyond the passage of the appropriation."
+        }
+      ],
+      "errors": [],
+      "call_key": "580b567746f1e075e21e04506b84c7cf563c6057b68d7afd0dc6b67192ae976c",
+      "source_characters": 1480,
+      "source": "The council convened to address Item 14, a communication from Councilwoman Zendejas and Councilmember Urunga recommending a $1,500 increase in appropriations for the City Manager Department to support the 2021 Hope Latina Empowerment Day. Councilmember Urunga opened the discussion by thanking staff and colleagues for their support. He emphasized that the COVID-19 pandemic had necessitated the cancellation or scaling back of numerous city events, making it critical to utilize available resources to support community organizations. Urunga highlighted the importance of sustaining neighborhood activation efforts, particularly for Latino and Latina residents, and expressed pride in partnering with Hope to serve local families and the broader city. He extended gratitude to the organization for its ongoing work.\n\nFollowing the remarks, a motion was put forward and seconded by Councilman de House. The council proceeded to the public comment period, during which no comments were received. The body then conducted a roll call vote on the recommendation. All nine districts voted in favor of the measure. The vote was recorded as follows: District 1, Yes; District 2, Yes; District 3, Yes; District 4, Yes; District 5, Yes; District 6, Yes; District 7, Yes; District 8, Yes; and District 9, Yes. The item was approved by unanimous consent. No further next steps or additional actions were explicitly outlined in the provided transcript beyond the passage of the appropriation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_20_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_20_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "8807a73e64255fefe15d87602ff5c3c36eab3911a72c901fe5ca0a5a8f303f2a",
+      "source_characters": 68,
+      "source": "{\"current_records\": [], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "0ff9bc54b592489a06396dac3625ff2ab5b188677119a56f156b4ecf8bdfdda1",
+  "tracker": {
+    "memory": {
+      "current_records": [],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 1199,
+        "failed": false,
+        "events": [],
+        "snapshot": []
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "ccbca1ccc8c8dca022313f1c286cb54f8e70a46f44205204bcf1e3f336c78182"
+    ]
+  }
+}

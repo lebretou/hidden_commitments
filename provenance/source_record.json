@@ -1,0 +1,9 @@
+{
+  "source": "https://huggingface.co/datasets/huuuyeah/meetingbank",
+  "revision": "5b4fb6f67f490be93e249d70b732780932d19fe3",
+  "file": "validation.json",
+  "sha256": "efd90b86345fe7d75d44502ae394d352e977956b2a3983df11ea8a25cd78bf99",
+  "rows": 861,
+  "sample": "random.Random(848).sample(rows,30)",
+  "verified_sample_reproduction": true
+}

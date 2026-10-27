@@ -1,0 +1,76 @@
+COMMITMENT PILOT — INDEPENDENT REVIEW
+
+1. Open review.html in a desktop browser (Chrome, Firefox, Edge, or Safari).
+   No installation, sign-in, or internet connection is required.
+2. Enter your name or a stable reviewer ID and select Start / resume review.
+3. Read each conversation and answer its three questions. Copy evidence and
+   note uncertainty. The original wording and option order are unchanged.
+4. Click Export answers regularly and before closing. Keep the downloaded
+   JSON file. To continue on another device, open the same review.html and
+   use Import saved answers.
+5. Send your exported JSON file back in this chat for comparison. It can be
+   read as plain text; you do not need to edit it manually.
+
+REVIEW ORDER AND WORK SHARING
+
+There are 22 conversations and 66 questions. The main results use 16 pilot
+conversations (48 questions); those appear first. Six development examples
+(18 questions) follow. The Review set menu can show either group.
+
+At least two reviewers should independently answer the same questions before
+comparing. Splitting the conversations so each is read by only one person
+will not let us measure agreement. For a quick first pass, both reviewers can
+finish the pilot group, export, and then work through development examples.
+The complete saved run needs all 66 adjudicated answers for full rescoring.
+
+Do not consult the separate draft key or model results before review. If you
+already saw an answer or result, check the prior-exposure box for that item.
+Do not claim that exposed items were fully blind.
+
+WHAT TO RECORD
+
+- Answer A–D: the best supported option under the annotation rules.
+- Evidence: an exact quotation, or an explanation of what is not established.
+- Notes: ambiguous wording, noisy transcription, or defects in the question.
+- Cannot choose one option: use when no single choice is defensible; explain
+  why. This is stored as a blank answer with an explicit uncertainty flag.
+- Flag for discussion: use even with an A–D answer when review is needed.
+
+Do not silently repair transcript errors or invent missing context.
+A review marked complete in the form can still need adjudication.
+
+AFTER INDEPENDENT REVIEW
+
+Keep the original exports unchanged. Compare answers and flags first, then
+open draft-key-open-after-review.txt if helpful. That file contains the AI
+DRAFT answers, evidence, and rationale; it is not an authoritative gold key.
+Discuss disagreements, question defects, and ambiguous items. Record agreed
+answers in a separate adjudicated copy, or explicitly exclude an unresolvable
+question and report the revised denominator. Do not force a choice only to
+make the scoring script accept it. Do not pool uncertain blanks into accuracy.
+
+The form exports the IDs and fields expected by our existing scoring tools,
+plus flags for discussion, inability to choose, and prior exposure. Those flags
+must be inspected before calculating agreement or rescoring. No Colab run is
+needed to rescore the saved model answers.
+
+SAVING AND PRIVACY
+
+Responses are stored under the reviewer ID in this browser when local storage
+is available. Re-enter the same ID and choose Start / resume to restore them.
+Use a different ID for a different reviewer. The HTML file itself does not
+contain anyone's saved responses. Copying the HTML does not copy responses.
+
+Browser storage can be cleared or unavailable, especially in private mode.
+Exported JSON is the portable backup. There is no automatic upload, shared
+editing, or submission. Printing prints only the selected conversation.
+
+CONTENTS
+
+review.html               Offline review form with all conversations
+START-HERE.txt            These instructions
+review_blind.txt          Plain-text fallback with answer spaces
+
+The draft answer key is distributed separately so it is not in this blind
+packet. The form contains no model predictions, expected answers, rationales,
+reference summaries, or sampling notes.

@@ -1,0 +1,302 @@
+{
+  "example_id": "mb_21",
+  "domain": "meetingbank",
+  "split": "dev",
+  "input_hash": "363b3facb537dea3baa7bd9017ff58ac25b1c70571eafefd2b67ac2033786217",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_21_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "c78a1e587ac51baf16607e81091fe55f225fd365de94e8ab7604ce0fb3b5a370",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_21_q1",
+          "answer": "D",
+          "evidence": "We could reach out to a local vendor, but most likely they're not going to want to sell a vehicle far under what they could sell it to the general public for."
+        },
+        {
+          "id": "mb_21_q2",
+          "answer": "B",
+          "evidence": "We did not reach out locally per the fact that many of these vendors bid these state contracts"
+        },
+        {
+          "id": "mb_21_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "0474a157f05a6f5a07c5f86d6d8f874417ef9b28eeb20c0051c9da57d4cad8fa",
+      "source_characters": 3163,
+      "source": "All right. Thank you. Okay. So now we move on to item five. And as in Nancy and this is a recommendation to authorize the purchase of six vehicles. Madam Clerk, I will spare you the agony of. All of that. Because actually. Aaron Aaron Smith, Mr. Smith, our public works director, delineated those. So. Mr. Spencer. Thank you. So I just want to jump to the reason I have a concern on this is that has $93,000 for to go to freeway Toyota for three hybrid vehicles. And that company is in Hanford and it apparently is from the state of California, somehow the one that we're supposed to work with or unless we do a bid for it. And my concern is that how do we know for sure that there weren't any more local Toyota companies that could provide these cars at the approximate? It looks like three for $31,000 each. This. Yes, that's a good question for you. And I see first, Heidrich, is that individual somehow related to this. Item or is it as our supervisor? Oh, fleet supervisor. Okay. I'll Miss Smith or Mr. Heidrick. Why are we using freeway Toyota? Is this a state program, a state purchase program? Mr. Leavitt, do you want to anybody? Let's move quickly. There's this Air Force camp. There's a state bid winner for these types of vehicles. Okay. Yes. Good. Good evening. Good evening to mayor and council. As our city manager stated, yes, these are all state contracts, specifically C mass, which is conducted by DGS in Sacramento and we have referenced those to purchase these vehicles. So all of the bidders are California companies dealerships. We did not reach out locally per the fact that many of these vendors bid these state contracts and they're because of that, they're moving a high volume of vehicles and they get a better price reduction from the manufacturer. Thank you. Great explanation. All right. Any further questions, Casimiro? Spencer. So I appreciate that answer. But in regards to these are Toyotas, so I'm not sure that we cannot go to a local. Right. So that's what I'm trying to get to. Yeah. There's a no one can. Sell the Toyota's local more locally at 1000 the car. Yeah. So the reason we don't generally perform a an RFP that we would put out locally and we do take advantage of a state contract or a conglomerate of purchasing or a piggyback is that generally most dealerships, unless they are operating a fleet department, are focused on selling vehicles to the general public. They make a lot more money when they do that, when they sell fleet vehicles, they make substantially less on individual vehicle sales. And it's the total number of vehicle sales is where they make their profits. So case in point, with this vendor, they will sell a lot of these vehicles and they will get this at a reduced price from Toyota. We could reach out to a local vendor, but most likely they're not going to want to sell a vehicle far under what they could sell it to the general public for. Thankfully, there's a sign. Staff. Thank you so much. Okay. Okay, great. Let's. Does anyone want to make a motion? 11 Council member Desert Moves Council Member Knox White. Second. Thank you. I just read your mind. We have a roll call vote, please."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_21_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "7e2a22a751cbeaf6f40675aa1c66f7126ea132bdf1fe4edbf9019a50fc26b724",
+      "source_characters": 322,
+      "source": "Recommendation to Authorize the Purchase of Six Vehicles Consistent with Revised Vehicle Replacement Policy in Amounts Not to Exceed $93,377 from Freeway Toyota for Three Hybrid Vehicles, $74,984 from Cromer Material Handling for Two Forklifts and $311,598 from Leader Industries for One Ambulance. (Public Works 60141581)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_21_q1",
+          "answer": "D",
+          "evidence": "Spencer questioned why the city was not utilizing local Toyota dealerships"
+        },
+        {
+          "id": "mb_21_q2",
+          "answer": "B",
+          "evidence": "The city utilizes these state contracts rather than issuing local Requests for Proposals (RFPs)"
+        },
+        {
+          "id": "mb_21_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "11cad12388cadf97a8686427fb61c4337b248bc0bf0ff794f70af4f8218cea65",
+      "source_characters": 1593,
+      "source": "The meeting addressed Item 5, a recommendation to authorize the purchase of six vehicles. Council member Spencer raised concerns regarding the proposed purchase of three hybrid vehicles from Freeway Toyota in Hanford, California, for approximately $93,000. Spencer questioned why the city was not utilizing local Toyota dealerships, noting that the vehicles appeared to cost around $31,000 each.\n\nPublic Works Director Aaron Smith and Fleet Supervisor Heidrick clarified that the purchase is part of a state contract program, specifically C-Mass, administered by the Department of General Services (DGS) in Sacramento. They explained that all bidders for these state contracts are California-based dealerships. The city utilizes these state contracts rather than issuing local Requests for Proposals (RFPs) because participating dealerships handle high volumes of fleet vehicles, allowing them to secure significant price reductions from manufacturers.\n\nStaff further explained that local dealerships typically prioritize selling to the general public, where profit margins are higher, and are often unwilling to sell fleet vehicles at prices significantly below retail. Consequently, leveraging state contracts or piggybacking on other entities’ purchases is the standard practice to ensure competitive pricing.\n\nFollowing this explanation, Council member Spencer acknowledged the rationale. The council then proceeded to a vote. Council member Desert moved to authorize the purchase, and Council member Knox White seconded the motion. A roll call vote was initiated to finalize the decision."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_21_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_21_q3",
+          "answer": "D",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "63dadcf9a803f81f34f459c74a6e29e6a50ef47551c131d61878ab7809455417",
+      "source_characters": 647,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Council member Desert\", \"action\": \"Moves\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"Council member Desert Moves\"], \"evidence_spans\": [{\"quote\": \"Council member Desert Moves\", \"start\": 3033, \"end\": 3060}]}, {\"id\": \"c2\", \"owner\": \"Council Member Knox White\", \"action\": \"Second\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"Council Member Knox White. Second.\"], \"evidence_spans\": [{\"quote\": \"Council Member Knox White. Second.\", \"start\": 3061, \"end\": 3095}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "581fd6543841a880e334316ba2e2d611c716c3cf7f9ece5219ef1f9d469308de",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Council member Desert",
+          "action": "Moves",
+          "conditions": null,
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "Council member Desert Moves"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Council member Desert Moves",
+              "start": 3033,
+              "end": 3060
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "Council Member Knox White",
+          "action": "Second",
+          "conditions": null,
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "Council Member Knox White. Second."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Council Member Knox White. Second.",
+              "start": 3061,
+              "end": 3095
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 2104,
+        "failed": false,
+        "events": [],
+        "snapshot": []
+      },
+      {
+        "chunk": 1,
+        "start": 2104,
+        "end": 3163,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Council member Desert",
+              "action": "Moves",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "Council member Desert Moves"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Council member Desert Moves",
+                  "start": 3033,
+                  "end": 3060
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "Council Member Knox White",
+              "action": "Second",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "Council Member Knox White. Second."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Council Member Knox White. Second.",
+                  "start": 3061,
+                  "end": 3095
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Council member Desert",
+            "action": "Moves",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Council member Desert Moves"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Council member Desert Moves",
+                "start": 3033,
+                "end": 3060
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Council Member Knox White",
+            "action": "Second",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "Council Member Knox White. Second."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Council Member Knox White. Second.",
+                "start": 3061,
+                "end": 3095
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "2838f739822931b0ec1608df43ee31dc677fd23c0fb82f3444784424dab67a07",
+      "ddc50a86d05358bc19095eea5e2a33a0357437ee729b7e320c11ec187de1e126"
+    ]
+  }
+}

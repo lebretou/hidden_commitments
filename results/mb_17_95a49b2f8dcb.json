@@ -1,0 +1,502 @@
+{
+  "example_id": "mb_17",
+  "domain": "meetingbank",
+  "split": "pilot",
+  "input_hash": "280adadf3fbcc42e35d682dca03016fdc46d4d1706a6d2ae564c61d543a7a5d7",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "mb_17_q1",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "mb_17_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_17_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "9c97e05e24c3e6a300fe32453a66ef0ed06182b45ddb95760c0e54c5f2bb79c4",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "mb_17_q1",
+          "answer": "A",
+          "evidence": "Of course, I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day."
+        },
+        {
+          "id": "mb_17_q2",
+          "answer": "C",
+          "evidence": "item should be in front of you back on September eight"
+        },
+        {
+          "id": "mb_17_q3",
+          "answer": "D",
+          "evidence": "we'll just come back the general public comment after we get it working"
+        }
+      ],
+      "errors": [],
+      "call_key": "472a4e85bc02e357b4dd33139e7e5aa3a44711ccc21b26346d307a3665f8f1a0",
+      "source_characters": 5878,
+      "source": "Thank you. Mexicans. Item number nine The police. Report from City Manager Recommendation to amend employment agreement with Thomas Modica, City Manager to permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide. Mr. Motivator. Thank you, Mr. Mayor. This is simply amending the agreement with your city manager so that I, too, can participate in the same furloughs that our city staff are going through. This is something that we're all in together, and it's going to be something the entire city staff does to help out. So this would be implementing the furlough program on the same terms and conditions. Of course, I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available. Thank you. Thank you, Mr. Modica. And I have a most of my customary ringa. Customary ringa? Kudos to our team for bringing this forward to the city council for their consideration. And I want to thank him for his participation in the program. And. Councilmember Austin. Yes. I'd like to just also in my support of this and thank our city manager for stepping up, but also to all the employees who are stepping up during this very difficult time and understanding that this is a time for shared sacrifice. Sacrifice for for all of us who work with the city. And I'm looking forward to something coming to include the council as well. Thank you. Thank you, Councilman Richardson. Thank you. I just cued up the second. No comment. Our customers in Dallas. Just wanted to also say thank you to our city manager for understanding the need for this and actually united with the city and all our employees and and knowing how important this step like this would be. So, again, thank you. And I and also like my colleague, council member Austin, I, you know, I look forward to us also participating as local city government. Thank you. Thinking just and also just to add again, thank you, Mr. Mordecai, and just to reiterate what a couple of councilmembers said, and just for the public, I think it's the interest of the body to make sure that every member of the organization, including us, I take the same, you know, take take those cuts in those furlough cuts . I know it's more complex with officials as it relates to the charter that we do want to thank you for looking into ways to ensure that that everyone is receiving the furloughs. So thank you for that. Mr. Modica, is there any public comment on that? And just on that, Mr. Mayor, I'd like to say that item should be in front of you back on September eight that we're doing some final research on how elected officials can participate. It is a little complicated, as you said. So we will be bringing that back for your consideration on the eighth. Thank you. Any public comment? There is no public comment on this item. Roll call vote. District one I. District two. By. District three. All right. District four. All right. District five. High District six. II. District seven. By District eight. District nine. All right. Ocean carries. Madam Clerk. Motion carries on item nine. Okay. Thank you. I know we have four items on on the KIA, which I think are the last four items on the special agenda. We also have general public comment on non agenda items. Am I missing anything besides those too? Madam Clerk? The key items and anon agenda comment. Items four and five. I believe he will. I'm sorry. I believe we did that. Yes. Okay, great. Well, why don't we. Are you prepared to do general public now, Madam Clerk? Or do you need time? Yes. I want to go ahead and go into to general public comment. Thank you. We're moving them over right now. The comment. Thank you. Um. Just wanted to reiterate some things you guys brought up, but I haven't been here. And, uh, he's talking. Strategy, learning, knowledge of history and current role of racism in all the great, transparent measurement tools to understand the scale and depth of racism within the city. And appropriate metrics to evaluate change. Build robust. Or organizational. Capacity to support reform. Ensure all levels of city leadership and staff fully reflect the diversity of Long Beach use and equity. I can't hear anything really evaluate city policies, processes and regulations either to take meaningful steps to eliminate systemic racism in law. And I don't think. That. The Spanish. Speaking environmental can just be. A complete civilian. Ization of services that. Can be. Mr. Mayor, we can. Staff rather than the. City. You think we. Can have a76 district? Hello? Hello? Well, let's. Let's. We can't hear it. I don't think the public in. Any violence prevention and intervention. Systems. Capacity and investment in violence prevention, community interventions is. Paramount for justice. I'm sorry. The council is having a difficulty hearing you. We're going to give you your 3 minutes. But can you just hold for 1/2 while we figure out the technical issues and why they can't hear you? Okay. Thank you. Thank you so much. But the panel. The would be impossible to return to public comment after another item. Yeah. I'm going to go ahead and do the CC items and then we'll just come back the general public comment after we get it working. So let's go ahead and move on then to item number six. I need all 40 to go together, actually. So item number six. Communication from Councilmember Pearce, Councilwoman Zendejas, Councilwoman Price, Councilmember Richardson Recommendation to receive and file a presentation from Clean Power Alliance on Community Choice Aggregation. Okay. I'm going to turn this over to Councilmember Pearce. And just before we start these items, Madam Clerk, and you're running the time on these, just obviously, you're you'll go ahead and do those as we go. Thank you."
+    },
+    {
+      "method": "reference_summary",
+      "answers": [
+        {
+          "id": "mb_17_q1",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_17_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_17_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "6da7de15d0b1dab2950bf324b185ad7e14cdca98e18eedbbe2e50cdc081b7e30",
+      "source_characters": 413,
+      "source": "Recommendation to amend Employment Agreement No. 35514 with Thomas B. Modica, City Manager, to permit him to voluntarily participate in a work furlough program on the same terms and conditions as those applied to other City employees, through negotiation with represented employee associations for Fiscal Year 2021, for a total of 26 furlough days, beginning with the pay period of September 26, 2020.  (Citywide)"
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "mb_17_q1",
+          "answer": "A",
+          "evidence": "He clarified that he would remain available for emergencies and matters that cannot be reasonably delayed."
+        },
+        {
+          "id": "mb_17_q2",
+          "answer": "C",
+          "evidence": "He stated that this item would be presented for consideration on September 8."
+        },
+        {
+          "id": "mb_17_q3",
+          "answer": "D",
+          "evidence": "The council planned to return to the general public comment session once the technical issues were resolved."
+        }
+      ],
+      "errors": [],
+      "call_key": "b526e2924107ed20a345f5dd6e1983c94e0ae489ec3244cc8c5169e54d2ad589",
+      "source_characters": 2160,
+      "source": "The City Council convened to address Item 9, a recommendation from City Manager Thomas Modica to amend his employment agreement. The amendment permits Modica to voluntarily participate in the citywide work furlough program under the same terms and conditions as other city employees. Modica explained that this measure ensures shared sacrifice across the entire city staff during a difficult financial period. He clarified that he would remain available for emergencies and matters that cannot be reasonably delayed.\n\nCouncil members expressed strong support for the proposal. Councilmember Austin thanked Modica for stepping up and emphasized the importance of shared sacrifice, noting a desire for the council to participate in similar measures. Councilmember Richardson and other members echoed this sentiment, praising the City Manager for uniting with city employees. The Mayor reiterated the body’s interest in ensuring all organizational members, including elected officials, undergo equivalent furlough cuts.\n\nModica informed the council that a separate item regarding the participation of elected officials in the furlough program is currently under final research due to charter complexities. He stated that this item would be presented for consideration on September 8. Following the discussion, the council conducted a roll call vote, and the motion to amend the agreement carried.\n\nThe meeting then transitioned to general public comment on non-agenda items. A speaker began addressing topics related to systemic racism, equity, and violence prevention, but technical difficulties prevented the council from hearing the full statement. The clerk and staff attempted to resolve the audio issues, but the speaker was unable to continue effectively. Consequently, the council decided to proceed with the remaining agenda items, specifically Item 6, a communication from Councilmembers Pearce, Zendejas, Price, and Richardson recommending the receipt and filing of a presentation from the Clean Power Alliance on Community Choice Aggregation. The council planned to return to the general public comment session once the technical issues were resolved."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "mb_17_q1",
+          "answer": "A",
+          "evidence": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day."
+        },
+        {
+          "id": "mb_17_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "mb_17_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "0700558182e68c0b657a2af96704920472792bb2367b2d159b2529b3074349d0",
+      "source_characters": 3266,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Thomas Modica\", \"action\": \"voluntarily participate in a work furlough program\", \"conditions\": \"on the same terms and conditions as those apply to other city employees citywide\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing\", \"evidence\": [\"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\", \"we're doing some final research on how elected officials can participate\"], \"evidence_spans\": [{\"quote\": \"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\", \"start\": 156, \"end\": 301}, {\"quote\": \"we're doing some final research on how elected officials can participate\", \"start\": 2676, \"end\": 2748}]}, {\"id\": \"c2\", \"owner\": \"Thomas Modica\", \"action\": \"remain available for emergencies and things that cannot be reasonably delayed\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.\"], \"evidence_spans\": [{\"quote\": \"I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.\", \"start\": 707, \"end\": 859}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Thomas Modica\", \"action\": \"voluntarily participate in a work furlough program\", \"conditions\": \"on the same terms and conditions as those apply to other city employees citywide\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Requires amendment of employment agreement by City Council\", \"evidence\": [\"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\"], \"evidence_spans\": [{\"quote\": \"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\", \"start\": 156, \"end\": 301}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Thomas Modica\", \"action\": \"voluntarily participate in a work furlough program\", \"conditions\": \"on the same terms and conditions as those apply to other city employees citywide\", \"deadline\": null, \"status\": \"active\", \"uncertainty\": \"Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing\", \"evidence\": [\"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\", \"we're doing some final research on how elected officials can participate\"], \"evidence_spans\": [{\"quote\": \"permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide\", \"start\": 156, \"end\": 301}, {\"quote\": \"we're doing some final research on how elected officials can participate\", \"start\": 2676, \"end\": 2748}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "1c817a003067c68c835ee98e6bd7b1493775f52549d897db88516a089d629260",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Thomas Modica",
+          "action": "voluntarily participate in a work furlough program",
+          "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+          "deadline": null,
+          "status": "active",
+          "uncertainty": "Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing",
+          "evidence": [
+            "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+            "we're doing some final research on how elected officials can participate"
+          ],
+          "evidence_spans": [
+            {
+              "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+              "start": 156,
+              "end": 301
+            },
+            {
+              "quote": "we're doing some final research on how elected officials can participate",
+              "start": 2676,
+              "end": 2748
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "owner": "Thomas Modica",
+          "action": "remain available for emergencies and things that cannot be reasonably delayed",
+          "conditions": null,
+          "deadline": null,
+          "status": "active",
+          "uncertainty": null,
+          "evidence": [
+            "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.",
+              "start": 707,
+              "end": 859
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Thomas Modica",
+            "action": "voluntarily participate in a work furlough program",
+            "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Requires amendment of employment agreement by City Council",
+            "evidence": [
+              "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "start": 156,
+                "end": 301
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Thomas Modica",
+            "action": "voluntarily participate in a work furlough program",
+            "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing",
+            "evidence": [
+              "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+              "we're doing some final research on how elected officials can participate"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "start": 156,
+                "end": 301
+              },
+              {
+                "quote": "we're doing some final research on how elected officials can participate",
+                "start": 2676,
+                "end": 2748
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 2044,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Thomas Modica",
+              "action": "voluntarily participate in a work furlough program",
+              "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Requires amendment of employment agreement by City Council",
+              "evidence": [
+                "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                  "start": 156,
+                  "end": 301
+                }
+              ]
+            }
+          },
+          {
+            "before": null,
+            "after": {
+              "id": "c2",
+              "owner": "Thomas Modica",
+              "action": "remain available for emergencies and things that cannot be reasonably delayed",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.",
+                  "start": 707,
+                  "end": 859
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Thomas Modica",
+            "action": "voluntarily participate in a work furlough program",
+            "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Requires amendment of employment agreement by City Council",
+            "evidence": [
+              "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "start": 156,
+                "end": 301
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Thomas Modica",
+            "action": "remain available for emergencies and things that cannot be reasonably delayed",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.",
+                "start": 707,
+                "end": 859
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 2044,
+        "end": 4174,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Thomas Modica",
+              "action": "voluntarily participate in a work furlough program",
+              "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Requires amendment of employment agreement by City Council",
+              "evidence": [
+                "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                  "start": 156,
+                  "end": 301
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Thomas Modica",
+              "action": "voluntarily participate in a work furlough program",
+              "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+              "deadline": null,
+              "status": "active",
+              "uncertainty": "Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing",
+              "evidence": [
+                "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "we're doing some final research on how elected officials can participate"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                  "start": 156,
+                  "end": 301
+                },
+                {
+                  "quote": "we're doing some final research on how elected officials can participate",
+                  "start": 2676,
+                  "end": 2748
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Thomas Modica",
+            "action": "voluntarily participate in a work furlough program",
+            "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing",
+            "evidence": [
+              "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+              "we're doing some final research on how elected officials can participate"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "start": 156,
+                "end": 301
+              },
+              {
+                "quote": "we're doing some final research on how elected officials can participate",
+                "start": 2676,
+                "end": 2748
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Thomas Modica",
+            "action": "remain available for emergencies and things that cannot be reasonably delayed",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.",
+                "start": 707,
+                "end": 859
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 4174,
+        "end": 5878,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Thomas Modica",
+            "action": "voluntarily participate in a work furlough program",
+            "conditions": "on the same terms and conditions as those apply to other city employees citywide",
+            "deadline": null,
+            "status": "active",
+            "uncertainty": "Requires amendment of employment agreement by City Council; final research on how elected officials can participate is ongoing",
+            "evidence": [
+              "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+              "we're doing some final research on how elected officials can participate"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide",
+                "start": 156,
+                "end": 301
+              },
+              {
+                "quote": "we're doing some final research on how elected officials can participate",
+                "start": 2676,
+                "end": 2748
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "owner": "Thomas Modica",
+            "action": "remain available for emergencies and things that cannot be reasonably delayed",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available.",
+                "start": 707,
+                "end": 859
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "313fffdadee1725ee0fd2bbcc0b0b2ee3360253770570602ed1cbf5c24303496",
+      "7185ceba34ea464f74b64f9841010f408200cb0dc34aa63185b10dd49ad291f5",
+      "ed7af0a37668cf924707716882f6862033ace6d1bf85fe723f295ea6d30de05c"
+    ]
+  }
+}

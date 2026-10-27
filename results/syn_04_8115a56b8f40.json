@@ -1,0 +1,510 @@
+{
+  "example_id": "syn_04",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "e3d90e3213e67fbf656d18a13a0fefe99a3a57db9fc68056030ad987180b0aa5",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_04_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_04_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "syn_04_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "dc8d26c0784870774cef42f8855b746d0181bcb882da7ae623d5ee01e94b3abc",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_04_q1",
+          "answer": "B",
+          "evidence": "Eva: I'll check the references."
+        },
+        {
+          "id": "syn_04_q2",
+          "answer": "B",
+          "evidence": "Omar: I haven't decided; I'll tell you tomorrow."
+        },
+        {
+          "id": "syn_04_q3",
+          "answer": "A",
+          "evidence": "Omar: I haven't decided; I'll tell you tomorrow."
+        }
+      ],
+      "errors": [],
+      "call_key": "d39c0e1628a980f42974e7eda8876f4d4b6d6858882ec0283a0ae9f92ee190ed",
+      "source_characters": 118,
+      "source": "Eva: I'll check the references.\nEva: Omar, can you take that instead?\nOmar: I haven't decided; I'll tell you tomorrow."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_04_q1",
+          "answer": "B",
+          "evidence": "Eva initially stating she would check the references"
+        },
+        {
+          "id": "syn_04_q2",
+          "answer": "B",
+          "evidence": "Omar did not provide an immediate answer, indicating that he had not yet made a decision"
+        },
+        {
+          "id": "syn_04_q3",
+          "answer": "A",
+          "evidence": "would inform Eva of his choice the following day"
+        }
+      ],
+      "errors": [],
+      "call_key": "7c419060b5f32911ed6a837fa6da44d826d77f27de3467be3b9cdce4153c3aeb",
+      "source_characters": 455,
+      "source": "Eva and Omar discussed the allocation of a specific task, with Eva initially stating she would check the references. She then asked Omar if he could take on that responsibility instead. Omar did not provide an immediate answer, indicating that he had not yet made a decision and would inform Eva of his choice the following day. No final decision was reached during this exchange, and the next step is for Omar to communicate his decision to Eva tomorrow."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_04_q1",
+          "answer": "B",
+          "evidence": "\"owner\": \"Eva\""
+        },
+        {
+          "id": "syn_04_q2",
+          "answer": "B",
+          "evidence": "Omar has not decided"
+        },
+        {
+          "id": "syn_04_q3",
+          "answer": "A",
+          "evidence": "I'll tell you tomorrow"
+        }
+      ],
+      "errors": [],
+      "call_key": "0dda38317e18d50136402b73e3ee990df6f15a58fd697ad84c078d316609ecce",
+      "source_characters": 2445,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Eva\", \"action\": \"check the references\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Request to reassign to Omar; Omar has not decided and will respond tomorrow\", \"evidence\": [\"I'll check the references.\", \"Omar, can you take that instead?\", \"I haven't decided; I'll tell you tomorrow.\"], \"evidence_spans\": [{\"quote\": \"I'll check the references.\", \"start\": 5, \"end\": 31}, {\"quote\": \"Omar, can you take that instead?\", \"start\": 37, \"end\": 69}, {\"quote\": \"I haven't decided; I'll tell you tomorrow.\", \"start\": 76, \"end\": 118}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Eva\", \"action\": \"check the references\", \"conditions\": null, \"deadline\": null, \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll check the references.\"], \"evidence_spans\": [{\"quote\": \"I'll check the references.\", \"start\": 5, \"end\": 31}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Eva\", \"action\": \"check the references\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Request to reassign to Omar; acceptance by Omar not confirmed\", \"evidence\": [\"I'll check the references.\", \"Omar, can you take that instead?\"], \"evidence_spans\": [{\"quote\": \"I'll check the references.\", \"start\": 5, \"end\": 31}, {\"quote\": \"Omar, can you take that instead?\", \"start\": 37, \"end\": 69}]}}, {\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Eva\", \"action\": \"check the references\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Request to reassign to Omar; acceptance by Omar not confirmed\", \"evidence\": [\"I'll check the references.\", \"Omar, can you take that instead?\"], \"evidence_spans\": [{\"quote\": \"I'll check the references.\", \"start\": 5, \"end\": 31}, {\"quote\": \"Omar, can you take that instead?\", \"start\": 37, \"end\": 69}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Eva\", \"action\": \"check the references\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"Request to reassign to Omar; Omar has not decided and will respond tomorrow\", \"evidence\": [\"I'll check the references.\", \"Omar, can you take that instead?\", \"I haven't decided; I'll tell you tomorrow.\"], \"evidence_spans\": [{\"quote\": \"I'll check the references.\", \"start\": 5, \"end\": 31}, {\"quote\": \"Omar, can you take that instead?\", \"start\": 37, \"end\": 69}, {\"quote\": \"I haven't decided; I'll tell you tomorrow.\", \"start\": 76, \"end\": 118}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "7d10bb231446189fe03130a98d7cc66125e675c77f637110c1bf9e57ae8edce4",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Eva",
+          "action": "check the references",
+          "conditions": null,
+          "deadline": null,
+          "status": "uncertain",
+          "uncertainty": "Request to reassign to Omar; Omar has not decided and will respond tomorrow",
+          "evidence": [
+            "I'll check the references.",
+            "Omar, can you take that instead?",
+            "I haven't decided; I'll tell you tomorrow."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'll check the references.",
+              "start": 5,
+              "end": 31
+            },
+            {
+              "quote": "Omar, can you take that instead?",
+              "start": 37,
+              "end": 69
+            },
+            {
+              "quote": "I haven't decided; I'll tell you tomorrow.",
+              "start": 76,
+              "end": 118
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll check the references."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Request to reassign to Omar; acceptance by Omar not confirmed",
+            "evidence": [
+              "I'll check the references.",
+              "Omar, can you take that instead?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              },
+              {
+                "quote": "Omar, can you take that instead?",
+                "start": 37,
+                "end": 69
+              }
+            ]
+          }
+        },
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Request to reassign to Omar; acceptance by Omar not confirmed",
+            "evidence": [
+              "I'll check the references.",
+              "Omar, can you take that instead?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              },
+              {
+                "quote": "Omar, can you take that instead?",
+                "start": 37,
+                "end": 69
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Request to reassign to Omar; Omar has not decided and will respond tomorrow",
+            "evidence": [
+              "I'll check the references.",
+              "Omar, can you take that instead?",
+              "I haven't decided; I'll tell you tomorrow."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              },
+              {
+                "quote": "Omar, can you take that instead?",
+                "start": 37,
+                "end": 69
+              },
+              {
+                "quote": "I haven't decided; I'll tell you tomorrow.",
+                "start": 76,
+                "end": 118
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 32,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Eva",
+              "action": "check the references",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll check the references."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll check the references.",
+                  "start": 5,
+                  "end": 31
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll check the references."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 32,
+        "end": 70,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Eva",
+              "action": "check the references",
+              "conditions": null,
+              "deadline": null,
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll check the references."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll check the references.",
+                  "start": 5,
+                  "end": 31
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Eva",
+              "action": "check the references",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "Request to reassign to Omar; acceptance by Omar not confirmed",
+              "evidence": [
+                "I'll check the references.",
+                "Omar, can you take that instead?"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll check the references.",
+                  "start": 5,
+                  "end": 31
+                },
+                {
+                  "quote": "Omar, can you take that instead?",
+                  "start": 37,
+                  "end": 69
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Request to reassign to Omar; acceptance by Omar not confirmed",
+            "evidence": [
+              "I'll check the references.",
+              "Omar, can you take that instead?"
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              },
+              {
+                "quote": "Omar, can you take that instead?",
+                "start": 37,
+                "end": 69
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 70,
+        "end": 118,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Eva",
+              "action": "check the references",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "Request to reassign to Omar; acceptance by Omar not confirmed",
+              "evidence": [
+                "I'll check the references.",
+                "Omar, can you take that instead?"
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll check the references.",
+                  "start": 5,
+                  "end": 31
+                },
+                {
+                  "quote": "Omar, can you take that instead?",
+                  "start": 37,
+                  "end": 69
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Eva",
+              "action": "check the references",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "Request to reassign to Omar; Omar has not decided and will respond tomorrow",
+              "evidence": [
+                "I'll check the references.",
+                "Omar, can you take that instead?",
+                "I haven't decided; I'll tell you tomorrow."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll check the references.",
+                  "start": 5,
+                  "end": 31
+                },
+                {
+                  "quote": "Omar, can you take that instead?",
+                  "start": 37,
+                  "end": 69
+                },
+                {
+                  "quote": "I haven't decided; I'll tell you tomorrow.",
+                  "start": 76,
+                  "end": 118
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Eva",
+            "action": "check the references",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "Request to reassign to Omar; Omar has not decided and will respond tomorrow",
+            "evidence": [
+              "I'll check the references.",
+              "Omar, can you take that instead?",
+              "I haven't decided; I'll tell you tomorrow."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll check the references.",
+                "start": 5,
+                "end": 31
+              },
+              {
+                "quote": "Omar, can you take that instead?",
+                "start": 37,
+                "end": 69
+              },
+              {
+                "quote": "I haven't decided; I'll tell you tomorrow.",
+                "start": 76,
+                "end": 118
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "42c14ce506cc3fa39b8da807bd596b8892964896f24b48a9756b66dda0d4d7ed",
+      "8ff13d2866e3e94c3f1a6251edd1829e3d4e6f610e10b731db94f0c9cca413e0",
+      "bbd55b353b5d22fd4f6b9897aff0a726e6d195138ec15860e8e453c0821557da"
+    ]
+  }
+}

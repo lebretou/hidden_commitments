@@ -1,0 +1,321 @@
+{
+  "example_id": "syn_05",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "040c7fe77e0a2a902ad2b234c9a1a90cfdb50a6107cb23319ade7df2b89e4b41",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_05_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_05_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "syn_05_q3",
+          "answer": "C",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "1b602a9b5d76e21329c20d31800a3c8f4d9802b5b32bea75ef36013aa84b9ab3",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_05_q1",
+          "answer": "D",
+          "evidence": "We could ask the lab to rerun the tests."
+        },
+        {
+          "id": "syn_05_q2",
+          "answer": "B",
+          "evidence": "Let us discuss it next week."
+        },
+        {
+          "id": "syn_05_q3",
+          "answer": "C",
+          "evidence": "Let us discuss it next week."
+        }
+      ],
+      "errors": [],
+      "call_key": "08fff5822798d1d283e187089ca22dfe34b3fb6c3ea4dedea1d8bc594d30e7bc",
+      "source_characters": 99,
+      "source": "Tara: We could ask the lab to rerun the tests.\nJules: That might help. Let us discuss it next week."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_05_q1",
+          "answer": "D",
+          "evidence": "The pair decided to defer the detailed discussion of this proposal until the following week. No other decisions or next steps were outlined in the conversation."
+        },
+        {
+          "id": "syn_05_q2",
+          "answer": "B",
+          "evidence": "No other decisions or next steps were outlined in the conversation."
+        },
+        {
+          "id": "syn_05_q3",
+          "answer": "C",
+          "evidence": "The pair decided to defer the detailed discussion of this proposal until the following week."
+        }
+      ],
+      "errors": [],
+      "call_key": "7fc16ea81175c3afb4bc6d02c891e06dd8ba078a8cf75114ad4410bbd0a16f88",
+      "source_characters": 294,
+      "source": "Tara and Jules discussed the possibility of requesting the lab to rerun the tests. Jules agreed that this action might be beneficial. The pair decided to defer the detailed discussion of this proposal until the following week. No other decisions or next steps were outlined in the conversation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_05_q1",
+          "answer": "D",
+          "evidence": "Suggestion to ask the lab, not a firm commitment"
+        },
+        {
+          "id": "syn_05_q2",
+          "answer": "B",
+          "evidence": "Tentative date; 'let us discuss' indicates intention rather than firm commitment"
+        },
+        {
+          "id": "syn_05_q3",
+          "answer": "C",
+          "evidence": "Let us discuss it next week."
+        }
+      ],
+      "errors": [],
+      "call_key": "d30b78309ca9af4b65e3f6b89d3fa77b158c0ea71c5670681f30350d59e2f8c8",
+      "source_characters": 1198,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Jules\", \"action\": \"discuss the lab test rerun\", \"conditions\": null, \"deadline\": \"next week\", \"status\": \"intended\", \"uncertainty\": \"Tentative date; 'let us discuss' indicates intention rather than firm commitment\", \"evidence\": [\"Let us discuss it next week.\"], \"evidence_spans\": [{\"quote\": \"Let us discuss it next week.\", \"start\": 71, \"end\": 99}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Tara\", \"action\": \"ask the lab to rerun the tests\", \"conditions\": null, \"deadline\": null, \"status\": \"suggested\", \"uncertainty\": \"Suggestion to ask the lab, not a firm commitment\", \"evidence\": [\"We could ask the lab to rerun the tests.\"], \"evidence_spans\": [{\"quote\": \"We could ask the lab to rerun the tests.\", \"start\": 6, \"end\": 46}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Jules\", \"action\": \"discuss the lab test rerun\", \"conditions\": null, \"deadline\": \"next week\", \"status\": \"intended\", \"uncertainty\": \"Tentative date; 'let us discuss' indicates intention rather than firm commitment\", \"evidence\": [\"Let us discuss it next week.\"], \"evidence_spans\": [{\"quote\": \"Let us discuss it next week.\", \"start\": 71, \"end\": 99}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "4ec8f5c9780fd0ab28318405191553b00f4d63936c0193be7f94ec56847f3b84",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Jules",
+          "action": "discuss the lab test rerun",
+          "conditions": null,
+          "deadline": "next week",
+          "status": "intended",
+          "uncertainty": "Tentative date; 'let us discuss' indicates intention rather than firm commitment",
+          "evidence": [
+            "Let us discuss it next week."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "Let us discuss it next week.",
+              "start": 71,
+              "end": 99
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Tara",
+            "action": "ask the lab to rerun the tests",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Suggestion to ask the lab, not a firm commitment",
+            "evidence": [
+              "We could ask the lab to rerun the tests."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "We could ask the lab to rerun the tests.",
+                "start": 6,
+                "end": 46
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Jules",
+            "action": "discuss the lab test rerun",
+            "conditions": null,
+            "deadline": "next week",
+            "status": "intended",
+            "uncertainty": "Tentative date; 'let us discuss' indicates intention rather than firm commitment",
+            "evidence": [
+              "Let us discuss it next week."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Let us discuss it next week.",
+                "start": 71,
+                "end": 99
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 47,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Tara",
+              "action": "ask the lab to rerun the tests",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Suggestion to ask the lab, not a firm commitment",
+              "evidence": [
+                "We could ask the lab to rerun the tests."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "We could ask the lab to rerun the tests.",
+                  "start": 6,
+                  "end": 46
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Tara",
+            "action": "ask the lab to rerun the tests",
+            "conditions": null,
+            "deadline": null,
+            "status": "suggested",
+            "uncertainty": "Suggestion to ask the lab, not a firm commitment",
+            "evidence": [
+              "We could ask the lab to rerun the tests."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "We could ask the lab to rerun the tests.",
+                "start": 6,
+                "end": 46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 47,
+        "end": 99,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Tara",
+              "action": "ask the lab to rerun the tests",
+              "conditions": null,
+              "deadline": null,
+              "status": "suggested",
+              "uncertainty": "Suggestion to ask the lab, not a firm commitment",
+              "evidence": [
+                "We could ask the lab to rerun the tests."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "We could ask the lab to rerun the tests.",
+                  "start": 6,
+                  "end": 46
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Jules",
+              "action": "discuss the lab test rerun",
+              "conditions": null,
+              "deadline": "next week",
+              "status": "intended",
+              "uncertainty": "Tentative date; 'let us discuss' indicates intention rather than firm commitment",
+              "evidence": [
+                "Let us discuss it next week."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "Let us discuss it next week.",
+                  "start": 71,
+                  "end": 99
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Jules",
+            "action": "discuss the lab test rerun",
+            "conditions": null,
+            "deadline": "next week",
+            "status": "intended",
+            "uncertainty": "Tentative date; 'let us discuss' indicates intention rather than firm commitment",
+            "evidence": [
+              "Let us discuss it next week."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "Let us discuss it next week.",
+                "start": 71,
+                "end": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "4152304a58f6909f6cdd644e42c588543dc45001e328f9dcf82a232fb042bb05",
+      "0538b6122f20b8cff31f58f76ce2d3713e4db43830edadbb18e4ad4e4bdb4a35"
+    ]
+  }
+}

@@ -1,0 +1,592 @@
+BLIND REVIEW PACK — do not consult the answer key before independent annotation.
+AI-authored task/question draft; provide your own answers and ambiguity notes.
+
+
+mb_00 | meetingbank | dev | source: LongBeachCC_10032017_17-0859
+
+Motion carries. Thank you. Next item, please, Madam Clerk, which I believe is 32. No, I'm sorry. 31. Report from Economic Development Recommendation to authorize the city manager to execute all documents with the State of California to accept workforce Innovation and Opportunity Act funds totaling $4,853,908 citywide. Vice mayor? Nope. Cosmo Gonzalez. Nope. Nope. Customer. Margot. I just. I just want to give a shout out to our our team, because across. The county, we. Are being. Talked about as the at the forefront of. What we're doing. And we also. Congratulations, great. Work. I hear about it regularly. I met county meetings and they're like, What's Long Beach doing? So congratulations. It's a great time to be proud of being in Long Beach and we are excellent. 32. I'm sorry, a public comment on this. Go ahead and catch voting in 32 days. It's going to get out of. It's motion carries.
+
+mb_00_q1 Does this excerpt establish a personal promise by the city manager to execute the WIOA documents?
+A. The documents are reported as already executed
+B. Yes, an unconditional personal promise
+C. Yes, a promise conditional on Friday delivery
+D. No personal promise is established; authorization is discussed
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_00_q2 Is a Friday delivery condition stated for executing the WIOA documents?
+A. Yes, delivery on Monday
+B. No such condition is stated
+C. Yes, delivery by Friday
+D. Yes, receipt of a revised experiment
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_00_q3 Does the excerpt establish that the city manager has already executed the documents?
+A. Yes, execution is confirmed by the contractor
+B. Completion is not established
+C. Yes, a signed document is quoted
+D. Yes, execution is explicitly confirmed
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_06 | meetingbank | dev | source: AlamedaCC_02022016_2016-2453
+
+Adoption of resolution authorizing the city manager to accept on behalf of the city certain surplus federal property into accept, execute and record conveyance documents in substantial conformance with certain fees to property conveyance documents from the United States of America acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two alameda point conveyance. Good evening, mayor. Council Members. Jennifer Short Chief Operating Officer for i'm going to point i'll try to talk fast. You already got kind of a preview of what we're here tonight to recommend, but it is very exciting. A second phase of taking title to additional land at Alameda Point to help fill out some of those pieces that Peter was showing you. We did. And so that's what we're here tonight to do is recommend that the council approved resolution author and has to move forward with that second conveyance of landed on me two point. Yes. I'm not going to go, you know, quickly, just there's a transfer history. There was one that was the no cost conveyance agreement was kind of resurrected in 2011. Phase one was about 510 acres of uplands. I think over 1000 acres of submerged property occurred in 2013. So here we are continuing that process of as the Navy cleans the property to the cleanup levels agreed to, they're transferring the property to the city. The conveyance package, which is to, you know, a lot of paper that's attached to your staff report, is, first of all, is the deed. So those are the deeds that are giving. You know, the we are signed by the Navy, signed by the city, transferring land from the city, from the Navy to the city. There's 11 parcels contemplated as part of this conveyance, 183 acres, 11 deeds. And the reason we we talked about this, I think, at the last council meeting, one of the reasons that we create so many parcels is to try to really isolate environmental conditions of the property that are very unique, so that when we then assemble development parcels, we can be really clear with legal descriptions and other things where if there are restrictions or there are issues that that everyone's really clear where those restrictions apply, where those issues reside, so that we try to minimize uncertainty from the development standpoint as any issues and things. So that's why we have so many parcels. In addition to deeds, we also have covenants restricting the use of property they'll essentially employ in the Marsh Cross Covenant, which actually already is city ordinance, actual contamination that occurred even prior to the Navy's use of the property that we need to be careful as we as there's digging and excavation of the property. And so those covenants put into place those restrictions. And then there's one site which I'll show a map of quickly, a petroleum covenant restricting the use of the property in the Northwest Territories. You can't have residential we can't do residential there any way because it's Tidelands Trust. It's an open space area. So it's not a real implication for our development plans. And then bills of sale for the storm drain systems, the sewer systems and any personal property within phase two. And then really a clean up amendment to our lease in furtherance of conveyance of the Navy. As we transfer property, we need to take buildings out of our lease since we now own them. And so we're just cleaning up that master lease to account for that clarification question. So when I was reading through this and there were several references to personal property, give us an example of what personal property is. Well, there's for instance, I mean, what I'm what I it's, you know, equipment and other things that may get left in the building. So, you know, for instance, a building 29 has those cranes and things like that. I mean, there might be equipment and other things that are just essentially were left there, but even furniture, to be honest. Got it. Things so conveyance phases, we're we're anticipating four phases here. We've already got the blue is Peter and he's talking about the light pink is what's we're contemplating the 183 acres, the salmon color, probably more like next year. And then the red probably closer to 2021, 2022. And which are those? You know, there are parts of the red that may move up to phase threes, like some of the storm drain lines here that you see. But those two these sites here really because of the contamination issues, it's still there. Complicated need to get worked out. Those will be later phases of conveyance. But the last phases of commands, the phase two conveyance, you see these parcels, the 11 parcels, the lagoon, some where the piers, where the market ships are a good portion of site, which is why, you know, we we it's important for us to move forward tonight because we are this is part of our obligations under our disposition development agreement with site developers is to have the land so that we can then convey it to them. And so moving that forward as quickly as possible, 37 acres of uplands, 146 acres of submerged property, obviously the majority of it being a seaplane lagoon in 11 parcels. There are areas with land use restrictions. Two acres of the 103 acres have land use restrictions. Those. And they all have said these are in the enterprise districts. This is on, as Peter already mentioned, under the urban park. All of the plans have been that are here with these institutions are consistent with the city's plans. Next steps. We are shooting for March, so next month we think that's very doable. We're on track for achieving that. I think the phase two public trust exchange, which is then taking the land that we now own as part of phase two and exchanging trust lands in and out of the trust according to an agreement and legislation done a long time ago will be doing in April and then completion of the city planning process to move forward, especially with that portion north of Atlantic that I just mentioned and city being able to start construction later this year , 2017. So this phase two conveyance, we're really excited not only because it's really the next stage and it's a lot of land and it's a great thing, but also because it will be is a key step in moving that side project forward. So I'm trying to talk as fast as I can here, but happy to answer any questions you may have at this point. But we're you know, I know it's late at night, but it is always a from our staff standpoint, a really exciting thing to keep moving this forward and be ultimately the owners of this land. And so I'll just leave it at that. Thank you. Member de Saag. Thank you. I had the pleasure of speaking with MZ Art and Missouri very brown earlier this week to raise some questions. And before getting to that, this is a similar thing that we did with Phase one, but it's important to make sure to ask questions. So one of the questions of the two questions, one of the questions I asked is, is the Navy responsible to remediate Navy caused contamination discovered following conveyance? And the answer to that was yes. Upon conveyance of the property, all liability related to unforeseen environmental conditions pursuant to the Superfund law would remain with the Navy in perpetuity. And then there's more, and there's additional answers to that. The second question I asked is What happens if there is disagreement as to the causation with regard to later discovered contamination? And the answer to that was that turns on the facts of each discovery following conveyance if the city or the city's developer discovers buried or hidden pollutants or contaminants. The burden is on the new owner to prove that the pollutant or contaminant was on the property at the time of conveyance. Often this is easy. In other case, it might be more difficult and it might be difficult where the city or the city's tenant under a lease in furtherance of conveyance is utilizing pollutants or contaminants on the premises such as solvents. So the developer or their or their tenants might be using contaminants. So they might be the reason for the fault. So it the response ends with the Navy will most likely assert that the tenet was the cause of the solvent release rather than the Navy. So these cases will often be litigated with the ultimate liability, turning on the facts and proof. However, and this is the key point from our staff. However, in order to further insulate the city from liability, the city has been proactive in procuring. Some kind of insurance that would protect the city in the second scenario. And something like that was already trigger many, many years ago. Similar to that, I guess, in the case of what was then known as East Housing. So thank you. The other comment. I swear. And just to follow on Councilmember de Silva, I understand also that when property is is conveyed to a developer, that developer will be required to procure remediation insurance as well. That's that's correct. So there's like three layers of protection for the city. Right. That's absolutely correct. For instance, in the disposition development agreement site, they were required to acquire what's called pollution liability limited liability insurance, PLL insurance. You know, and so in order so they have that insurance, they're required to get it. It's not cheap either. And so they are required to do that. And then we, too, have our own insurance that the city has purchased to protect us from those those issues. Thank you. Member. I just wanted to extend a big thank you to our staff. Mr. Russell, it's always so informative listening to you, but for Janet and Karima Brown, you know these materials, I think, in your sleep. But it's it's been a big job. The fact that this is a smaller amount of acreage than the previous conveyance is misleading because there's probably more significant doings as far as cleanup going on in these fewer acres. But, you know, we are in the process of doing something this community set out to do a couple of decades ago, converting this over to civilian use . So thank you for leading us through this process. And we look forward to to that ceremony in March and working with you more in the future. Thanks for your good work. Any other comments from council. So I also want to commend staff and I want to share with the community that this is very exciting for us. I think it's you know, it's a big step. And when we get this property from the Navy, it'll be wonderful. And I, I fully support having some kind of kick off for the community when we get this property. So that being said. Okay, may I mention okay, I it's my pleasure to move that we approve a resolution authorizing the city manager to accept on behalf of the city certain surplus federal property and to accept, execute and record conveyance documents in substantial conformance with certain phase two property and conveyance documents from the United States of America, acting by and through the Department of the Navy to implement the Economic Development Conveyance Agreement for the former Naval Air Station Alameda Phase two Alameda Point Conveyance. Okay. All those in favor my motion carries unanimously. Thank you. 60. And I do. Right. Okay. Go ahead. Provide direction to staff regarding certain elements of a proposed rent stabilization and tenant protection ordinance. And it's my understanding we have 28 speakers at this time. If you plan to speak on this item, please turn in your slip. Because that. Um. For. If you if you need a break, that's fine. Okay. We're going to take a short break right now. I'm going to. Over real quickly, what we're going to be doing. We're we're coming back to the rent issue. Staff has a presentation that should take about 10 to 15 minutes.
+
+mb_06_q1 How is the March timing for the next conveyance described?
+A. An explicitly canceled plan
+B. A completed transfer
+C. A target that staff think is achievable
+D. An unconditional guarantee of a precise date
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_06_q2 In the account of the transfer process, what precedes the Navy transferring property to the city?
+A. Completion of every future development project
+B. A Friday dataset delivery
+C. Cleanup to the agreed levels
+D. A promise by every councilmember
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_06_q3 Does this excerpt report that the proposed phase-two conveyance is already complete?
+A. Yes; all development is complete
+B. Yes; the March ceremony already happened
+C. Yes; all eleven deeds have been completed
+D. No; the conveyance is still being pursued
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_08 | meetingbank | pilot | source: SeattleCityCouncil_12142015_CB 118585
+
+The Report of the Public Safety, Civil Rights and Technology Committee Agenda Item 14 Kalispell 118 585 Relating to employment in Seattle amending chapters 14.16 14 point 17.18, 14.19 and 14.20. The Speaker to prescribe additional remedies and enforcement procedures, harmonized ordinance language and add provisions to facilitate compliance. Amending Section 3.14 point 931 of Mr. Code to update duties of the Human Rights Commission and in many section 5.50 5.2 34 code to require labor standards, compliance for business license, text or certificates. The committee recommends the bill passed as amended. Thank you, Councilmember Harrell. Thank you very much. Well, this is an exciting piece of legislation basically designed to strengthen our labor laws, to protect our workers here, to penalize bad actors and to provide clarity to business, and to assist us in our efforts to clarify for businesses their rights and responsibilities by way of context. You may recall that this council, under the leadership of Councilmember Sawant, O'Brien and Rasmussen, sponsored a green sheet that requested the mayor's office to prepare legislation to increase the penalties levied on employers who violated our labor laws and to increase or clarify the remedies of workers. And so in the executive's response through their office in the Office of Labor Standards, they engaged with stakeholders on all sides of this issue in approximately 26 meetings, community meetings, business meetings, etc.. Three of these meetings, it's my understanding, involved large groups of more than 30 businesses and community stakeholders, and five meetings involve smaller groups of stakeholders with a more focused interest or focused approach. So this bill that I'm asking you to support is basically 175 page bill. So it's going to take me about an hour to get through. So bear with me. That was a joke. I'm just going to go through some of the highlights. Any me recall we've had several committee discussions on this and I just want to touch on some highlights. Probably one of the first and most important and significant parts of this legislation is that it provides a private right of action for paid, sick and safe time. The minimum wage ordinance and wage theft remedies. These are legal and provides an employee legal and equitable relief without limitation up to three times of unpaid wages or compensation. It provides penalties to an aggrieved party for retaliate retaliation up to $5,000 and provides for attorney's fees and costs. The effective date of that private right of action is April 1st, 2016, for businesses with 50 or more employees, and April 1st, 2017 for businesses with fewer than 50 employees. And the thought there is to give some of the smaller businesses the time to not only become educated, but to acclimate. And we want it. We've invested resources to make sure that there's a strong education component of what we're trying to do. We've increased remedies for all workers. An example would be on paid and sick and safe time and the minimum wage and wage theft ordinance. Minimum Wage Ordinance first violation is discretionary up to three times of unpaid wages or compensation plus interest and the job assistance or the ordinance or the ban. The box now known as Fair Chance Employment Ordinance, the first violations manager, up to 500 to each agree each party. And this is where an employer unlawfully inquires and makes judgments about a person's criminal background or history. Second violations manager up to 1000 to each aggrieved party and a third violations mandatory up to 5000 each aggrieved party. In addition to what I just described, we strengthen civil penalties for employer violations paid, paid, sick, and save time in the minimum wage ordinance. Wage theft or first violation is discretionary. Up to 500 per aggrieved party. All the way to a third violation is up to manager up to 5000 per aggrieved party. Again, I'm looking at sort of pages of descriptions of this, but I think many of you have been briefed on this. You're well versed in this area. So I want to. Sure. There's one part I do want to describe, and that is the purpose in or the methodology and the process that is described in this harmonization of of of of processes is encouraged to is designed to encourage investigation, education and resolution settlements, if possible. But in that vein, we're also prepared to enforce aggressively giving the Office of Labor Standards discretion on making sure that we are meaningfully protecting the rights of the workers. So in that vein, I do want to thank Dylan for the Division Director of the Office of Labor Standards, David Mendoza from the Mayor's Office, Carina Ball, the senior policy analyst from the Office of Labor Standards, and Patricia Lee doing an incredible job on this ordinance from central staff. Again, a lot of issues in this. As I said, we also have one amendment I made at the committee table, which is a check in in about six months to whatever councilmember are overseeing the Office of Labor Standards to check in to hear from workers, community activists, businesses, small and large to see how this scheme of remedies are working. So we look forward to that check in in six months. The committee asked for support of this ordinance. Thank you. Questions or comments? Councilmember Licata. I believe this is probably one of the most important pieces of legislation will pass today. It's the kind of legislation that, you know, we don't have a large crowd here for it, but many more people will be affected, I believe, by this legislation. Then probably everything else will pass today. It really allows us to put some teeth into the legislation of passing that we have passed regarding labor standards. And without any enforcement and without any effective enforcement and without a well thought out or organized structure for this city to move forward on. We could pass as many bills as we want to regarding labor standards. If they're not if there's no mechanism to enforce them, then they're not going to be worth very much, not even what they were basically been written on. So I want to thank the council members that were mentioned by customer hell as well as customer health for seniors through. Councilmember Swan. Thank you, President Burgess. Thank you, Councilmember Harrell, for bringing this forward in your committee. As has been stated, this legislation, if but when passed, it will be very important anecdotally. Unfortunately, we don't have huge statistics, but anecdotally the message is very, very clear. Wage theft is rampant in Seattle. My office gets contacted by constituents regularly. That report wage theft or other violations of their law, of the labor law, of their rights. The companies that commit this crime continue to get away with it because if they're caught, they face little more consequence right now than having to pay the wages they should have paid in the first place. And as Gordon Brown mentioned in last year's budget council passed a statement of legislative intended. My office drafted asking the mayor's office to provide an ordinance increasing the penalties and remedies for wage theft. And I think that this legislation will successfully do that. Workers become eligible for three times what is stolen from them. Which will help them, those workers who may have built up debts after being underpaid their wages. And it will help also as a deterrent for unscrupulous business who may have maybe repeat offenders. There will eventually be a private rate of action so workers are empowered to pursue remedies for wage theft if the Office of Labor Standards is not able to. And as Councilmember Legarda correctly said, many workers, a whole host of workers in Seattle will be impacted by this law. But do make effective use of this improved law. Workers will still need to keep getting organized and educate each other of their rights. And moreover, we need more workers organized into unions. So in as a matter of fact, the effectiveness of a law like this of a legislation like this is enhanced by increased unionization, like the bill that we just passed for our bass drivers. I wanted to thank the labor movement for participating in the task force that reviewed the various proposals and fighting to make sure that it had meaningful, meaningful remedies and penalties. I'm positive that without those efforts, we would not have had the quality ordinance that we have in front of us today. And also, thank you to potentially and the Office of Labor Standards. And I will be voting yes on this. Thank you. Other comments? Please call the role on the passage of the bill. Godden High Gonzalez I Harrell Lakota O'Brian High Rasmussen so on president purchased eight in favor nine oppose. The bill passes and the chair will sign it. Please read items 15 and 16. Agenda Item 1516. Appointment 20 and 247. Re-appointment of Tara Henriksen as member of Seattle Fire Advisory Board for Term of Confirmation August 31st, 2018 and reappointment of James B Moran as members of Fire Code Advisory Board four Term Confirmation to October 31st, 2018.
+
+mb_08_q1 Is the speaker still proposing to spend an hour presenting the 175-page bill?
+A. Yes, but only after six months
+B. No; the speaker says it was a joke and will cover highlights
+C. The presentation was reassigned to the mayor
+D. Yes, an hour-long presentation remains promised
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_08_q2 When is the check-in on the remedies described as planned?
+A. The next day
+B. In about six months
+C. In exactly one hour
+D. No check-in is mentioned
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_08_q3 Who is stated to sign the bill after its passage?
+A. No owner or role is stated
+B. The chair
+C. Every business owner
+D. The Office of Labor Standards director
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_10 | meetingbank | pilot | source: LongBeachCC_10232018_18-0959
+
+Okay. Next item is item number 37, I believe. Yes. Item 37 is reported from Public Works and Parks, Recreation and Marine Recommendation to Award a contract to American landscape for the Hartwell Park Central Irrigation Renovation Project. For total contract amount not to exceed 1.6 million District five. So it's been motion to the second. Is there a staff report? Yes. We have Steve Scott and Craig Beck. Steve Scott, take it away. Good evening. Council members, just real quickly, this is part of a project that we have targeted for Harwell for some time. We've enhanced project with some measuring dollars, and it goes along with our efforts to modernize our our irrigation system citywide and all of our parks and medians. This is an important project as far as how we operate in in Hartwell. Currently, it's a manual system and it's one of our older systems that one of the reasons we prioritized it for replacement. That concludes our report and are available for questions. Thank you, Councilmember Mongo. We've had significant community outreach. It's been a project that's been going back and forth for about four years. We're glad to finally move forward and update the irrigation system. So I hope that my colleagues will support. Kay Price. I support this. Awesome. I hope we have something like this at all the parks in time. I know it's very expensive, but I'm glad we're doing it with Hartwell because it's a third of Hartwell because it's a it's a really well used park. So thank you. It's great public comment. See non. Please cast your votes.
+
+mb_10_q1 Does the hope for similar irrigation projects at all parks establish a promise to deliver them?
+A. No; it is expressed as a hope
+B. Yes, every park is already upgraded
+C. Yes, American Landscape accepts all future park projects
+D. Yes, all parks are promised upgrades
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_10_q2 What deadline is promised for upgrading all parks?
+A. This Friday
+B. No deadline is promised
+C. Before the next meeting
+D. Within four years
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_10_q3 Is completion of the Heartwell irrigation renovation established?
+A. Yes, installation is complete
+B. No; the discussion concerns moving forward with the project
+C. Yes, final inspection is reported
+D. Yes, all city parks have been renovated
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_17 | meetingbank | pilot | source: LongBeachCC_08252020_20-0810
+
+Thank you. Mexicans. Item number nine The police. Report from City Manager Recommendation to amend employment agreement with Thomas Modica, City Manager to permit him to voluntarily participate in a work furlough program on the same terms and conditions as those apply to other city employees citywide. Mr. Motivator. Thank you, Mr. Mayor. This is simply amending the agreement with your city manager so that I, too, can participate in the same furloughs that our city staff are going through. This is something that we're all in together, and it's going to be something the entire city staff does to help out. So this would be implementing the furlough program on the same terms and conditions. Of course, I'd remain your city manager when there's emergencies, if there's things that cannot be reasonably delayed to the next day. We continue to be available. Thank you. Thank you, Mr. Modica. And I have a most of my customary ringa. Customary ringa? Kudos to our team for bringing this forward to the city council for their consideration. And I want to thank him for his participation in the program. And. Councilmember Austin. Yes. I'd like to just also in my support of this and thank our city manager for stepping up, but also to all the employees who are stepping up during this very difficult time and understanding that this is a time for shared sacrifice. Sacrifice for for all of us who work with the city. And I'm looking forward to something coming to include the council as well. Thank you. Thank you, Councilman Richardson. Thank you. I just cued up the second. No comment. Our customers in Dallas. Just wanted to also say thank you to our city manager for understanding the need for this and actually united with the city and all our employees and and knowing how important this step like this would be. So, again, thank you. And I and also like my colleague, council member Austin, I, you know, I look forward to us also participating as local city government. Thank you. Thinking just and also just to add again, thank you, Mr. Mordecai, and just to reiterate what a couple of councilmembers said, and just for the public, I think it's the interest of the body to make sure that every member of the organization, including us, I take the same, you know, take take those cuts in those furlough cuts . I know it's more complex with officials as it relates to the charter that we do want to thank you for looking into ways to ensure that that everyone is receiving the furloughs. So thank you for that. Mr. Modica, is there any public comment on that? And just on that, Mr. Mayor, I'd like to say that item should be in front of you back on September eight that we're doing some final research on how elected officials can participate. It is a little complicated, as you said. So we will be bringing that back for your consideration on the eighth. Thank you. Any public comment? There is no public comment on this item. Roll call vote. District one I. District two. By. District three. All right. District four. All right. District five. High District six. II. District seven. By District eight. District nine. All right. Ocean carries. Madam Clerk. Motion carries on item nine. Okay. Thank you. I know we have four items on on the KIA, which I think are the last four items on the special agenda. We also have general public comment on non agenda items. Am I missing anything besides those too? Madam Clerk? The key items and anon agenda comment. Items four and five. I believe he will. I'm sorry. I believe we did that. Yes. Okay, great. Well, why don't we. Are you prepared to do general public now, Madam Clerk? Or do you need time? Yes. I want to go ahead and go into to general public comment. Thank you. We're moving them over right now. The comment. Thank you. Um. Just wanted to reiterate some things you guys brought up, but I haven't been here. And, uh, he's talking. Strategy, learning, knowledge of history and current role of racism in all the great, transparent measurement tools to understand the scale and depth of racism within the city. And appropriate metrics to evaluate change. Build robust. Or organizational. Capacity to support reform. Ensure all levels of city leadership and staff fully reflect the diversity of Long Beach use and equity. I can't hear anything really evaluate city policies, processes and regulations either to take meaningful steps to eliminate systemic racism in law. And I don't think. That. The Spanish. Speaking environmental can just be. A complete civilian. Ization of services that. Can be. Mr. Mayor, we can. Staff rather than the. City. You think we. Can have a76 district? Hello? Hello? Well, let's. Let's. We can't hear it. I don't think the public in. Any violence prevention and intervention. Systems. Capacity and investment in violence prevention, community interventions is. Paramount for justice. I'm sorry. The council is having a difficulty hearing you. We're going to give you your 3 minutes. But can you just hold for 1/2 while we figure out the technical issues and why they can't hear you? Okay. Thank you. Thank you so much. But the panel. The would be impossible to return to public comment after another item. Yeah. I'm going to go ahead and do the CC items and then we'll just come back the general public comment after we get it working. So let's go ahead and move on then to item number six. I need all 40 to go together, actually. So item number six. Communication from Councilmember Pearce, Councilwoman Zendejas, Councilwoman Price, Councilmember Richardson Recommendation to receive and file a presentation from Clean Power Alliance on Community Choice Aggregation. Okay. I'm going to turn this over to Councilmember Pearce. And just before we start these items, Madam Clerk, and you're running the time on these, just obviously, you're you'll go ahead and do those as we go. Thank you.
+
+mb_17_q1 Under what circumstances does Modica say he remains available during furloughs?
+A. Emergencies or matters that cannot reasonably wait until the next day
+B. Only after September eight
+C. Only after all furlough days end
+D. Unconditionally for every routine task at all hours
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_17_q2 When does the speaker say the elected-official participation item will return for consideration?
+A. The next day
+B. No date is given
+C. September eight
+D. September twenty-six
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_17_q3 What condition is attached to returning to general public comment near the end?
+A. There is no stated condition
+B. Only if the city manager cancels furloughs
+C. Only after the next fiscal year
+D. After the technical problem is fixed
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_18 | meetingbank | pilot | source: LongBeachCC_05172016_16-0434
+
+Motion carries. Next item report from Public Works and Financial Management Recommendation to award a contract to road builders for the 55th Way Landfill Cover Improvement Project. For a total contract amount not to exceed 1.1 million District eight. Can I get a motion, please? There's a motion and a second. So, Councilman Austin. Well, I just want to just briefly speak on this and obviously ask my colleagues to support this. This is a giant step forward in developing phase two of Davenport Park, which has been a priority of ours in District eight for the last several years. This will put us in great position once this is graded and capped, to actually started the development of a vibrant park in a well-needed area of the community. And so I ask for your full support. Thank you. Any public comment scene, please cast your vote. Councilmember Soprano. Motion carries. Report from Development Services Recommendation to declare ordinance amending Long Beach Municipal Code relating to billboards read in adopted as read citywide.
+
+mb_18_q1 Does Councilman Austin personally promise to construct the park in this excerpt?
+A. Yes, he guarantees completion tomorrow
+B. No; he asks colleagues to support the project
+C. Yes, he personally undertakes construction
+D. He reports having personally finished construction
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_18_q2 What prerequisite is stated for being in a position to start park development?
+A. The site is graded and capped
+B. Councilman Austin personally buys the site
+C. All residents sign a petition
+D. A dataset arrives by Friday
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_18_q3 Does the passed motion establish that the park is already built?
+A. Yes, the park is complete
+B. Yes, the park has opened
+C. No, construction completion is not established
+D. Yes, every phase is finished
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_20 | meetingbank | pilot | source: LongBeachCC_03022021_21-0165
+
+Thank you. With that, let me go ahead and turn over to the next item we're going to do item 14. Communication from Councilwoman Zendejas Councilmember Urunga recommendation to increase appropriations in the City Manager Department by 1500 for the 2021 Hope Latina Empowerment Day. Councilman. Thank you, Mayor. I just really wanted to thank staff and my colleagues for their support on this item. The COVID 19 pandemic has forced a lot of events in our city to be canceled and scaled back, which is why I think it's so important that we use the resources we have to support our community organizations as they continue to do the work that of activating our neighborhoods. This is especially true for Latino and Latina residents, and I'm so proud to partner up with the work that Hope is doing on behalf of our families and our city. I want to say thank you to hope. Thank you very much. Thank you. And there's a motion in a second by Councilman de house. Second because we ranga. I don't believe there's any public comment. Roll call votes. District one. I. District two. I. District three. I. District four. MY District five. I. District six. I. District seven. District eight. I. District nine. I.
+
+mb_20_q1 Does thanking staff for support establish an explicit new personal task commitment?
+A. Yes, staff promise to run all events
+B. No explicit new personal task commitment is established
+C. Yes, the speaker promises to organize every event
+D. Yes, the mayor promises personal payment
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_20_q2 Does the excerpt establish that the 2021 HOPE event has already been delivered?
+A. Yes, the final event report is read
+B. Event completion is not established
+C. Yes, completion is explicitly reported
+D. Yes, attendance is verified
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_20_q3 Who explicitly accepts personal responsibility for organizing the HOPE event here?
+A. The mayor
+B. No individual explicitly accepts that task
+C. Every councilmember
+D. The city clerk
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_21 | meetingbank | dev | source: AlamedaCC_09072021_2021-1220
+
+All right. Thank you. Okay. So now we move on to item five. And as in Nancy and this is a recommendation to authorize the purchase of six vehicles. Madam Clerk, I will spare you the agony of. All of that. Because actually. Aaron Aaron Smith, Mr. Smith, our public works director, delineated those. So. Mr. Spencer. Thank you. So I just want to jump to the reason I have a concern on this is that has $93,000 for to go to freeway Toyota for three hybrid vehicles. And that company is in Hanford and it apparently is from the state of California, somehow the one that we're supposed to work with or unless we do a bid for it. And my concern is that how do we know for sure that there weren't any more local Toyota companies that could provide these cars at the approximate? It looks like three for $31,000 each. This. Yes, that's a good question for you. And I see first, Heidrich, is that individual somehow related to this. Item or is it as our supervisor? Oh, fleet supervisor. Okay. I'll Miss Smith or Mr. Heidrick. Why are we using freeway Toyota? Is this a state program, a state purchase program? Mr. Leavitt, do you want to anybody? Let's move quickly. There's this Air Force camp. There's a state bid winner for these types of vehicles. Okay. Yes. Good. Good evening. Good evening to mayor and council. As our city manager stated, yes, these are all state contracts, specifically C mass, which is conducted by DGS in Sacramento and we have referenced those to purchase these vehicles. So all of the bidders are California companies dealerships. We did not reach out locally per the fact that many of these vendors bid these state contracts and they're because of that, they're moving a high volume of vehicles and they get a better price reduction from the manufacturer. Thank you. Great explanation. All right. Any further questions, Casimiro? Spencer. So I appreciate that answer. But in regards to these are Toyotas, so I'm not sure that we cannot go to a local. Right. So that's what I'm trying to get to. Yeah. There's a no one can. Sell the Toyota's local more locally at 1000 the car. Yeah. So the reason we don't generally perform a an RFP that we would put out locally and we do take advantage of a state contract or a conglomerate of purchasing or a piggyback is that generally most dealerships, unless they are operating a fleet department, are focused on selling vehicles to the general public. They make a lot more money when they do that, when they sell fleet vehicles, they make substantially less on individual vehicle sales. And it's the total number of vehicle sales is where they make their profits. So case in point, with this vendor, they will sell a lot of these vehicles and they will get this at a reduced price from Toyota. We could reach out to a local vendor, but most likely they're not going to want to sell a vehicle far under what they could sell it to the general public for. Thankfully, there's a sign. Staff. Thank you so much. Okay. Okay, great. Let's. Does anyone want to make a motion? 11 Council member Desert Moves Council Member Knox White. Second. Thank you. I just read your mind. We have a roll call vote, please.
+
+mb_21_q1 What is the status of reaching out to a local vehicle vendor?
+A. The task is accepted by Councilmember Knox White
+B. A local vendor has already been contacted
+C. Staff make a firm promise to contact one
+D. A possibility is discussed without a commitment
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_21_q2 Had staff reached out locally for this purchase, according to the explanation?
+A. The transcript explicitly confirms three local bids
+B. No, staff explicitly say they did not
+C. Yes, all local vendors were contacted
+D. Yes, one local Toyota vendor was contacted
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_21_q3 What deadline is promised for local vendor outreach?
+A. Friday
+B. Before tonight ends
+C. Within three days
+D. No outreach deadline is promised
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_23 | meetingbank | pilot | source: SeattleCityCouncil_09232019_CB 119648
+
+All right. Any other comments on any of these appoint appointments? Those in favor of confirming the appointments. Please vote i. I. Those opposed vote no. The motion carries and the appointments are confirmed. Please read the reports of the Civic Development, Public Assets and Native Communities Committee. The Report of the Civic Development, Public Assets and Native Communities Committee Agenda Item 17 Casper 119 648 Relating to Seattle Parks and Recreation authorizing superintendent to amend the existing ten year lease with the Seattle Children's Play Garden to add a third additional extended term of five years. Committee recommends the bill pass. Councilmember Suarez. Great. Thank you, madam clerk. As you stated, this is a parks bill that authorizes superintendent to amend the existing. Ten year lease. This program opens more recreational opportunities for children with physical challenges essentially located at Coleman PLAYFIELD, which is an ideal place for specialized recreational facility development. Public assets in their communities can be recommends for council passed this ordinance. Thank you, councilman. Words. Any questions or comments? Please call the rule on the passage of the bill. Whereas I must get out. Hi, O'Brien, Chaco. I so want Major Gonzalez Herbal President Harold Hi. Six in favor and opposed.
+
+mb_23_q1 Does authorizing the superintendent to amend a lease establish the superintendent personally accepting that task?
+A. Yes, the superintendent explicitly accepts
+B. The superintendent reports completion
+C. No personal acceptance is shown
+D. Yes, the superintendent promises to sign tomorrow
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_23_q2 Does the excerpt establish that the lease amendment has been executed?
+A. Yes, the tenant confirms signing
+B. Yes, the superintendent confirms signing
+C. Execution is not established
+D. Yes, the signed amendment is quoted
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_23_q3 Is the five-year extension a stated deadline for executing the amendment?
+A. Yes, it is the current meeting deadline
+B. Yes, it is the signing deadline
+C. No; it describes the additional lease term
+D. Yes, it is a five-day deadline
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_24 | meetingbank | pilot | source: DenverCityCouncil_11262018_18-1305
+
+I just ask staff to arrange that. We're looking at pot probably December 18th. Thank you very much. All right, Madam Secretary, please put the second item on our screens. And, Councilwoman, can you go ahead with your comment? Thank you, Mr. President. So this bill is a grant agreement between Denver and the Department of Public Health regarding our ability to acquire some land and do some development of a new open space in the global neighborhood. And I'm calling it out because it has been about eight or nine years in the making. This open space area will be just north of the railroad tracks, just north and kitty corner from Argo Park in Globeville. And it will be a more natural space. So if you think of Argo, Park is kind of a typical manicured lawn. This will be more native plants and more of a natural setting. Right now, it's an area that's been a detriment for the community, both in terms of flooding as well as dumping and other illegal activity that is sometimes happening there. And this was an example of where a community comes forward with a vision. There's a nonprofit Groundwork Denver, that helps to shape that vision and then works with us as a city. And I it's always interesting how our work happens at the city because I often say some of the biggest things we work on might never cross these desks because so little of it is legislative. But this is an example of where a really joint effort between community, nonprofit and our Parks Department, our public works department, as well as a number of outside funders. There's many others that aren't a part of this particular agreement we're approving tonight. All can create a change that really will make a community better. It'll make it healthier, it'll eliminate some of the negative behaviors. So I just want to say thank you to the Parks Department, to the public works department, and to the legal departments that have worked so hard on this through the years and to the community for your patience. And this little grant agreement that that may not seem like a lot of money is going to make a really a big impact in a community that has really been a part of shaping a vision of what they want and need. So it's a happy moment, even though it's a small contract. So I wanted to thank the folks who've been involved and just call it out. And to my colleagues who've heard me talk about it for many years, just it's real. It's going to happen. It's going to happen. This is our first vote on it. So big, big milestone. Thank you. Thank you, Councilwoman each Councilman Brooks. You know, sometimes you get to thank him, folks, and if you forget to acknowledge your own council colleagues. And so, Councilwoman Kenneth, thank you. This is in my district, but you're working on this with my predecessor, Councilwoman Monteiro. And so as you properly acknowledged everyone else, I want to acknowledge you. Thank you. Thank you, Councilman Brooks. Yeah. I just wanted to jump on and say I first toured this potential project back when I was with the Greenway Foundation a long time ago, and it has been a long time coming. And I just wanted to say really cool project. Thank you so much for sticking with it. Very exciting to see it here in front of us. Finally, Madam Secretary, will you please put the next item up on our screens? And Councilwoman Ortega, go ahead with your comment on this one.
+
+mb_24_q1 Does the opening request to staff show staff accepting the arrangement task?
+A. No acceptance is shown in the excerpt
+B. Yes, staff explicitly accept
+C. Yes, the task is reported completed
+D. Yes, every staff member accepts
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_24_q2 How is December 18 described in the opening?
+A. A tentative date
+B. A guaranteed deadline
+C. A cancellation date
+D. A completion date
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_24_q3 Does the grant discussion establish that the open-space restoration is complete?
+A. Yes, a final inspection is reported
+B. No; the project is still described as forthcoming
+C. Yes, restoration is complete
+D. Yes, the park opening ceremony is complete
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_26 | meetingbank | dev | source: SeattleCityCouncil_07172017_CB 118958
+
+The report of the Sustainability and Transportation Committee Agenda Item seven Council Bill 118958 an ordinance relating to the Arterial Asphalt and concrete program. The Committee recommends that both council pass the bill. Councilmember O'Brien ready this topic. It was my exciting moment. So this is a quick overview. We have nine pieces of legislation we're going to run through here in the next few minutes. These are all fairly straightforward administrative matters, although they're all of a slightly different nature. I spoke to these a bit at the briefing this morning, and I'll just give a high overview of each one. Colleagues, if you have any more clarifying questions, feel free to ask, and I'm happy to do my best to give you more details. This specific ordinance relates to a couple projects where the city installed curb ramps to install the curb ramp and meet our code and require the city to acquire small pieces of property because the sidewalk didn't go back far enough. So I believe a total of about nine square feet was acquired over two parcels. We paid for that land from the adjacent property owner and this is just the ordinance that has to come through city council for us to complete that transaction. Very good. Any further questions or comments? Please call the role on the passage of the bill. Gonzalez I. Herbold, i. Johnson Whereas I. O'Brien I. Make sure. Burgess High President Harrell High eight in favor nine opposed. The bill passed in the Senate. Please read. Agenda item number eight in the short title, please.
+
+mb_26_q1 Who says they will give an overview of each legislative item?
+A. President Harrell
+B. Councilmember O'Brien
+C. The adjacent property owner
+D. No speaker can be linked to the overview
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_26_q2 What is promised in response to further clarifying questions?
+A. A promise to postpone all legislation
+B. An effort to provide more details, not a guarantee of complete answers
+C. A promise to buy more property
+D. A guarantee to resolve every question
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_26_q3 Does the speaker report that payment for the small parcels has already occurred?
+A. No, payment is explicitly canceled
+B. No, the owner refused payment
+C. Yes; the speaker says the city paid for the land
+D. Payment is never mentioned
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+mb_29 | meetingbank | pilot | source: LongBeachCC_07132021_21-0652
+
+Correct. Okay. Item 26 Report from Development Services Recommendation to approve the fiscal year 2022 Action Plan and substantial amendments and authorize city manager to execute all necessary documents with the United States Department of Housing and Urban Development Citywide. Thank you. I know there's a presentation here, but it is late. Maybe you could summarize what the amendments to the plan are. Certainly we don't need a full presentation on this. Thank you. Sir. Good evening, Vice Mayor. And we will keep it quick. I'm going to ask Patrick, you're just to go through what's changing this year. This is an annual report on our federal funds that are used for poverty alleviation and helping communities throughout our city. It is just an implementation of our five year comprehensive plan and amend. Turn it over to Patrick to give you the high points. Thank you, Christopher. So all of the ongoing programs that have been going on throughout the con plan for this cycle will continue. There are a couple of programs where not all of the money was spent. And so we're proposing that those funds be reallocated. It's about $1.5 million and set aside to be used for an acquisition of a housing site. And so with this, if if you all approve this tonight, we would make those funds available to developers to acquire a site that would become an affordable housing site. And that's the summary. Thank you. All right. Well, thank you. Any public comment on item 26? Here is one public comment. And I can say is, is he still in the audience? I think since I left. There is no public comment. Councilwoman Mongo, anything. We love the development services team. Great work. Kristen Patrick. Councilmember Urunga. Okay. My only comments are I look forward to the next five year update and some significant changes and we'll be talking about that in the future. And Christopher Coons, I think you have a great voice. Thank you. Members, please cast your vote. Motion carries eight zero. Thank you. Thank you. That comment also goes for Patricia in case that was the person. Next, we'll have item 27.
+
+mb_29_q1 What condition is stated for making the reallocated funds available to developers?
+A. A developer delivers a dataset
+B. Council approval that night
+C. All future housing is already built
+D. There is no stated condition
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_29_q2 Is the stated council-approval condition subsequently shown as satisfied?
+A. Yes; the motion carries eight zero
+B. No; the motion is rejected
+C. The excerpt contains no vote outcome
+D. No; the vote is postponed
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+mb_29_q3 Does passage of the motion prove the funds have already been made available to developers?
+A. No; implementation is not confirmed
+B. Yes, housing construction is complete
+C. Yes, the transfer is explicitly confirmed
+D. Yes, developers acknowledge receipt
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_01 | synthetic | dev | source: None
+
+Maya: I'll run the experiment if the dataset arrives by Friday.
+Leo: The dataset will arrive Monday, not Friday.
+
+syn_01_q1 Who made the conditional experiment promise?
+A. Maya
+B. Leo
+C. Both speakers
+D. Nobody
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_01_q2 What was the original condition?
+A. No condition
+B. A completed experiment
+C. Dataset arrival by Friday
+D. Arrival by Monday
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_01_q3 What is the experiment commitment at the end?
+A. The original condition will not be met; no unconditional obligation is established
+B. It is completed
+C. Leo has accepted it
+D. Maya must run it regardless
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_02 | synthetic | dev | source: None
+
+Noah: I'll send the draft on Thursday.
+Noah: Correction: I'll send it on Friday instead.
+Iris: Friday works.
+
+syn_02_q1 Who owns sending the draft?
+A. Noah
+B. Iris
+C. Nobody
+D. Both speakers
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_02_q2 What is the current deadline?
+A. Thursday
+B. Friday
+C. Monday
+D. No deadline
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_02_q3 Which date was superseded?
+A. Thursday
+B. Friday
+C. Monday
+D. No date was superseded
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_03 | synthetic | pilot | source: None
+
+Aisha: I'll prepare the slides.
+Aisha: Ben, could you take over?
+Ben: Yes, I'll prepare them.
+Aisha: Thanks, I'm handing this to you.
+
+syn_03_q1 Who currently owns preparing the slides?
+A. Both remain independently assigned
+B. Nobody
+C. Ben
+D. Aisha
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_03_q2 What happened to Aisha's original responsibility?
+A. It never existed
+B. It was completed by Aisha
+C. It remains unchanged
+D. It was handed over to Ben
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_03_q3 Are the slides reported complete?
+A. Yes, Ben finished
+B. Yes, both finished
+C. No completion is reported
+D. Yes, Aisha finished
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_04 | synthetic | pilot | source: None
+
+Eva: I'll check the references.
+Eva: Omar, can you take that instead?
+Omar: I haven't decided; I'll tell you tomorrow.
+
+syn_04_q1 Who still owns checking the references?
+A. Omar
+B. Eva
+C. Both accepted
+D. Nobody because the request cancels it
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_04_q2 Has Omar accepted checking the references?
+A. Yes, after tomorrow
+B. No, he has not decided
+C. Yes, unconditionally
+D. Yes, he has completed them
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_04_q3 What has Omar committed to doing tomorrow?
+A. Giving his decision
+B. Finishing the references
+C. Nothing at all
+D. Sending the final paper
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_05 | synthetic | pilot | source: None
+
+Tara: We could ask the lab to rerun the tests.
+Jules: That might help. Let us discuss it next week.
+
+syn_05_q1 Has anyone committed to rerunning the tests?
+A. Tara has
+B. The lab has
+C. Jules has
+D. No
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_05_q2 Who owns the test rerun as an accepted task?
+A. Jules
+B. No accepted owner is established
+C. The lab
+D. Tara
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_05_q3 Is next week a committed test-rerun deadline?
+A. Yes, the tests must finish next week
+B. Yes, the tests are already complete
+C. No, it refers to discussing the idea
+D. Yes, the lab promised that deadline
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_06 | synthetic | pilot | source: None
+
+Lin: I'll upload the results by 5 p.m.
+Lin: The results are now uploaded to the shared folder.
+Ravi: I opened the file and can see the results.
+
+syn_06_q1 Who undertook uploading the results?
+A. Both
+B. Ravi
+C. Lin
+D. Nobody
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_06_q2 What is the upload status at the end?
+A. Canceled
+B. Reported complete and corroborated
+C. Still awaiting acceptance
+D. Condition failed
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_06_q3 What deadline was originally stated?
+A. No deadline
+B. Friday
+C. 5 p.m.
+D. Tomorrow
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_07 | synthetic | pilot | source: None
+
+Nia: I'll submit the abstract tonight.
+Nia: I withdraw that offer; I won't submit it.
+Sol: Understood. We have no replacement yet.
+
+syn_07_q1 What is the abstract-submission commitment now?
+A. Canceled
+B. Completed
+C. Reassigned to Sol
+D. Active
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_07_q2 Who currently has an accepted responsibility to submit?
+A. Both
+B. Nia
+C. Sol
+D. Nobody
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_07_q3 Who originally made the promise?
+A. Nobody
+B. An unnamed reviewer
+C. Nia
+D. Sol
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_08 | synthetic | pilot | source: None
+
+Pavel: I'll book the room if the budget is approved.
+Quinn: The budget has been approved.
+Pavel: I haven't booked the room yet.
+
+syn_08_q1 Who owns booking the room?
+A. Pavel
+B. Both
+C. Nobody
+D. Quinn
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_08_q2 Is the budget condition satisfied?
+A. There was no condition
+B. No
+C. Yes
+D. Unknown
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_08_q3 What is the booking status?
+A. Canceled
+B. Completed
+C. Active and not yet completed
+D. Still blocked by unapproved budget
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_09 | synthetic | pilot | source: None
+
+Rosa: I'll run the evaluation if the data arrives Friday.
+Sam: It will arrive Monday.
+Rosa: Then I'll run it Tuesday even with the later delivery.
+
+syn_09_q1 Who owns the evaluation at the end?
+A. Rosa
+B. Sam
+C. Both
+D. Nobody
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_09_q2 When is the revised evaluation planned?
+A. Tuesday
+B. Friday
+C. Monday
+D. No time is stated
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_09_q3 Does the original Friday-arrival requirement still block the revised plan?
+A. The evaluation is already complete
+B. No; Rosa explicitly accepts the later delivery
+C. Yes; no revision was made
+D. Sam has taken over
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+
+syn_10 | synthetic | pilot | source: None
+
+Uma: I might be able to review the paper, but I can't promise yet.
+Victor: Okay, I won't count on that.
+
+syn_10_q1 How should Uma's statement be classified?
+A. Tentative possibility with explicit noncommitment
+B. Completed review
+C. Accepted reassignment
+D. Firm promise
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_10_q2 Who has accepted responsibility for the review?
+A. Victor
+B. Nobody
+C. Both
+D. Uma
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____
+
+syn_10_q3 Is a completed review established?
+A. Yes, by Victor
+B. No
+C. Yes, by an unnamed reviewer
+D. Yes, by Uma
+Your answer: ____  Evidence: ____  Ambiguity/notes: ____

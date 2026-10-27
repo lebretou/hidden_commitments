@@ -1,0 +1,380 @@
+{
+  "example_id": "syn_06",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "444fa3f5a64c891e3cc0a1acf0e9ffafbcf5968f7528bdc9f93d717e94b6ea77",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_06_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_06_q2",
+          "answer": "C",
+          "evidence": ""
+        },
+        {
+          "id": "syn_06_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "9cdbaad4e01b5b8be566e0f884b9496a62a5b3d07ae9f9d8ccd25bf315179e30",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_06_q1",
+          "answer": "C",
+          "evidence": "Lin: I'll upload the results by 5 p.m."
+        },
+        {
+          "id": "syn_06_q2",
+          "answer": "B",
+          "evidence": "Lin: The results are now uploaded to the shared folder. Ravi: I opened the file and can see the results."
+        },
+        {
+          "id": "syn_06_q3",
+          "answer": "C",
+          "evidence": "Lin: I'll upload the results by 5 p.m."
+        }
+      ],
+      "errors": [],
+      "call_key": "86817be7675aa4179e08fe85e3d0c1234cfac851c08718247e08bad043e49ea3",
+      "source_characters": 143,
+      "source": "Lin: I'll upload the results by 5 p.m.\nLin: The results are now uploaded to the shared folder.\nRavi: I opened the file and can see the results."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_06_q1",
+          "answer": "C",
+          "evidence": "Lin committed to uploading results"
+        },
+        {
+          "id": "syn_06_q2",
+          "answer": "B",
+          "evidence": "confirmed that the results had been uploaded... Ravi verified the upload"
+        },
+        {
+          "id": "syn_06_q3",
+          "answer": "C",
+          "evidence": "by 5 p.m."
+        }
+      ],
+      "errors": [],
+      "call_key": "f9f97484f716aebbabb817df2f757d8fb598343a1a748c68cece6b858183882b",
+      "source_characters": 265,
+      "source": "Lin committed to uploading results by 5 p.m. and subsequently confirmed that the results had been uploaded to the shared folder. Ravi verified the upload by opening the file and confirming the results were visible. No further decisions or next steps were discussed."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_06_q1",
+          "answer": "C",
+          "evidence": "owner: Lin"
+        },
+        {
+          "id": "syn_06_q2",
+          "answer": "B",
+          "evidence": "status: completed"
+        },
+        {
+          "id": "syn_06_q3",
+          "answer": "C",
+          "evidence": "deadline: 5 p.m."
+        }
+      ],
+      "errors": [],
+      "call_key": "e169534aef9e2e7775d303a3f217a6daa35e051c7e3e9579452ba45257fd2388",
+      "source_characters": 1250,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Lin\", \"action\": \"upload the results\", \"conditions\": null, \"deadline\": \"5 p.m.\", \"status\": \"completed\", \"uncertainty\": null, \"evidence\": [\"I'll upload the results by 5 p.m.\", \"The results are now uploaded to the shared folder.\"], \"evidence_spans\": [{\"quote\": \"I'll upload the results by 5 p.m.\", \"start\": 5, \"end\": 38}, {\"quote\": \"The results are now uploaded to the shared folder.\", \"start\": 44, \"end\": 94}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Lin\", \"action\": \"upload the results\", \"conditions\": null, \"deadline\": \"5 p.m.\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll upload the results by 5 p.m.\"], \"evidence_spans\": [{\"quote\": \"I'll upload the results by 5 p.m.\", \"start\": 5, \"end\": 38}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Lin\", \"action\": \"upload the results\", \"conditions\": null, \"deadline\": \"5 p.m.\", \"status\": \"completed\", \"uncertainty\": null, \"evidence\": [\"I'll upload the results by 5 p.m.\", \"The results are now uploaded to the shared folder.\"], \"evidence_spans\": [{\"quote\": \"I'll upload the results by 5 p.m.\", \"start\": 5, \"end\": 38}, {\"quote\": \"The results are now uploaded to the shared folder.\", \"start\": 44, \"end\": 94}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "4dae403196b37b23fce583d6112fb05ebdf910e19d287cd13dfbbfea596d7e6f",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Lin",
+          "action": "upload the results",
+          "conditions": null,
+          "deadline": "5 p.m.",
+          "status": "completed",
+          "uncertainty": null,
+          "evidence": [
+            "I'll upload the results by 5 p.m.",
+            "The results are now uploaded to the shared folder."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'll upload the results by 5 p.m.",
+              "start": 5,
+              "end": 38
+            },
+            {
+              "quote": "The results are now uploaded to the shared folder.",
+              "start": 44,
+              "end": 94
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Lin",
+            "action": "upload the results",
+            "conditions": null,
+            "deadline": "5 p.m.",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll upload the results by 5 p.m."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll upload the results by 5 p.m.",
+                "start": 5,
+                "end": 38
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Lin",
+            "action": "upload the results",
+            "conditions": null,
+            "deadline": "5 p.m.",
+            "status": "completed",
+            "uncertainty": null,
+            "evidence": [
+              "I'll upload the results by 5 p.m.",
+              "The results are now uploaded to the shared folder."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll upload the results by 5 p.m.",
+                "start": 5,
+                "end": 38
+              },
+              {
+                "quote": "The results are now uploaded to the shared folder.",
+                "start": 44,
+                "end": 94
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 39,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Lin",
+              "action": "upload the results",
+              "conditions": null,
+              "deadline": "5 p.m.",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll upload the results by 5 p.m."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll upload the results by 5 p.m.",
+                  "start": 5,
+                  "end": 38
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Lin",
+            "action": "upload the results",
+            "conditions": null,
+            "deadline": "5 p.m.",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll upload the results by 5 p.m."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll upload the results by 5 p.m.",
+                "start": 5,
+                "end": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 39,
+        "end": 95,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Lin",
+              "action": "upload the results",
+              "conditions": null,
+              "deadline": "5 p.m.",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll upload the results by 5 p.m."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll upload the results by 5 p.m.",
+                  "start": 5,
+                  "end": 38
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Lin",
+              "action": "upload the results",
+              "conditions": null,
+              "deadline": "5 p.m.",
+              "status": "completed",
+              "uncertainty": null,
+              "evidence": [
+                "I'll upload the results by 5 p.m.",
+                "The results are now uploaded to the shared folder."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll upload the results by 5 p.m.",
+                  "start": 5,
+                  "end": 38
+                },
+                {
+                  "quote": "The results are now uploaded to the shared folder.",
+                  "start": 44,
+                  "end": 94
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Lin",
+            "action": "upload the results",
+            "conditions": null,
+            "deadline": "5 p.m.",
+            "status": "completed",
+            "uncertainty": null,
+            "evidence": [
+              "I'll upload the results by 5 p.m.",
+              "The results are now uploaded to the shared folder."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll upload the results by 5 p.m.",
+                "start": 5,
+                "end": 38
+              },
+              {
+                "quote": "The results are now uploaded to the shared folder.",
+                "start": 44,
+                "end": 94
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 95,
+        "end": 143,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Lin",
+            "action": "upload the results",
+            "conditions": null,
+            "deadline": "5 p.m.",
+            "status": "completed",
+            "uncertainty": null,
+            "evidence": [
+              "I'll upload the results by 5 p.m.",
+              "The results are now uploaded to the shared folder."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll upload the results by 5 p.m.",
+                "start": 5,
+                "end": 38
+              },
+              {
+                "quote": "The results are now uploaded to the shared folder.",
+                "start": 44,
+                "end": 94
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "de03582bf671d3ea9f633f19c0e645b50562f18a01a861808f581a530a1fb106",
+      "7007b0dec90cc35c61a45f267aac36896d27565a840aca0a7e54cfb14e183f95",
+      "96490b18a874769bb6f73fde7a973828612586638118348a12107278ccc254df"
+    ]
+  }
+}

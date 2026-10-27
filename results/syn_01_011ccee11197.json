@@ -1,0 +1,345 @@
+{
+  "example_id": "syn_01",
+  "domain": "synthetic",
+  "split": "dev",
+  "input_hash": "ba5fa0bc9b89303e207c366c62fbac3be47ffa289b85b641f40257010e818b0c",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_01_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_01_q2",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "syn_01_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "2a78c629c074087ac62a1d57781e5ff573b614a9b016622575b706faea4dfd96",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_01_q1",
+          "answer": "A",
+          "evidence": "Maya: I'll run the experiment if the dataset arrives by Friday."
+        },
+        {
+          "id": "syn_01_q2",
+          "answer": "C",
+          "evidence": "if the dataset arrives by Friday"
+        },
+        {
+          "id": "syn_01_q3",
+          "answer": "A",
+          "evidence": "Leo: The dataset will arrive Monday, not Friday."
+        }
+      ],
+      "errors": [],
+      "call_key": "a6a2a84d4d7ac14345af68bda5c1ca191c1c4b78b9d28e7dc90399c4d9610ad3",
+      "source_characters": 112,
+      "source": "Maya: I'll run the experiment if the dataset arrives by Friday.\nLeo: The dataset will arrive Monday, not Friday."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_01_q1",
+          "answer": "A",
+          "evidence": "Maya stated that she would proceed with the experiment"
+        },
+        {
+          "id": "syn_01_q2",
+          "answer": "C",
+          "evidence": "provided the dataset arrived by Friday"
+        },
+        {
+          "id": "syn_01_q3",
+          "answer": "A",
+          "evidence": "No further decisions or next steps were discussed"
+        }
+      ],
+      "errors": [],
+      "call_key": "d2c113abd460ea505db02f9319d40449a9c1f0190c0669236daf7c992c73b343",
+      "source_characters": 261,
+      "source": "Maya stated that she would proceed with the experiment provided the dataset arrived by Friday. Leo corrected this timeline, clarifying that the dataset is scheduled to arrive on Monday. No further decisions or next steps were discussed in the provided exchange."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_01_q1",
+          "answer": "A",
+          "evidence": "owner: Maya"
+        },
+        {
+          "id": "syn_01_q2",
+          "answer": "C",
+          "evidence": "conditions: dataset arrives by Friday"
+        },
+        {
+          "id": "syn_01_q3",
+          "answer": "A",
+          "evidence": "status: conditional"
+        }
+      ],
+      "errors": [],
+      "call_key": "19c24f451098adf6992ab95a6a681c188f5c1fe1aeca615480d314cb8ba6e80e",
+      "source_characters": 1589,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Maya\", \"action\": \"run the experiment\", \"conditions\": \"dataset arrives by Monday\", \"deadline\": \"Monday\", \"status\": \"conditional\", \"uncertainty\": \"Original condition of Friday is superseded by new arrival date of Monday\", \"evidence\": [\"I'll run the experiment if the dataset arrives by Friday.\", \"The dataset will arrive Monday, not Friday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the experiment if the dataset arrives by Friday.\", \"start\": 6, \"end\": 63}, {\"quote\": \"The dataset will arrive Monday, not Friday.\", \"start\": 69, \"end\": 112}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Maya\", \"action\": \"run the experiment\", \"conditions\": \"dataset arrives by Friday\", \"deadline\": \"Friday\", \"status\": \"conditional\", \"uncertainty\": null, \"evidence\": [\"I'll run the experiment if the dataset arrives by Friday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the experiment if the dataset arrives by Friday.\", \"start\": 6, \"end\": 63}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Maya\", \"action\": \"run the experiment\", \"conditions\": \"dataset arrives by Monday\", \"deadline\": \"Monday\", \"status\": \"conditional\", \"uncertainty\": \"Original condition of Friday is superseded by new arrival date of Monday\", \"evidence\": [\"I'll run the experiment if the dataset arrives by Friday.\", \"The dataset will arrive Monday, not Friday.\"], \"evidence_spans\": [{\"quote\": \"I'll run the experiment if the dataset arrives by Friday.\", \"start\": 6, \"end\": 63}, {\"quote\": \"The dataset will arrive Monday, not Friday.\", \"start\": 69, \"end\": 112}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "a898301d9af8ab923ef644c2d70078e773e87f93ae74a1c8afeffbfe0c561c31",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Maya",
+          "action": "run the experiment",
+          "conditions": "dataset arrives by Monday",
+          "deadline": "Monday",
+          "status": "conditional",
+          "uncertainty": "Original condition of Friday is superseded by new arrival date of Monday",
+          "evidence": [
+            "I'll run the experiment if the dataset arrives by Friday.",
+            "The dataset will arrive Monday, not Friday."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I'll run the experiment if the dataset arrives by Friday.",
+              "start": 6,
+              "end": 63
+            },
+            {
+              "quote": "The dataset will arrive Monday, not Friday.",
+              "start": 69,
+              "end": 112
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Maya",
+            "action": "run the experiment",
+            "conditions": "dataset arrives by Friday",
+            "deadline": "Friday",
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the experiment if the dataset arrives by Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                "start": 6,
+                "end": 63
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Maya",
+            "action": "run the experiment",
+            "conditions": "dataset arrives by Monday",
+            "deadline": "Monday",
+            "status": "conditional",
+            "uncertainty": "Original condition of Friday is superseded by new arrival date of Monday",
+            "evidence": [
+              "I'll run the experiment if the dataset arrives by Friday.",
+              "The dataset will arrive Monday, not Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                "start": 6,
+                "end": 63
+              },
+              {
+                "quote": "The dataset will arrive Monday, not Friday.",
+                "start": 69,
+                "end": 112
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 64,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Maya",
+              "action": "run the experiment",
+              "conditions": "dataset arrives by Friday",
+              "deadline": "Friday",
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll run the experiment if the dataset arrives by Friday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                  "start": 6,
+                  "end": 63
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Maya",
+            "action": "run the experiment",
+            "conditions": "dataset arrives by Friday",
+            "deadline": "Friday",
+            "status": "conditional",
+            "uncertainty": null,
+            "evidence": [
+              "I'll run the experiment if the dataset arrives by Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                "start": 6,
+                "end": 63
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 64,
+        "end": 112,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Maya",
+              "action": "run the experiment",
+              "conditions": "dataset arrives by Friday",
+              "deadline": "Friday",
+              "status": "conditional",
+              "uncertainty": null,
+              "evidence": [
+                "I'll run the experiment if the dataset arrives by Friday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                  "start": 6,
+                  "end": 63
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Maya",
+              "action": "run the experiment",
+              "conditions": "dataset arrives by Monday",
+              "deadline": "Monday",
+              "status": "conditional",
+              "uncertainty": "Original condition of Friday is superseded by new arrival date of Monday",
+              "evidence": [
+                "I'll run the experiment if the dataset arrives by Friday.",
+                "The dataset will arrive Monday, not Friday."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                  "start": 6,
+                  "end": 63
+                },
+                {
+                  "quote": "The dataset will arrive Monday, not Friday.",
+                  "start": 69,
+                  "end": 112
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Maya",
+            "action": "run the experiment",
+            "conditions": "dataset arrives by Monday",
+            "deadline": "Monday",
+            "status": "conditional",
+            "uncertainty": "Original condition of Friday is superseded by new arrival date of Monday",
+            "evidence": [
+              "I'll run the experiment if the dataset arrives by Friday.",
+              "The dataset will arrive Monday, not Friday."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll run the experiment if the dataset arrives by Friday.",
+                "start": 6,
+                "end": 63
+              },
+              {
+                "quote": "The dataset will arrive Monday, not Friday.",
+                "start": 69,
+                "end": 112
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "12d98940bc1dab8aa388a7cca9056de6b970bcb68ef14a46e028986b24c39f4b",
+      "3f9cee34c1159152f5f4e51ebc5a571ac67446d943e57ecfc1f1b1945f7db4e4"
+    ]
+  }
+}

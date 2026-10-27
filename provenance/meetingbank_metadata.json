@@ -1,0 +1,72 @@
+{
+  "_id": "654dab57b70aa2e94f981b17",
+  "id": "huuuyeah/meetingbank",
+  "author": "huuuyeah",
+  "sha": "5b4fb6f67f490be93e249d70b732780932d19fe3",
+  "lastModified": "2025-08-13T16:59:42.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:summarization",
+    "task_categories:text-generation",
+    "language:en",
+    "license:cc-by-nc-sa-4.0",
+    "size_categories:1K<n<10K",
+    "format:json",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2305.17529",
+    "region:us",
+    "municipal",
+    "meeting",
+    "transcripts",
+    "benchmark",
+    "long-context"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tOverview\n\t\n\nMeetingBank, a benchmark dataset created from the city councils of 6 major U.S. cities to supplement existing datasets. It contains 1,366 meetings with over 3,579 hours of video, as well as transcripts, PDF documents of meeting minutes, agenda, and other metadata. On average, a council meeting is 2.6 hours long and its transcript contains over 28k tokens, making it a valuable testbed for meeting summarizers and for extracting structure from meeting videos. The datasets\u2026 See the full description on the dataset page: https://huggingface.co/datasets/huuuyeah/meetingbank.",
+  "downloads": 954,
+  "likes": 36,
+  "cardData": {
+    "license": "cc-by-nc-sa-4.0",
+    "task_categories": [
+      "summarization",
+      "text-generation"
+    ],
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "municipal",
+      "meeting",
+      "transcripts",
+      "benchmark",
+      "long-context"
+    ],
+    "size_categories": [
+      "10M<n<100M"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "test.json"
+    },
+    {
+      "rfilename": "train.json"
+    },
+    {
+      "rfilename": "validation.json"
+    }
+  ],
+  "createdAt": "2023-11-10T04:02:31.000Z",
+  "usedStorage": 177163966
+}

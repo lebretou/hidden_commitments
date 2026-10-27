@@ -1,0 +1,350 @@
+{
+  "example_id": "syn_07",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "6bf8d11cd054058433832ba52f6c3069933c6e7ea0fc72d926f69215bf6ffbc0",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_07_q1",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_07_q2",
+          "answer": "D",
+          "evidence": ""
+        },
+        {
+          "id": "syn_07_q3",
+          "answer": "A",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "5554ca469751268211a643ecc9bee9273b4b9e0fe9599a2d9333b85722060b67",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_07_q1",
+          "answer": "A",
+          "evidence": "I withdraw that offer; I won't submit it."
+        },
+        {
+          "id": "syn_07_q2",
+          "answer": "D",
+          "evidence": "We have no replacement yet."
+        },
+        {
+          "id": "syn_07_q3",
+          "answer": "C",
+          "evidence": "Nia: I'll submit the abstract tonight."
+        }
+      ],
+      "errors": [],
+      "call_key": "604556e55475c3e1621372c4fc2223c4480e8ebd00354ea83ccebd515d5f81c5",
+      "source_characters": 130,
+      "source": "Nia: I'll submit the abstract tonight.\nNia: I withdraw that offer; I won't submit it.\nSol: Understood. We have no replacement yet."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_07_q1",
+          "answer": "A",
+          "evidence": "explicitly withdrawing her offer and confirming she would not proceed with the submission"
+        },
+        {
+          "id": "syn_07_q2",
+          "answer": "D",
+          "evidence": "a replacement for the abstract has not yet been identified"
+        },
+        {
+          "id": "syn_07_q3",
+          "answer": "C",
+          "evidence": "Nia initially stated she would submit the abstract"
+        }
+      ],
+      "errors": [],
+      "call_key": "2762b197b5d76a575d1064f247e050f48fa0f87fa6e7290f9b1e70533369fc20",
+      "source_characters": 383,
+      "source": "Nia initially stated she would submit the abstract that evening but subsequently retracted this commitment, explicitly withdrawing her offer and confirming she would not proceed with the submission. Sol acknowledged the change in plans and noted that a replacement for the abstract has not yet been identified. No further decisions or next steps were established in the conversation."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_07_q1",
+          "answer": "A",
+          "evidence": "status\": \"cancelled\""
+        },
+        {
+          "id": "syn_07_q2",
+          "answer": "D",
+          "evidence": "status\": \"cancelled\""
+        },
+        {
+          "id": "syn_07_q3",
+          "answer": "C",
+          "evidence": "owner\": \"Nia\""
+        }
+      ],
+      "errors": [],
+      "call_key": "7ef38d5fb83a00f22cd63f62c069eed4a9011e0f794b579df7940607bcaddfaa",
+      "source_characters": 1004,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Nia\", \"action\": \"submit the abstract\", \"conditions\": null, \"deadline\": \"tonight\", \"status\": \"cancelled\", \"uncertainty\": null, \"evidence\": [\"I withdraw that offer; I won't submit it.\"], \"evidence_spans\": [{\"quote\": \"I withdraw that offer; I won't submit it.\", \"start\": 44, \"end\": 85}]}], \"revisions\": [{\"id\": \"c1\", \"before\": {\"id\": \"c1\", \"owner\": \"Nia\", \"action\": \"submit the abstract\", \"conditions\": null, \"deadline\": \"tonight\", \"status\": \"active\", \"uncertainty\": null, \"evidence\": [\"I'll submit the abstract tonight.\"], \"evidence_spans\": [{\"quote\": \"I'll submit the abstract tonight.\", \"start\": 5, \"end\": 38}]}, \"after\": {\"id\": \"c1\", \"owner\": \"Nia\", \"action\": \"submit the abstract\", \"conditions\": null, \"deadline\": \"tonight\", \"status\": \"cancelled\", \"uncertainty\": null, \"evidence\": [\"I withdraw that offer; I won't submit it.\"], \"evidence_spans\": [{\"quote\": \"I withdraw that offer; I won't submit it.\", \"start\": 44, \"end\": 85}]}}], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "17e8ec3103d8a511eea92e3471b3d9ba07d37b3df41a750d16e6f5a950009cef",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Nia",
+          "action": "submit the abstract",
+          "conditions": null,
+          "deadline": "tonight",
+          "status": "cancelled",
+          "uncertainty": null,
+          "evidence": [
+            "I withdraw that offer; I won't submit it."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I withdraw that offer; I won't submit it.",
+              "start": 44,
+              "end": 85
+            }
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "id": "c1",
+          "before": {
+            "id": "c1",
+            "owner": "Nia",
+            "action": "submit the abstract",
+            "conditions": null,
+            "deadline": "tonight",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll submit the abstract tonight."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll submit the abstract tonight.",
+                "start": 5,
+                "end": 38
+              }
+            ]
+          },
+          "after": {
+            "id": "c1",
+            "owner": "Nia",
+            "action": "submit the abstract",
+            "conditions": null,
+            "deadline": "tonight",
+            "status": "cancelled",
+            "uncertainty": null,
+            "evidence": [
+              "I withdraw that offer; I won't submit it."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I withdraw that offer; I won't submit it.",
+                "start": 44,
+                "end": 85
+              }
+            ]
+          }
+        }
+      ],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 39,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Nia",
+              "action": "submit the abstract",
+              "conditions": null,
+              "deadline": "tonight",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll submit the abstract tonight."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll submit the abstract tonight.",
+                  "start": 5,
+                  "end": 38
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Nia",
+            "action": "submit the abstract",
+            "conditions": null,
+            "deadline": "tonight",
+            "status": "active",
+            "uncertainty": null,
+            "evidence": [
+              "I'll submit the abstract tonight."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I'll submit the abstract tonight.",
+                "start": 5,
+                "end": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 39,
+        "end": 86,
+        "failed": false,
+        "events": [
+          {
+            "before": {
+              "id": "c1",
+              "owner": "Nia",
+              "action": "submit the abstract",
+              "conditions": null,
+              "deadline": "tonight",
+              "status": "active",
+              "uncertainty": null,
+              "evidence": [
+                "I'll submit the abstract tonight."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I'll submit the abstract tonight.",
+                  "start": 5,
+                  "end": 38
+                }
+              ]
+            },
+            "after": {
+              "id": "c1",
+              "owner": "Nia",
+              "action": "submit the abstract",
+              "conditions": null,
+              "deadline": "tonight",
+              "status": "cancelled",
+              "uncertainty": null,
+              "evidence": [
+                "I withdraw that offer; I won't submit it."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I withdraw that offer; I won't submit it.",
+                  "start": 44,
+                  "end": 85
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Nia",
+            "action": "submit the abstract",
+            "conditions": null,
+            "deadline": "tonight",
+            "status": "cancelled",
+            "uncertainty": null,
+            "evidence": [
+              "I withdraw that offer; I won't submit it."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I withdraw that offer; I won't submit it.",
+                "start": 44,
+                "end": 85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 2,
+        "start": 86,
+        "end": 130,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Nia",
+            "action": "submit the abstract",
+            "conditions": null,
+            "deadline": "tonight",
+            "status": "cancelled",
+            "uncertainty": null,
+            "evidence": [
+              "I withdraw that offer; I won't submit it."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I withdraw that offer; I won't submit it.",
+                "start": 44,
+                "end": 85
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "0145628d37abf505dbda8a1f1067e7b0ca473c38e452afe3528362909f00d720",
+      "15743745d79190d6733d7317fc1a4ab855f11b5185a76c8f09f5962cdd089792",
+      "7937b1096b1161cabf0b670f26c9694b6d56bbe2d194e5f2c41639f04fdd71c7"
+    ]
+  }
+}

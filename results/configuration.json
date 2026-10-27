@@ -1,0 +1,20 @@
+{
+  "runner_version": "0.2.0",
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "seed": 848,
+  "quantization": "NF4 double quantization",
+  "compute_dtype": "bfloat16",
+  "thinking": false,
+  "do_sample": false,
+  "context_limit": 16384,
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "huggingface_hub": "1.33.0"
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "chunk_characters": 2200
+}

@@ -1,0 +1,238 @@
+{
+  "example_id": "syn_10",
+  "domain": "synthetic",
+  "split": "pilot",
+  "input_hash": "53625483b5a452ea3b387ba9c785571c90882501336d9e1758f7e00a82f53487",
+  "configuration": {
+    "runner_version": "0.2.0",
+    "model": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "seed": 848,
+    "quantization": "NF4 double quantization",
+    "compute_dtype": "bfloat16",
+    "thinking": false,
+    "do_sample": false,
+    "context_limit": 16384,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.2",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "huggingface_hub": "1.33.0"
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "chunk_characters": 2200
+  },
+  "conditions": [
+    {
+      "method": "question_only",
+      "answers": [
+        {
+          "id": "syn_10_q1",
+          "answer": "A",
+          "evidence": ""
+        },
+        {
+          "id": "syn_10_q2",
+          "answer": "B",
+          "evidence": ""
+        },
+        {
+          "id": "syn_10_q3",
+          "answer": "B",
+          "evidence": ""
+        }
+      ],
+      "errors": [],
+      "call_key": "605f988d261cdb554c8a30d679ec7559c097b87afee8a052cb25a2f8bfb9a27e",
+      "source_characters": 46,
+      "source": "No conversation or meeting record is provided."
+    },
+    {
+      "method": "transcript",
+      "answers": [
+        {
+          "id": "syn_10_q1",
+          "answer": "A",
+          "evidence": "I might be able to review the paper, but I can't promise yet."
+        },
+        {
+          "id": "syn_10_q2",
+          "answer": "B",
+          "evidence": "I can't promise yet."
+        },
+        {
+          "id": "syn_10_q3",
+          "answer": "B",
+          "evidence": "I might be able to review the paper"
+        }
+      ],
+      "errors": [],
+      "call_key": "6c021c079dc243b5c046800f888da6422dbcd4c63c4ce3a3a668453b5b3d3c11",
+      "source_characters": 103,
+      "source": "Uma: I might be able to review the paper, but I can't promise yet.\nVictor: Okay, I won't count on that."
+    },
+    {
+      "method": "generated_summary",
+      "answers": [
+        {
+          "id": "syn_10_q1",
+          "answer": "A",
+          "evidence": "Uma indicated that she might be able to review a paper but stated she could not make a firm commitment at this time."
+        },
+        {
+          "id": "syn_10_q2",
+          "answer": "B",
+          "evidence": "No further decisions or next steps were established in the exchange."
+        },
+        {
+          "id": "syn_10_q3",
+          "answer": "B",
+          "evidence": "No further decisions or next steps were established in the exchange."
+        }
+      ],
+      "errors": [],
+      "call_key": "64967efb740d757acd8e0bb862360a0f2fc67064e3bf7dad47e4827998a0ed5c",
+      "source_characters": 316,
+      "source": "Uma indicated that she might be able to review a paper but stated she could not make a firm commitment at this time. In response, Victor acknowledged the uncertainty and confirmed that he would not rely on her participation for the review process. No further decisions or next steps were established in the exchange."
+    },
+    {
+      "method": "tracker",
+      "answers": [
+        {
+          "id": "syn_10_q1",
+          "answer": "A",
+          "evidence": "I might be able to review the paper, but I can't promise yet."
+        },
+        {
+          "id": "syn_10_q2",
+          "answer": "B",
+          "evidence": "I can't promise yet"
+        },
+        {
+          "id": "syn_10_q3",
+          "answer": "B",
+          "evidence": "status: uncertain"
+        }
+      ],
+      "errors": [],
+      "call_key": "8ab8f9fc6ebde72b749e1bdd7438934232f103c0a1f3fea6493140725a3281e9",
+      "source_characters": 439,
+      "source": "{\"current_records\": [{\"id\": \"c1\", \"owner\": \"Uma\", \"action\": \"review the paper\", \"conditions\": null, \"deadline\": null, \"status\": \"uncertain\", \"uncertainty\": \"might be able to, can't promise yet\", \"evidence\": [\"I might be able to review the paper, but I can't promise yet.\"], \"evidence_spans\": [{\"quote\": \"I might be able to review the paper, but I can't promise yet.\", \"start\": 5, \"end\": 66}]}], \"revisions\": [], \"failed_update_chunks\": []}"
+    }
+  ],
+  "generated_summary_call": "ed52c5ee8b83ca040e67c09f55dca69f84ed48a14a6aae997b70c674b35b356e",
+  "tracker": {
+    "memory": {
+      "current_records": [
+        {
+          "id": "c1",
+          "owner": "Uma",
+          "action": "review the paper",
+          "conditions": null,
+          "deadline": null,
+          "status": "uncertain",
+          "uncertainty": "might be able to, can't promise yet",
+          "evidence": [
+            "I might be able to review the paper, but I can't promise yet."
+          ],
+          "evidence_spans": [
+            {
+              "quote": "I might be able to review the paper, but I can't promise yet.",
+              "start": 5,
+              "end": 66
+            }
+          ]
+        }
+      ],
+      "revisions": [],
+      "failed_update_chunks": []
+    },
+    "history": [
+      {
+        "chunk": 0,
+        "start": 0,
+        "end": 67,
+        "failed": false,
+        "events": [
+          {
+            "before": null,
+            "after": {
+              "id": "c1",
+              "owner": "Uma",
+              "action": "review the paper",
+              "conditions": null,
+              "deadline": null,
+              "status": "uncertain",
+              "uncertainty": "might be able to, can't promise yet",
+              "evidence": [
+                "I might be able to review the paper, but I can't promise yet."
+              ],
+              "evidence_spans": [
+                {
+                  "quote": "I might be able to review the paper, but I can't promise yet.",
+                  "start": 5,
+                  "end": 66
+                }
+              ]
+            }
+          }
+        ],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Uma",
+            "action": "review the paper",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "might be able to, can't promise yet",
+            "evidence": [
+              "I might be able to review the paper, but I can't promise yet."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I might be able to review the paper, but I can't promise yet.",
+                "start": 5,
+                "end": 66
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chunk": 1,
+        "start": 67,
+        "end": 103,
+        "failed": false,
+        "events": [],
+        "snapshot": [
+          {
+            "id": "c1",
+            "owner": "Uma",
+            "action": "review the paper",
+            "conditions": null,
+            "deadline": null,
+            "status": "uncertain",
+            "uncertainty": "might be able to, can't promise yet",
+            "evidence": [
+              "I might be able to review the paper, but I can't promise yet."
+            ],
+            "evidence_spans": [
+              {
+                "quote": "I might be able to review the paper, but I can't promise yet.",
+                "start": 5,
+                "end": 66
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rejected_updates": [],
+    "call_keys": [
+      "3a620520cf1b6f22d1c597d4f304c7dfd392452df2783a19c5ef439917fe873e",
+      "a494ebe4c113ffd900277cc22a90b157480e2b9db907f9c069a93f9b497532a6"
+    ]
+  }
+}

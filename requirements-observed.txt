@@ -1,0 +1,6 @@
+torch==2.11.0+cu130
+transformers==5.20.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+huggingface_hub==1.33.0
+# torch was supplied by the Colab CUDA 13.0 image; install a compatible CUDA wheel on other systems.

@@ -1,0 +1,265 @@
+DRAFT ANSWER KEY — AI-assisted, not independently human-validated.
+
+mb_00_q1 D — No personal promise is established; authorization is discussed
+Evidence: Recommendation to authorize the city manager to execute all documents
+Rationale: Permission or authorization does not by itself show personal acceptance.
+
+mb_00_q2 B — No such condition is stated
+Evidence: Recommendation to authorize the city manager to execute all documents
+Rationale: No temporal condition of this kind occurs in the full excerpt.
+
+mb_00_q3 B — Completion is not established
+Evidence: Recommendation to authorize the city manager
+Rationale: A passed motion is not evidence of subsequent execution.
+
+mb_06_q1 C — A target that staff think is achievable
+Evidence: We are shooting for March, so next month we think that's very doable.
+Rationale: Tentative scheduling language must not become certainty.
+
+mb_06_q2 C — Cleanup to the agreed levels
+Evidence: as the Navy cleans the property to the cleanup levels agreed to, they're transferring the property to the city
+Rationale: This is a reported process dependency, not a new conversational promise.
+
+mb_06_q3 D — No; the conveyance is still being pursued
+Evidence: Next steps. We are shooting for March
+Rationale: Do not treat the approval motion as completion of the transfer.
+
+mb_08_q1 B — No; the speaker says it was a joke and will cover highlights
+Evidence: That was a joke. I'm just going to go through some of the highlights.
+Rationale: The explicit correction overrides the earlier apparent plan.
+
+mb_08_q2 B — In about six months
+Evidence: a check in in about six months
+Rationale: Keep the approximation.
+
+mb_08_q3 B — The chair
+Evidence: The bill passes and the chair will sign it.
+Rationale: A future role-based action is explicitly stated; signing is not yet confirmed.
+
+mb_10_q1 A — No; it is expressed as a hope
+Evidence: I hope we have something like this at all the parks in time.
+Rationale: Hope is not acceptance of responsibility.
+
+mb_10_q2 B — No deadline is promised
+Evidence: I hope we have something like this at all the parks in time.
+Rationale: Do not reuse the past four-year discussion period as a future deadline.
+
+mb_10_q3 B — No; the discussion concerns moving forward with the project
+Evidence: We're glad to finally move forward and update the irrigation system.
+Rationale: Planning and contract discussion are not completion evidence.
+
+mb_17_q1 A — Emergencies or matters that cannot reasonably wait until the next day
+Evidence: when there's emergencies, if there's things that cannot be reasonably delayed to the next day
+Rationale: Preserve the availability qualification.
+
+mb_17_q2 C — September eight
+Evidence: that item should be in front of you back on September eight
+Rationale: A later sentence reinforces the return commitment.
+
+mb_17_q3 D — After the technical problem is fixed
+Evidence: we'll just come back the general public comment after we get it working
+Rationale: The record must keep the technical dependency and the deferred action.
+
+mb_18_q1 B — No; he asks colleagues to support the project
+Evidence: ask my colleagues to support this
+Rationale: Support for authorization is not personal acceptance of construction work.
+
+mb_18_q2 A — The site is graded and capped
+Evidence: once this is graded and capped
+Rationale: A project dependency can be stated without a personal promise.
+
+mb_18_q3 C — No, construction completion is not established
+Evidence: to actually started the development of a vibrant park
+Rationale: Future development remains distinct from the vote.
+
+mb_20_q1 B — No explicit new personal task commitment is established
+Evidence: I just really wanted to thank staff and my colleagues for their support on this item.
+Rationale: Thanks and budget support do not define an accepted task.
+
+mb_20_q2 B — Event completion is not established
+Evidence: recommendation to increase appropriations
+Rationale: Budget discussion is not event completion.
+
+mb_20_q3 B — No individual explicitly accepts that task
+Evidence: recommendation to increase appropriations
+Rationale: The transcript does not assign and accept the organizing task.
+
+mb_21_q1 D — A possibility is discussed without a commitment
+Evidence: We could reach out to a local vendor
+Rationale: Could plus a discouraging explanation does not establish acceptance.
+
+mb_21_q2 B — No, staff explicitly say they did not
+Evidence: We did not reach out locally
+Rationale: This is direct evidence about a past action.
+
+mb_21_q3 D — No outreach deadline is promised
+Evidence: We could reach out to a local vendor
+Rationale: No accepted outreach task or deadline follows.
+
+mb_23_q1 C — No personal acceptance is shown
+Evidence: authorizes superintendent to amend the existing. Ten year lease.
+Rationale: Authority is distinct from conversational acceptance.
+
+mb_23_q2 C — Execution is not established
+Evidence: authorizing superintendent to amend the existing ten year lease
+Rationale: Passing a bill is not executing the amendment.
+
+mb_23_q3 C — No; it describes the additional lease term
+Evidence: add a third additional extended term of five years
+Rationale: Duration of an agreement must not be confused with an action deadline.
+
+mb_24_q1 A — No acceptance is shown in the excerpt
+Evidence: I just ask staff to arrange that.
+Rationale: Request alone, with missing antecedent, cannot establish accepted responsibility.
+
+mb_24_q2 A — A tentative date
+Evidence: We're looking at pot probably December 18th.
+Rationale: Probably preserves uncertainty despite transcript noise.
+
+mb_24_q3 B — No; the project is still described as forthcoming
+Evidence: It's going to happen. This is our first vote on it.
+Rationale: An anticipated project and first vote are not evidence of completion.
+
+mb_26_q1 B — Councilmember O'Brien
+Evidence: Councilmember O'Brien ready this topic.
+Rationale: Owner inferred from the local introduction; human review should verify noisy attribution.
+
+mb_26_q2 B — An effort to provide more details, not a guarantee of complete answers
+Evidence: I'm happy to do my best to give you more details.
+Rationale: Preserve effort-limited language.
+
+mb_26_q3 C — Yes; the speaker says the city paid for the land
+Evidence: We paid for that land from the adjacent property owner
+Rationale: A reported completed action can coexist with remaining legal procedure.
+
+mb_29_q1 B — Council approval that night
+Evidence: if if you all approve this tonight, we would make those funds available to developers
+Rationale: Keep the approval condition.
+
+mb_29_q2 A — Yes; the motion carries eight zero
+Evidence: Motion carries eight zero.
+Rationale: Condition satisfaction is distinct from performing the promised action.
+
+mb_29_q3 A — No; implementation is not confirmed
+Evidence: Members, please cast your vote. Motion carries eight zero.
+Rationale: A successful condition does not constitute completion evidence.
+
+syn_01_q1 A — Maya
+Evidence: Maya: I'll run the experiment
+Rationale: Explicit speaker.
+
+syn_01_q2 C — Dataset arrival by Friday
+Evidence: if the dataset arrives by Friday
+Rationale: Original condition must remain recoverable.
+
+syn_01_q3 A — The original condition will not be met; no unconditional obligation is established
+Evidence: The dataset will arrive Monday, not Friday.
+Rationale: Do not silently move the condition.
+
+syn_02_q1 A — Noah
+Evidence: Noah: I'll send the draft
+Rationale: Explicit owner.
+
+syn_02_q2 B — Friday
+Evidence: Friday instead
+Rationale: Revision supersedes prior deadline.
+
+syn_02_q3 A — Thursday
+Evidence: I'll send the draft on Thursday.
+Rationale: Preserve history.
+
+syn_03_q1 C — Ben
+Evidence: Ben: Yes, I'll prepare them.
+Rationale: Accepted reassignment.
+
+syn_03_q2 D — It was handed over to Ben
+Evidence: I'm handing this to you.
+Rationale: Explicit handover.
+
+syn_03_q3 C — No completion is reported
+Evidence: Yes, I'll prepare them.
+Rationale: Future acceptance, not completion.
+
+syn_04_q1 B — Eva
+Evidence: Eva: I'll check the references.
+Rationale: Unaccepted reassignment does not transfer responsibility.
+
+syn_04_q2 B — No, he has not decided
+Evidence: I haven't decided
+Rationale: Uncertainty is explicit.
+
+syn_04_q3 A — Giving his decision
+Evidence: I'll tell you tomorrow.
+Rationale: Separate decision promise from target task.
+
+syn_05_q1 D — No
+Evidence: We could ask the lab to rerun the tests.
+Rationale: Suggestion is not acceptance.
+
+syn_05_q2 B — No accepted owner is established
+Evidence: That might help.
+Rationale: Agreement about usefulness is not taking responsibility.
+
+syn_05_q3 C — No, it refers to discussing the idea
+Evidence: Let us discuss it next week.
+Rationale: Distinguish discussion from execution.
+
+syn_06_q1 C — Lin
+Evidence: Lin: I'll upload the results
+Rationale: Explicit owner.
+
+syn_06_q2 B — Reported complete and corroborated
+Evidence: I opened the file and can see the results.
+Rationale: Two conversational statements support completion; no external verification claimed.
+
+syn_06_q3 C — 5 p.m.
+Evidence: by 5 p.m.
+Rationale: Preserve original time even after completion.
+
+syn_07_q1 A — Canceled
+Evidence: I withdraw that offer; I won't submit it.
+Rationale: Explicit withdrawal.
+
+syn_07_q2 D — Nobody
+Evidence: We have no replacement yet.
+Rationale: No replacement assumed.
+
+syn_07_q3 C — Nia
+Evidence: Nia: I'll submit the abstract tonight.
+Rationale: Retain canceled history.
+
+syn_08_q1 A — Pavel
+Evidence: Pavel: I'll book the room
+Rationale: Explicit owner.
+
+syn_08_q2 C — Yes
+Evidence: The budget has been approved.
+Rationale: Condition update is explicit.
+
+syn_08_q3 C — Active and not yet completed
+Evidence: I haven't booked the room yet.
+Rationale: Condition satisfaction is not task completion.
+
+syn_09_q1 A — Rosa
+Evidence: Rosa: Then I'll run it Tuesday
+Rationale: Owner unchanged.
+
+syn_09_q2 A — Tuesday
+Evidence: I'll run it Tuesday
+Rationale: Explicit new schedule.
+
+syn_09_q3 B — No; Rosa explicitly accepts the later delivery
+Evidence: even with the later delivery.
+Rationale: Do not discard explicit revision.
+
+syn_10_q1 A — Tentative possibility with explicit noncommitment
+Evidence: I can't promise yet.
+Rationale: Preserve explicit qualification.
+
+syn_10_q2 B — Nobody
+Evidence: I won't count on that.
+Rationale: No acceptance appears.
+
+syn_10_q3 B — No
+Evidence: I might be able to review the paper
+Rationale: Future possibility does not establish completion.
