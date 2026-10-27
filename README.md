@@ -85,6 +85,8 @@ python3 build_notebook.py
 
 ## Attribution and project status
 
+The project code uses the MIT license in `LICENSE`, chosen when the GitHub repository was initialized. That license does not replace the separate terms of the included MeetingBank-derived data.
+
 MeetingBank-derived data comes from [huuuyeah/meetingbank](https://huggingface.co/datasets/huuuyeah/meetingbank), under its CC-BY-NC-SA-4.0 terms. Retain attribution and applicable noncommercial/share-alike requirements. Source identifiers and hashes are preserved in the manifests and provenance files. Synthetic conversations are identified separately. No private conversations are included.
 
 Codex assisted with the implementation, draft annotations, synthetic examples, and documentation. Independent human annotation and agreement measurement have not yet been completed. Team members should review the labels and claims before submission.
